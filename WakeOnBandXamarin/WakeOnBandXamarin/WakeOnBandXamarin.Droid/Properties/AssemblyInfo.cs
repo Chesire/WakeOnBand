@@ -14,6 +14,10 @@ using Android.App;
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 
+// Permissions
+[assembly: UsesPermission(Android.Manifest.Permission.Bluetooth)]
+[assembly: UsesPermission(Microsoft.Band.BandClientManager.BindBandService)]
+
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
