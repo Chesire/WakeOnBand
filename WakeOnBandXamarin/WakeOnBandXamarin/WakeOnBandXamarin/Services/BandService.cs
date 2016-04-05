@@ -15,8 +15,8 @@ namespace WakeOnBandXamarin.Services
         /// </summary>
         private enum BandType
         {
-            Band1,
-            Band2
+            MicrosoftBand1,
+            MicrosoftBand2
         }
 
         #region Const
@@ -28,6 +28,8 @@ namespace WakeOnBandXamarin.Services
 
         #region Members
         private BandClient _bandClient;
+        private BandTileManager _tileManager;
+        private string _hardwareVersion;
         #endregion
 
         #region Methods
@@ -46,6 +48,7 @@ namespace WakeOnBandXamarin.Services
                 {
                     var bandInfo = pairedBands.FirstOrDefault();
                     _bandClient = await bandClientManager.ConnectAsync(bandInfo);
+                    _tileManager = _bandClient.TileManager;
                 }
             }
 
@@ -58,12 +61,10 @@ namespace WakeOnBandXamarin.Services
             {
                 return false;
             }
-
-            var tileManager = _bandClient.TileManager;
             
             // Get the number of tiles we can add
             // if we have no capacity, return 
-            var capacity = await tileManager.GetRemainingTileCapacityAsync();
+            var capacity = await _tileManager.GetRemainingTileCapacityAsync();
             if (capacity == 0)
             {
                 return false;
@@ -78,7 +79,7 @@ namespace WakeOnBandXamarin.Services
             };
 
             // add the tile
-            await tileManager.AddTileAsync(tile);
+            await _tileManager.AddTileAsync(tile);
 
             return true;
         }
@@ -91,22 +92,36 @@ namespace WakeOnBandXamarin.Services
                 return false;
             }
 
-            var tileManager = _bandClient.TileManager;
-
             // remove the tile
-            await tileManager.RemoveTileAsync(TileId);
+            await _tileManager.RemoveTileAsync(TileId);
 
             return true;
         }
 
+        async Task IBand.Close()
+        {
+            if (_bandClient != null && _bandClient.IsConnected)
+            {
+                await _bandClient.DisconnectAsync();
+            }
+        }
+
         async private Task<bool> DoesTileExist()
         {
-            var tileManager = _bandClient.TileManager;
-
             // Get the current set of tiles
             // if we currently have the tile, return false
-            var tiles = await tileManager.GetTilesAsync();
+            var tiles = await _tileManager.GetTilesAsync();
             return tiles.Any(c => c.Id == TileId);
+        }
+
+        async private Task<BandType> GetBandType()
+        {
+            if(string.IsNullOrEmpty(_hardwareVersion))
+            {
+                _hardwareVersion = await _bandClient.GetHardwareVersionAsync();
+            }
+            
+            return int.Parse(_hardwareVersion) <= 19 ? BandType.MicrosoftBand1 : BandType.MicrosoftBand2;
         }
         #endregion
     }
