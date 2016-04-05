@@ -52,7 +52,7 @@ namespace WakeOnBandXamarin.Services
                 }
             }
 
-            return true;
+            return _bandClient.IsConnected;
         }
 
         async Task<bool> IBand.AddTile(Stream imageStream)
