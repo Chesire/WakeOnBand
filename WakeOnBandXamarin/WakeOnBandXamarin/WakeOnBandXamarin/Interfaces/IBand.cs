@@ -28,6 +28,12 @@ namespace WakeOnBandXamarin.Interfaces
         Task<bool> RemoveTile();
 
         /// <summary>
+        /// Clear the data from the pages
+        /// </summary>
+        /// <returns></returns>
+        Task ClearBandPages();
+
+        /// <summary>
         /// Closes the band client
         /// </summary>
         Task Close();

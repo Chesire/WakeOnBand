@@ -98,6 +98,11 @@ namespace WakeOnBandXamarin.Services
             return true;
         }
 
+        async Task IBand.ClearBandPages()
+        {
+            await _tileManager.RemoveTilePagesAsync(TileId);
+        }
+
         async Task IBand.Close()
         {
             if (_bandClient != null && _bandClient.IsConnected)
@@ -123,6 +128,7 @@ namespace WakeOnBandXamarin.Services
             
             return int.Parse(_hardwareVersion) <= 19 ? BandType.MicrosoftBand1 : BandType.MicrosoftBand2;
         }
+
         #endregion
     }
 }
