@@ -61,7 +61,7 @@ namespace WakeOnBandXamarin.Services
             return _bandClient.IsConnected;
         }
 
-        async Task<bool> IBand.AddTile(Stream imageStream)
+        async Task<bool> IBand.AddTile(string tileName, Stream imageStream)
         {
             if (await DoesTileExist())
             {
@@ -80,7 +80,7 @@ namespace WakeOnBandXamarin.Services
             var tile = new BandTile(TileId)
             {
                 Icon = await BandImage.FromStreamAsync(imageStream),
-                Name = "Tile Name",
+                Name = tileName,
                 SmallIcon = await BandImage.FromStreamAsync(imageStream)
             };
 

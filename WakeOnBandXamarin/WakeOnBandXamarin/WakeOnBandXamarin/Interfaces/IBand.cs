@@ -20,7 +20,7 @@ namespace WakeOnBandXamarin.Interfaces
         /// Tries to add the application tile to the Band
         /// </summary>
         /// <returns>True if successful</returns>
-        Task<bool> AddTile(Stream imageStream);
+        Task<bool> AddTile(string tileName, Stream imageStream);
 
         /// <summary>
         /// Tries to remove the application tile from the Band

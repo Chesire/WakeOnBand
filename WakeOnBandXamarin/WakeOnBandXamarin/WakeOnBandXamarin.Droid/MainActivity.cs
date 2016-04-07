@@ -22,7 +22,7 @@ namespace WakeOnBandXamarin.Droid
             {
                 IBand band = new BandService();
                 await band.IsBandClientConnected();
-                await band.AddTile(Assets.Open("bandTestIcon.png"));
+                await band.AddTile(GetString(Resource.String.app_name), Assets.Open("bandTestIcon.png"));
                 await band.UpdatePages("Name", "FF:FF:FF:FF:FF:FF", new System.Guid("ee9a055e-4648-4d8c-815d-9df25acd3d81"));
             };
             FindViewById<Button>(Resource.Id.removeButton).Click += async delegate
