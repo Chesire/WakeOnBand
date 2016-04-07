@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WakeOnBandXamarin.Interfaces
+﻿namespace WakeOnBandXamarin.Interfaces
 {
     /// <summary>
     /// Provides functionality to wake on lan
