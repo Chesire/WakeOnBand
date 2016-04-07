@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using WakeOnBandXamarin.Interfaces;
+
+namespace WakeOnBandXamarin.Services
+{
+    public class WolService : IWol
+    {
+        private const int Port = 9;
+
+        void IWol.Wake(string macAddress)
+        {
+            if (string.IsNullOrEmpty(macAddress))
+                return;
+
+            if(macAddress.Contains(":") || macAddress.Contains("-"))
+            {
+                macAddress = macAddress.Replace(":", "").Replace("-", "");
+            }
+
+            byte[] dataBytes = GetMagicBytes(macAddress);
+            // get address
+            // send
+        }
+
+        private byte[] GetMagicBytes(string macAddress)
+        {
+            var bytes = new List<byte>()
+            {
+                0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF
+            };
+
+            var macAddressBytes = ParseHexString(macAddress);
+            for(var i = 0; i < 16; i++)
+            {
+                bytes.AddRange(macAddressBytes);
+            }
+
+            return bytes.ToArray();
+        }
+
+
+        private byte[] ParseHexString(string input)
+        {
+            var bytes = new byte[input.Length / 2];
+            for (int i = 0, j = 0; i < input.Length / 2; i++, j++)
+            {
+                bytes[j] = (byte)int.Parse(input.Substring(i, i + 2), System.Globalization.NumberStyles.AllowHexSpecifier);
+            }
+
+            return bytes;
+        }
+    }
+}

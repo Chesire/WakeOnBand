@@ -32,8 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IBand.cs" />
+    <Compile Include="Interfaces\IWol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\BandService.cs" />
+    <Compile Include="Services\WolService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Band.Portable, Version=1.3.8.0, Culture=neutral, processorArchitecture=MSIL">
