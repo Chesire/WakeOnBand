@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WakeOnBandXamarin.WinPhone")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright © Troy Rijkaard 2016-17")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
