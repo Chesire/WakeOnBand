@@ -10,7 +10,7 @@ namespace WakeOnBandXamarin.Interfaces
     public interface IBand
     {
         /// <summary>
-        /// Checks if a band client is currently connected 
+        /// Checks if a band client is currently connected
         /// If one is not it will automatically connect to it and return the result
         /// </summary>
         /// <returns>True is connected</returns>
