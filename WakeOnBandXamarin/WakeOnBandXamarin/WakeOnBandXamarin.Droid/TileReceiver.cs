@@ -1,5 +1,5 @@
-using Android.Content;
 using Android.App;
+using Android.Content;
 using Microsoft.Band.Tiles;
 
 namespace WakeOnBandXamarin.Droid
