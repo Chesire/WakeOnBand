@@ -6,6 +6,8 @@ namespace WakeOnBandXamarin.Services
 {
     public class WolService : IWol
     {
+        #region Const
+
         private const int Port = 9;
 
         /// <summary>
@@ -13,12 +15,16 @@ namespace WakeOnBandXamarin.Services
         /// </summary>
         private const string DefaultAddress = "255.255.255.255";
 
+        #endregion Const
+
+        #region Methods
+
         void IWol.Wake(string macAddress)
         {
             if (string.IsNullOrEmpty(macAddress))
                 return;
 
-            if(macAddress.Contains(":") || macAddress.Contains("-"))
+            if (macAddress.Contains(":") || macAddress.Contains("-"))
                 macAddress = macAddress.Replace(":", "").Replace("-", "");
 
             byte[] dataBytes = GetMagicBytes(macAddress);
@@ -39,12 +45,12 @@ namespace WakeOnBandXamarin.Services
             };
 
             var macAddressBytes = ParseHexString(macAddress);
-            for(var i = 0; i < 16; i++)
+            for (var i = 0; i < 16; i++)
                 bytes.AddRange(macAddressBytes);
 
             return bytes.ToArray();
         }
-        
+
         private byte[] ParseHexString(string input)
         {
             var bytes = new byte[input.Length / 2];
@@ -55,5 +61,7 @@ namespace WakeOnBandXamarin.Services
 
             return bytes;
         }
+
+        #endregion Methods
     }
 }

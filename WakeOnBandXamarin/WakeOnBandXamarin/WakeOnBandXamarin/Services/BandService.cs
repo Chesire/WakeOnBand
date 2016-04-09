@@ -1,12 +1,12 @@
-﻿using System;
-using Microsoft.Band.Portable;
-using WakeOnBandXamarin.Interfaces;
-using System.Threading.Tasks;
-using System.Linq;
+﻿using Microsoft.Band.Portable;
 using Microsoft.Band.Portable.Tiles;
-using System.IO;
 using Microsoft.Band.Portable.Tiles.Pages;
 using Microsoft.Band.Portable.Tiles.Pages.Data;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using WakeOnBandXamarin.Interfaces;
 
 namespace WakeOnBandXamarin.Services
 {
@@ -22,23 +22,28 @@ namespace WakeOnBandXamarin.Services
         }
 
         #region Const
+
+        private const short DeviceNameId = 1;
+        private const short DeviceMacId = 2;
+        private const short WakeButtonId = 3;
+
         /// <summary>
         /// Id for this applications Band tile
         /// </summary>
         private static readonly Guid TileId = new Guid("ee9a055e-4648-4d8c-815d-9df25acd3d80");
 
-        private const short DeviceNameId = 1;
-        private const short DeviceMacId = 2;
-        private const short WakeButtonId = 3;
-        #endregion
+        #endregion Const
 
         #region Members
+
         private BandClient _bandClient;
         private BandTileManager _tileManager;
         private string _hardwareVersion;
-        #endregion
+
+        #endregion Members
 
         #region Methods
+
         async Task<bool> IBand.IsBandClientConnected()
         {
             if (_bandClient == null)
@@ -68,8 +73,7 @@ namespace WakeOnBandXamarin.Services
                 return false;
             }
 
-            // Get the number of tiles we can add
-            // if we have no capacity, return 
+            // Get the number of tiles we can add if we have no capacity, return
             var capacity = await _tileManager.GetRemainingTileCapacityAsync();
             if (capacity == 0)
             {
@@ -104,7 +108,7 @@ namespace WakeOnBandXamarin.Services
 
             return true;
         }
-        
+
         async Task IBand.UpdatePages(string deviceName, string deviceMac, Guid pageId)
         {
             // declare the data for the page
@@ -152,8 +156,7 @@ namespace WakeOnBandXamarin.Services
 
         async private Task<bool> DoesTileExist()
         {
-            // Get the current set of tiles
-            // if we currently have the tile, return false
+            // Get the current set of tiles if we currently have the tile, return false
             var tiles = await _tileManager.GetTilesAsync();
             return tiles.Any(c => c.Id == TileId);
         }
@@ -211,6 +214,6 @@ namespace WakeOnBandXamarin.Services
             return new PageLayout(scrollPanel);
         }
 
-        #endregion
+        #endregion Methods
     }
 }
