@@ -9,5 +9,7 @@ namespace WakeOnBandXamarin.ViewModels
         {
             base.Start();
         }*/
+
+        public string Test => "Test String";
     }
 }
