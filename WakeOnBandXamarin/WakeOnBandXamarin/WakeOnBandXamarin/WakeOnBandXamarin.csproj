@@ -31,6 +31,7 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="App.cs" />
     <Compile Include="Interfaces\IBand.cs" />
     <Compile Include="Interfaces\IWol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +72,9 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
