@@ -2,6 +2,7 @@
 using MvvmCross.Platform;
 using WakeOnBandXamarin.Interfaces;
 using WakeOnBandXamarin.Services;
+using WakeOnBandXamarin.ViewModels;
 
 namespace WakeOnBandXamarin
 {
@@ -11,6 +12,7 @@ namespace WakeOnBandXamarin
         {
             Mvx.RegisterType<IBand, BandService>();
             Mvx.RegisterType<IWol, WolService>();
+            Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<MainViewModel>());
         }
     }
 }

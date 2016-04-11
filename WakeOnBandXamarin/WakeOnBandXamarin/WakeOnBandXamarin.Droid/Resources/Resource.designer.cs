@@ -108,12 +108,6 @@ namespace WakeOnBandXamarin.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040002
-			public const int addButton = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int removeButton = 2130968579;
-			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -128,7 +122,7 @@ namespace WakeOnBandXamarin.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int View_Main = 2130903040;
 			
 			static Layout()
 			{
