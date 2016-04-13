@@ -6,9 +6,9 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using WakeOnBandXamarin.Interfaces;
+using WakeOnBandXamarin.Core.Interfaces;
 
-namespace WakeOnBandXamarin.Services
+namespace WakeOnBandXamarin.Core.Services
 {
     public class BandService : IBand
     {

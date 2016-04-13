@@ -1,8 +1,8 @@
 ﻿using Sockets.Plugin;
 using System.Collections.Generic;
-using WakeOnBandXamarin.Interfaces;
+using WakeOnBandXamarin.Core.Interfaces;
 
-namespace WakeOnBandXamarin.Services
+namespace WakeOnBandXamarin.Core.Services
 {
     public class WolService : IWol
     {
