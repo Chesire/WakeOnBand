@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WakeOnBandXamarin.WinPhone")]
+[assembly: AssemblyTitle("WakeOnBandXamarin.UWP")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WakeOnBandXamarin.WinPhone")]
-[assembly: AssemblyCopyright("Copyright © Troy Rijkaard 2016-17")]
+[assembly: AssemblyProduct("WakeOnBandXamarin.UWP")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
