@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
@@ -62,9 +64,11 @@ namespace WakeOnBandXamarin.UWP
             {
                 if (rootFrame.Content == null)
                 {
-                    // When the navigation stack isn't restored navigate to the first page,
-                    // configuring the new page by passing required information as a navigation parameter
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    var setup = new Setup(rootFrame);
+                    setup.Initialize();
+
+                    var start = Mvx.Resolve<IMvxAppStart>();
+                    start.Start();
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
@@ -76,7 +80,7 @@ namespace WakeOnBandXamarin.UWP
         /// </summary>
         /// <param name="sender">The Frame which failed navigation</param>
         /// <param name="e">Details about the navigation failure</param>
-        void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
+        private void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
         {
             throw new Exception("Failed to load Page " + e.SourcePageType.FullName);
         }
