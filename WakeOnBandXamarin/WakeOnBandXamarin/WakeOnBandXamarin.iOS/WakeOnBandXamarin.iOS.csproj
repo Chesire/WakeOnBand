@@ -95,8 +95,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WakeOnBandXamarin\WakeOnBandXamarin.csproj">
-      <Name>WakeOnBandXamarin</Name>
+    <ProjectReference Include="..\WakeOnBandXamarin\WakeOnBandXamarin.Core.csproj">
+      <Name>WakeOnBandXamarin.Core</Name>
+      <Project>{A24B818C-2601-4E72-B199-AF3943D21B06}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

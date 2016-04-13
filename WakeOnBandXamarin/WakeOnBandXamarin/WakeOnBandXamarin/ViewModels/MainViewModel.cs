@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 
-namespace WakeOnBandXamarin.ViewModels
+namespace WakeOnBandXamarin.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {

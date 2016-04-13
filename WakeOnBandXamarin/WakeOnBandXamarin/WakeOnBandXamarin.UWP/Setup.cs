@@ -12,7 +12,7 @@ namespace WakeOnBandXamarin.UWP
 
         protected override IMvxApplication CreateApp()
         {
-            return new WakeOnBandXamarin.App();
+            return new Core.App();
         }
     }
 }

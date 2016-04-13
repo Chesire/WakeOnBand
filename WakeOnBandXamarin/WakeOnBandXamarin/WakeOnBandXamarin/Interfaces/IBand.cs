@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace WakeOnBandXamarin.Interfaces
+namespace WakeOnBandXamarin.Core.Interfaces
 {
     /// <summary>
     /// Provides an interface to interact with the Microsoft Band

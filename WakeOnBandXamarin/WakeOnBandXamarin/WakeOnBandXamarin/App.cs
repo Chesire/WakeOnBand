@@ -1,10 +1,10 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
-using WakeOnBandXamarin.Interfaces;
-using WakeOnBandXamarin.Services;
-using WakeOnBandXamarin.ViewModels;
+using WakeOnBandXamarin.Core.Interfaces;
+using WakeOnBandXamarin.Core.Services;
+using WakeOnBandXamarin.Core.ViewModels;
 
-namespace WakeOnBandXamarin
+namespace WakeOnBandXamarin.Core
 {
     public class App : MvxApplication
     {

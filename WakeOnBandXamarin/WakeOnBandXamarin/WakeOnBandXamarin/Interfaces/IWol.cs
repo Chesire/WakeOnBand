@@ -1,4 +1,4 @@
-﻿namespace WakeOnBandXamarin.Interfaces
+﻿namespace WakeOnBandXamarin.Core.Interfaces
 {
     /// <summary>
     /// Provides functionality to wake on lan

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin.Droid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin.iOS", "WakeOnBandXamarin\WakeOnBandXamarin.iOS\WakeOnBandXamarin.iOS.csproj", "{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin", "WakeOnBandXamarin\WakeOnBandXamarin\WakeOnBandXamarin.csproj", "{A24B818C-2601-4E72-B199-AF3943D21B06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin.Core", "WakeOnBandXamarin\WakeOnBandXamarin\WakeOnBandXamarin.Core.csproj", "{A24B818C-2601-4E72-B199-AF3943D21B06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin.UWP", "WakeOnBandXamarin\WakeOnBandXamarin.UWP\WakeOnBandXamarin.UWP.csproj", "{08A3802B-3A76-4BCD-A92A-9D7F902F68AD}"
 EndProject
