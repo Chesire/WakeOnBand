@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">WakeOnBandXamarin.Droid</string>
-  <string name="addButtonText">Add to Band</string>
-  <string name="removeButtonText">Remove from Band</string>
+  <string name="ApplicationName">WakeOnBandXamarin.Droid</string>
+  <string name="AddButtonText">Add to Band</string>
+  <string name="RemoveButtonText">Remove from Band</string>
 </resources>

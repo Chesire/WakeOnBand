@@ -1,6 +1,7 @@
 using Android.Content;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
+using MvvmCross.Platform.Platform;
 
 namespace WakeOnBandXamarin.Droid
 {
@@ -13,6 +14,11 @@ namespace WakeOnBandXamarin.Droid
         protected override IMvxApplication CreateApp()
         {
             return new Core.App();
+        }
+
+        protected override IMvxTrace CreateDebugTrace()
+        {
+            return new DebugTrace();
         }
     }
 }
