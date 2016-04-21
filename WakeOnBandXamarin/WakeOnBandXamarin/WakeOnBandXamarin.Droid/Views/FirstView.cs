@@ -21,12 +21,12 @@ namespace WakeOnBandXamarin.Droid.Views
 
             TabHost.TabSpec spec;
             spec = TabHost.NewTabSpec("child1");
-            spec.SetIndicator("1");
+            spec.SetIndicator(GetString(Resource.String.WakeOnLanTitle));
             spec.SetContent(this.CreateIntentFor(FirstViewModel.WolTargetsViewModel));
             TabHost.AddTab(spec);
 
             spec = TabHost.NewTabSpec("child2");
-            spec.SetIndicator("2");
+            spec.SetIndicator(GetString(Resource.String.BandTargetsTitle));
             spec.SetContent(this.CreateIntentFor(FirstViewModel.BandTargetsViewModel));
             TabHost.AddTab(spec);
         }

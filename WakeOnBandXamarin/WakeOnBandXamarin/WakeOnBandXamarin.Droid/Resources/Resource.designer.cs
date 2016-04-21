@@ -149,17 +149,17 @@ namespace WakeOnBandXamarin.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060002
-			public const int AddButtonText = 2131099650;
-			
 			// aapt resource value: 0x7f060000
 			public const int ApplicationName = 2131099648;
+			
+			// aapt resource value: 0x7f060003
+			public const int BandTargetsTitle = 2131099651;
 			
 			// aapt resource value: 0x7f060001
 			public const int FriendlyApplicationName = 2131099649;
 			
-			// aapt resource value: 0x7f060003
-			public const int RemoveButtonText = 2131099651;
+			// aapt resource value: 0x7f060002
+			public const int WakeOnLanTitle = 2131099650;
 			
 			static String()
 			{
