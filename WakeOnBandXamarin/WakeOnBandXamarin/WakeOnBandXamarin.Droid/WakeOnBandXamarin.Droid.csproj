@@ -107,7 +107,7 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="TileReceiver.cs" />
     <Compile Include="Views\WolTargetsView.cs" />
-    <Compile Include="Views\Child2View.cs" />
+    <Compile Include="Views\BandTargetsView.cs" />
     <Compile Include="Views\FirstView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,7 +126,7 @@
     <AndroidResource Include="Resources\layout\WolTargetsView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Child2View.axml">
+    <AndroidResource Include="Resources\layout\BandTargetsView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

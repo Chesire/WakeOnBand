@@ -4,13 +4,13 @@ using MvvmCross.Droid.Views;
 
 namespace WakeOnBandXamarin.Droid.Views
 {
-    [Activity(Label = "Child2View")]
-    public class Child2View : MvxActivity
+    [Activity(Label = "BandTargetsView")]
+    public class BandTargetsView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Child2View);
+            SetContentView(Resource.Layout.BandTargetsView);
         }
     }
 }

@@ -7,16 +7,16 @@ namespace WakeOnBandXamarin.Core.ViewModels
         #region Members
 
         private WolTargetsViewModel _wolTargetsViewModel;
-        private Child2ViewModel _child2;
+        private BandTargetsViewModel _bandTargetsViewModel;
 
         #endregion Members
 
         #region Constructor
 
-        public FirstViewModel(WolTargetsViewModel wolTargetsViewModel)
+        public FirstViewModel(WolTargetsViewModel wolTargetsViewModel, BandTargetsViewModel bandTargetsViewModel)
         {
             WolTargetsViewModel = wolTargetsViewModel;
-            Child2 = new Child2ViewModel();
+            BandTargetsViewModel = bandTargetsViewModel;
         }
 
         #endregion Constructor
@@ -29,10 +29,10 @@ namespace WakeOnBandXamarin.Core.ViewModels
             set { _wolTargetsViewModel = value; RaisePropertyChanged(() => WolTargetsViewModel); }
         }
 
-        public Child2ViewModel Child2
+        public BandTargetsViewModel BandTargetsViewModel
         {
-            get { return _child2; }
-            set { _child2 = value; RaisePropertyChanged(() => Child2); }
+            get { return _bandTargetsViewModel; }
+            set { _bandTargetsViewModel = value; RaisePropertyChanged(() => BandTargetsViewModel); }
         }
 
         #endregion Properties

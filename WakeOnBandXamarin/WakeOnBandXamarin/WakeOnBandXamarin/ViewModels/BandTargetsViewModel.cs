@@ -2,7 +2,7 @@
 
 namespace WakeOnBandXamarin.Core.ViewModels
 {
-    public class Child2ViewModel : MvxViewModel
+    public class BandTargetsViewModel : MvxViewModel
     {
         #region Members
 

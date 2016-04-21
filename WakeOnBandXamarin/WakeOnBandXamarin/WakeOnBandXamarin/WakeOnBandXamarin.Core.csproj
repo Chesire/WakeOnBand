@@ -39,7 +39,7 @@
     <Compile Include="Services\BandService.cs" />
     <Compile Include="Services\WolService.cs" />
     <Compile Include="ViewModels\WolTargetsViewModel.cs" />
-    <Compile Include="ViewModels\Child2ViewModel.cs" />
+    <Compile Include="ViewModels\BandTargetsViewModel.cs" />
     <Compile Include="ViewModels\FirstViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
