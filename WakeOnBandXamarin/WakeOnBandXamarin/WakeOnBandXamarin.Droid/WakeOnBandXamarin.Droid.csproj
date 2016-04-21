@@ -108,7 +108,7 @@
     <Compile Include="TileReceiver.cs" />
     <Compile Include="Views\WolTargetsView.cs" />
     <Compile Include="Views\BandTargetsView.cs" />
-    <Compile Include="Views\FirstView.cs" />
+    <Compile Include="Views\TargetsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
@@ -120,7 +120,7 @@
     <AndroidResource Include="Resources\layout\SplashScreen.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\FirstView.axml">
+    <AndroidResource Include="Resources\layout\TargetsView.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\WolTargetsView.axml">

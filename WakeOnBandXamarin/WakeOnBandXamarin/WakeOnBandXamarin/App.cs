@@ -21,7 +21,7 @@ namespace WakeOnBandXamarin.Core
             //Mvx.RegisterType<WolTargetsViewModel, WolTargetsViewModel>();
             //Mvx.RegisterType<BandTargetsViewModel, BandTargetsViewModel>();
 
-            RegisterAppStart<FirstViewModel>();
+            RegisterAppStart<TargetsViewModel>();
         }
     }
 }

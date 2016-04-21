@@ -2,7 +2,7 @@
 
 namespace WakeOnBandXamarin.Core.ViewModels
 {
-    public class FirstViewModel : MvxViewModel
+    public class TargetsViewModel : MvxViewModel
     {
         #region Members
 
@@ -13,7 +13,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
 
         #region Constructor
 
-        public FirstViewModel(WolTargetsViewModel wolTargetsViewModel, BandTargetsViewModel bandTargetsViewModel)
+        public TargetsViewModel(WolTargetsViewModel wolTargetsViewModel, BandTargetsViewModel bandTargetsViewModel)
         {
             WolTargetsViewModel = wolTargetsViewModel;
             BandTargetsViewModel = bandTargetsViewModel;
