@@ -1,10 +1,10 @@
-﻿using Sockets.Plugin;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Sockets.Plugin;
 using WakeOnBandXamarin.Core.Interfaces;
 
 namespace WakeOnBandXamarin.Core.Services
 {
-    public class WolService : IWol
+    internal class WolService : IWol
     {
         #region Const
 

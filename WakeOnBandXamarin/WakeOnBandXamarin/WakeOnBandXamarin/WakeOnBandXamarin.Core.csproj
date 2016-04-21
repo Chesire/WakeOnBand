@@ -34,8 +34,10 @@
     <Compile Include="App.cs" />
     <Compile Include="Interfaces\IBand.cs" />
     <Compile Include="Interfaces\IWol.cs" />
+    <Compile Include="Interfaces\IWolTargetProvider.cs" />
     <Compile Include="Models\WolTargetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\WolTargetProvider.cs" />
     <Compile Include="Services\BandService.cs" />
     <Compile Include="Services\WolService.cs" />
     <Compile Include="ViewModels\WolTargetsViewModel.cs" />

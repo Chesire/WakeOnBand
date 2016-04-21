@@ -10,7 +10,7 @@ using WakeOnBandXamarin.Core.Interfaces;
 
 namespace WakeOnBandXamarin.Core.Services
 {
-    public class BandService : IBand
+    internal class BandService : IBand
     {
         /// <summary>
         /// Which type of band is currently connected
