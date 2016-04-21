@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="ApplicationName">WakeOnBandXamarin.Droid</string>
-  <string name="AddButtonText">Add to Band</string>
-  <string name="RemoveButtonText">Remove from Band</string>
+  <string name="FriendlyApplicationName">Wake On Band</string>
+  <string name="WakeOnLanTitle">Wake Targets</string>
+  <string name="BandTargetsTitle">Band Targets</string>
 </resources>

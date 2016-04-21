@@ -1,11 +1,11 @@
-﻿using Microsoft.Band.Portable;
-using Microsoft.Band.Portable.Tiles;
-using Microsoft.Band.Portable.Tiles.Pages;
-using Microsoft.Band.Portable.Tiles.Pages.Data;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Band.Portable;
+using Microsoft.Band.Portable.Tiles;
+using Microsoft.Band.Portable.Tiles.Pages;
+using Microsoft.Band.Portable.Tiles.Pages.Data;
 using WakeOnBandXamarin.Core.Interfaces;
 
 namespace WakeOnBandXamarin.Core.Services
