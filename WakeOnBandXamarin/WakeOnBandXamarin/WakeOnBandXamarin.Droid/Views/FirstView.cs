@@ -6,7 +6,7 @@ using WakeOnBandXamarin.Core.ViewModels;
 
 namespace WakeOnBandXamarin.Droid.Views
 {
-    [Activity(Label = "View for FirstViewModel")]
+    [Activity(Label = "@string/FriendlyApplicationName")]
     public class FirstView : MvxTabActivity
     {
         protected FirstViewModel FirstViewModel
@@ -22,7 +22,7 @@ namespace WakeOnBandXamarin.Droid.Views
             TabHost.TabSpec spec;
             spec = TabHost.NewTabSpec("child1");
             spec.SetIndicator("1");
-            spec.SetContent(this.CreateIntentFor(FirstViewModel.Child1));
+            spec.SetContent(this.CreateIntentFor(FirstViewModel.WolTargetsViewModel));
             TabHost.AddTab(spec);
 
             spec = TabHost.NewTabSpec("child2");

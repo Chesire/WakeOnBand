@@ -125,16 +125,16 @@ namespace WakeOnBandXamarin.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Child1View = 2130903040;
+			public const int Child2View = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Child2View = 2130903041;
+			public const int FirstView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int FirstView = 2130903042;
+			public const int SplashScreen = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int SplashScreen = 2130903043;
+			public const int WolTargetsView = 2130903043;
 			
 			static Layout()
 			{
@@ -149,14 +149,17 @@ namespace WakeOnBandXamarin.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int AddButtonText = 2131099649;
+			// aapt resource value: 0x7f060002
+			public const int AddButtonText = 2131099650;
 			
 			// aapt resource value: 0x7f060000
 			public const int ApplicationName = 2131099648;
 			
-			// aapt resource value: 0x7f060002
-			public const int RemoveButtonText = 2131099650;
+			// aapt resource value: 0x7f060001
+			public const int FriendlyApplicationName = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int RemoveButtonText = 2131099651;
 			
 			static String()
 			{

@@ -4,22 +4,29 @@ namespace WakeOnBandXamarin.Core.ViewModels
 {
     public class FirstViewModel : MvxViewModel
     {
-        public FirstViewModel()
+        #region Members
+
+        private WolTargetsViewModel _wolTargetsViewModel;
+        private Child2ViewModel _child2;
+
+        #endregion Members
+
+        #region Constructor
+
+        public FirstViewModel(WolTargetsViewModel wolTargetsViewModel)
         {
-            Child1 = new Child1ViewModel();
+            WolTargetsViewModel = wolTargetsViewModel;
             Child2 = new Child2ViewModel();
         }
 
-        public string Hello
-        {
-            get { return _hello; }
-            set { SetProperty(ref _hello, value); }
-        }
+        #endregion Constructor
 
-        public Child1ViewModel Child1
+        #region Properties
+
+        public WolTargetsViewModel WolTargetsViewModel
         {
-            get { return _child1; }
-            set { _child1 = value; RaisePropertyChanged(() => Child1); }
+            get { return _wolTargetsViewModel; }
+            set { _wolTargetsViewModel = value; RaisePropertyChanged(() => WolTargetsViewModel); }
         }
 
         public Child2ViewModel Child2
@@ -27,9 +34,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
             get { return _child2; }
             set { _child2 = value; RaisePropertyChanged(() => Child2); }
         }
-        private string _hello = "Hello MvvmCross";
 
-        private Child1ViewModel _child1;
-        private Child2ViewModel _child2;
+        #endregion Properties
     }
 }
