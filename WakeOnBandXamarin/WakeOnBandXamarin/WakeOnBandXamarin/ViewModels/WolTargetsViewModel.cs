@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 using WakeOnBandXamarin.Core.Interfaces;
 using WakeOnBandXamarin.Core.Models;
@@ -17,11 +18,16 @@ namespace WakeOnBandXamarin.Core.ViewModels
 
         public WolTargetsViewModel(IWolTargetProvider targetProvider)
         {
-            _wolTargets = new ObservableCollection<WolTargetModel>(targetProvider.WolTargets);
-
+            _wolTargets = targetProvider.WolTargets;
             // Debug
-            //_wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
-            //_wolTargets.Add(new WolTargetModel("Second Test Name", "FF:FF:FF:FF:FF:F0"));
+            _wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
+            _wolTargets.Add(new WolTargetModel("Second Test Name", "FF:FF:FF:FF:FF:F0"));
+
+            Task.Delay(5000).ContinueWith((t) =>
+            {
+                // this doesn't seem to auto update the view
+                _wolTargets.Add(new WolTargetModel("NEW ONE", "AA:AA:AA:AA:AA:AA"));
+            });
         }
 
         #endregion Constructor
@@ -33,6 +39,17 @@ namespace WakeOnBandXamarin.Core.ViewModels
             get
             {
                 return _wolTargets;
+            }
+        }
+
+        public MvxCommand<WolTargetModel> WolModelSelected
+        {
+            get
+            {
+                return new MvxCommand<WolTargetModel>((wolModel) =>
+                {
+                    var s = "test";
+                });
             }
         }
 

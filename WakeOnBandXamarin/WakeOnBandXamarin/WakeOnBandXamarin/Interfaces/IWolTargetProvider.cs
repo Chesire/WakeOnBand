@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 using WakeOnBandXamarin.Core.Models;
 
 namespace WakeOnBandXamarin.Core.Interfaces
@@ -9,8 +9,8 @@ namespace WakeOnBandXamarin.Core.Interfaces
     public interface IWolTargetProvider
     {
         /// <summary>
-        /// Gets the current list of WolTargetModels
+        /// Gets the current collection of WolTargetModels
         /// </summary>
-        IList<WolTargetModel> WolTargets { get; }
+        ObservableCollection<WolTargetModel> WolTargets { get; }
     }
 }
