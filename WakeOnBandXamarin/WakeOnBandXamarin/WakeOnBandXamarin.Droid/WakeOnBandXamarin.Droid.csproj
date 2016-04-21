@@ -106,6 +106,8 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="TileReceiver.cs" />
+    <Compile Include="Views\Child1View.cs" />
+    <Compile Include="Views\Child2View.cs" />
     <Compile Include="Views\FirstView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +121,12 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\FirstView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Child1View.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Child2View.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
