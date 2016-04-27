@@ -4,8 +4,8 @@
     android:background="#500000"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        local:MvxBind="Text Bar" />
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      local:MvxBind="Text Bar" />
 </LinearLayout>
