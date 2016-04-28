@@ -10,15 +10,53 @@ namespace WakeOnBandXamarin.Core.ViewModels
     {
         #region Members
 
+        private IWolTargetRepository _provider;
         private ObservableCollection<WolTargetModel> _wolTargets;
 
         #endregion Members
 
         #region Constructor
 
-        public WolTargetsViewModel(IWolTargetProvider targetProvider)
+        public WolTargetsViewModel(IWolTargetRepository targetProvider)
         {
-            _wolTargets = targetProvider.WolTargets;
+            _provider = targetProvider;
+            //LoadModels();
+        }
+
+        #endregion Constructor
+
+        #region Properties
+
+        public ObservableCollection<WolTargetModel> WolTargets
+        {
+            get
+            {
+                // return _wolTargets;
+                _wolTargets = new ObservableCollection<WolTargetModel>();
+                _wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
+                return _wolTargets;
+            }
+        }
+
+        public MvxCommand<WolTargetModel> WolModelSelected
+        {
+            get
+            {
+                return new MvxCommand<WolTargetModel>((wolModel) =>
+                {
+                    _provider.SaveWolTargetModels();
+                });
+            }
+        }
+
+        #endregion Properties
+
+        #region Methods
+
+        private async void LoadModels()
+        {
+            _wolTargets = await _provider.GetWolTargets();
+
             // Debug
             _wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
             _wolTargets.Add(new WolTargetModel("Second Test Name", "FF:FF:FF:FF:FF:F0"));
@@ -30,29 +68,6 @@ namespace WakeOnBandXamarin.Core.ViewModels
             });
         }
 
-        #endregion Constructor
-
-        #region Properties
-
-        public ObservableCollection<WolTargetModel> WolTargets
-        {
-            get
-            {
-                return _wolTargets;
-            }
-        }
-
-        public MvxCommand<WolTargetModel> WolModelSelected
-        {
-            get
-            {
-                return new MvxCommand<WolTargetModel>((wolModel) =>
-                {
-                    var s = "test";
-                });
-            }
-        }
-
-        #endregion Properties
+        #endregion Methods
     }
 }

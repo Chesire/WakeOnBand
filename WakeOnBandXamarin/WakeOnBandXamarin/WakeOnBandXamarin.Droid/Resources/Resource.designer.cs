@@ -47,6 +47,8 @@ namespace WakeOnBandXamarin.Droid
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::PCLStorage.Resource.String.ApplicationName = global::WakeOnBandXamarin.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::WakeOnBandXamarin.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -105,14 +107,14 @@ namespace WakeOnBandXamarin.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int MvvmCrossTagId = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int MvvmCrossTagId = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int MvxBindingTagUnique = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int MvxBindingTagUnique = 2131034113;
 			
-			// aapt resource value: 0x7f040002
-			public const int innerText = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int innerText = 2131034114;
 			
 			static Id()
 			{
@@ -155,17 +157,20 @@ namespace WakeOnBandXamarin.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int ApplicationName = 2131099648;
+			// aapt resource value: 0x7f040001
+			public const int ApplicationName = 2130968577;
 			
-			// aapt resource value: 0x7f060003
-			public const int BandTargetsTitle = 2131099651;
+			// aapt resource value: 0x7f040004
+			public const int BandTargetsTitle = 2130968580;
 			
-			// aapt resource value: 0x7f060001
-			public const int FriendlyApplicationName = 2131099649;
+			// aapt resource value: 0x7f040002
+			public const int FriendlyApplicationName = 2130968578;
 			
-			// aapt resource value: 0x7f060002
-			public const int WakeOnLanTitle = 2131099650;
+			// aapt resource value: 0x7f040000
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int WakeOnLanTitle = 2130968579;
 			
 			static String()
 			{
@@ -180,8 +185,8 @@ namespace WakeOnBandXamarin.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Theme_Splash = 2131099648;
 			
 			static Style()
 			{
