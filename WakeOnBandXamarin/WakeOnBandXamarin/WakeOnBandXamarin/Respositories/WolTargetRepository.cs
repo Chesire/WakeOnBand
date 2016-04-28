@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.Runtime.Serialization;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
+using PCLStorage;
 using WakeOnBandXamarin.Core.Interfaces;
 using WakeOnBandXamarin.Core.Models;
 
@@ -11,7 +12,8 @@ namespace WakeOnBandXamarin.Core.Providers
     {
         #region Const
 
-        private const string FilePath = "wol_targets";
+        private const string WolTargetsFolder = "data";
+        private const string WolTargetsFile = "wol_targets";
 
         #endregion Const
 
@@ -41,16 +43,22 @@ namespace WakeOnBandXamarin.Core.Providers
         async void IWolTargetRepository.LoadWolTargetModels()
         {
             throw new NotImplementedException();
+            // load first
+            //var output = JsonConvert.DeserializeObject<ObservableCollection<WolTargetModel>>(jsonCollection);
         }
 
         async void IWolTargetRepository.SaveWolTargetModels()
         {
-            JsonSerializer serial = new JsonSerializer();
+            var dataFolder = await GetDataFolder(WolTargetsFolder);
+            var file = await dataFolder.CreateFileAsync(WolTargetsFile, CreationCollisionOption.ReplaceExisting);
             var jsonCollection = JsonConvert.SerializeObject(_wolTargets);
+            await file.WriteAllTextAsync(jsonCollection);
+        }
 
-            var output = JsonConvert.DeserializeObject<ObservableCollection<WolTargetModel>>(jsonCollection);
-
-            DataContractSerializer ser = new DataContractSerializer(typeof(ObservableCollection<WolTargetModel>));
+        private async Task<IFolder> GetDataFolder(string targetFolder)
+        {
+            var rootFolder = FileSystem.Current.RoamingStorage;
+            return await rootFolder.CreateFolderAsync(targetFolder, CreationCollisionOption.OpenIfExists);
         }
 
         #endregion Methods
