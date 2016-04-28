@@ -11,7 +11,7 @@ namespace WakeOnBandXamarin.Core.Providers
     {
         #region Const
 
-        private const string WolTargetsFolder = "data";
+        private const string WolTargetsFolder = "app_storage";
         private const string WolTargetsFile = "wol_targets";
 
         #endregion Const
@@ -22,16 +22,21 @@ namespace WakeOnBandXamarin.Core.Providers
 
         #endregion Fields
 
-        #region Properties
+        #region Constructor
+
+        public WolTargetRepository()
+        {
+            ((IWolTargetRepository)this).GetWolTargets();
+        }
+
+        #endregion Constructor
+
+        #region Methods
 
         async Task<ObservableCollection<WolTargetModel>> IWolTargetRepository.GetWolTargets()
         {
             return _wolTargets ?? (_wolTargets = await LoadWolTargetModels());
         }
-
-        #endregion Properties
-
-        #region Methods
 
         async void IWolTargetRepository.SaveWolTargetModels()
         {
@@ -63,7 +68,7 @@ namespace WakeOnBandXamarin.Core.Providers
 
         private async Task<IFolder> GetDataFolder(string targetFolder)
         {
-            return await FileSystem.Current.RoamingStorage.CreateFolderAsync(targetFolder, CreationCollisionOption.OpenIfExists);
+            return await FileSystem.Current.LocalStorage.CreateFolderAsync(targetFolder, CreationCollisionOption.OpenIfExists);
         }
 
         #endregion Methods
