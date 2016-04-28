@@ -6,11 +6,21 @@ namespace WakeOnBandXamarin.Core.Interfaces
     /// <summary>
     /// Store and provide the known Wol targets
     /// </summary>
-    public interface IWolTargetProvider
+    public interface IWolTargetRepository
     {
         /// <summary>
         /// Gets the current collection of WolTargetModels
         /// </summary>
         ObservableCollection<WolTargetModel> WolTargets { get; }
+
+        /// <summary>
+        /// Save the current collection of WolTargetModels into the device
+        /// </summary>
+        void SaveWolTargetModels();
+
+        /// <summary>
+        /// Load the collection of WolTargetModels from device
+        /// </summary>
+        void LoadWolTargetModels();
     }
 }

@@ -16,7 +16,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
 
         #region Constructor
 
-        public WolTargetsViewModel(IWolTargetProvider targetProvider)
+        public WolTargetsViewModel(IWolTargetRepository targetProvider)
         {
             _wolTargets = targetProvider.WolTargets;
             // Debug
