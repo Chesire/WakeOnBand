@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using WakeOnBandXamarin.Core.Models;
 
 namespace WakeOnBandXamarin.Core.Interfaces
@@ -11,16 +12,11 @@ namespace WakeOnBandXamarin.Core.Interfaces
         /// <summary>
         /// Gets the current collection of WolTargetModels
         /// </summary>
-        ObservableCollection<WolTargetModel> WolTargets { get; }
+        Task<ObservableCollection<WolTargetModel>> GetWolTargets();
 
         /// <summary>
         /// Save the current collection of WolTargetModels into the device
         /// </summary>
         void SaveWolTargetModels();
-
-        /// <summary>
-        /// Load the collection of WolTargetModels from device
-        /// </summary>
-        void LoadWolTargetModels();
     }
 }

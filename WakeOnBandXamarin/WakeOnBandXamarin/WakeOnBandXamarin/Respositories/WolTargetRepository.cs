@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PCLStorage;
@@ -25,40 +24,46 @@ namespace WakeOnBandXamarin.Core.Providers
 
         #region Properties
 
-        ObservableCollection<WolTargetModel> IWolTargetRepository.WolTargets
+        async Task<ObservableCollection<WolTargetModel>> IWolTargetRepository.GetWolTargets()
         {
-            get
-            {
-                if (_wolTargets == null)
-                    _wolTargets = new ObservableCollection<WolTargetModel>();
-
-                return _wolTargets;
-            }
+            return _wolTargets ?? (_wolTargets = await LoadWolTargetModels());
         }
 
         #endregion Properties
 
         #region Methods
 
-        async void IWolTargetRepository.LoadWolTargetModels()
-        {
-            throw new NotImplementedException();
-            // load first
-            //var output = JsonConvert.DeserializeObject<ObservableCollection<WolTargetModel>>(jsonCollection);
-        }
-
         async void IWolTargetRepository.SaveWolTargetModels()
         {
             var dataFolder = await GetDataFolder(WolTargetsFolder);
             var file = await dataFolder.CreateFileAsync(WolTargetsFile, CreationCollisionOption.ReplaceExisting);
             var jsonCollection = JsonConvert.SerializeObject(_wolTargets);
+
             await file.WriteAllTextAsync(jsonCollection);
+        }
+
+        private async Task<ObservableCollection<WolTargetModel>> LoadWolTargetModels()
+        {
+            var dataFolder = await GetDataFolder(WolTargetsFolder);
+            if ((await dataFolder.CheckExistsAsync(WolTargetsFile)) == ExistenceCheckResult.NotFound)
+            {
+                return new ObservableCollection<WolTargetModel>();
+            }
+
+            IFile file = await dataFolder.GetFileAsync(WolTargetsFile);
+            var jsonWolTargets = await file.ReadAllTextAsync();
+
+            if (string.IsNullOrEmpty(jsonWolTargets))
+            {
+                return new ObservableCollection<WolTargetModel>();
+            }
+
+            return JsonConvert.DeserializeObject<ObservableCollection<WolTargetModel>>(jsonWolTargets);
         }
 
         private async Task<IFolder> GetDataFolder(string targetFolder)
         {
-            var rootFolder = FileSystem.Current.RoamingStorage;
-            return await rootFolder.CreateFolderAsync(targetFolder, CreationCollisionOption.OpenIfExists);
+            return await FileSystem.Current.RoamingStorage.CreateFolderAsync(targetFolder, CreationCollisionOption.OpenIfExists);
         }
 
         #endregion Methods
