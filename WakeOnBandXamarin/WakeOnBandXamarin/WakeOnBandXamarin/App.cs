@@ -13,7 +13,7 @@ namespace WakeOnBandXamarin.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
             CreatableTypes()
-                .EndingWith("Provider")
+                .EndingWith("Repository")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
             CreatableTypes()

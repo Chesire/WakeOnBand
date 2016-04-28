@@ -10,6 +10,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
     {
         #region Members
 
+        private IWolTargetRepository _provider;
         private ObservableCollection<WolTargetModel> _wolTargets;
 
         #endregion Members
@@ -18,6 +19,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
 
         public WolTargetsViewModel(IWolTargetRepository targetProvider)
         {
+            _provider = targetProvider;
             _wolTargets = targetProvider.WolTargets;
             // Debug
             _wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
@@ -48,7 +50,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
             {
                 return new MvxCommand<WolTargetModel>((wolModel) =>
                 {
-                    var s = "test";
+                    _provider.SaveWolTargetModels();
                 });
             }
         }

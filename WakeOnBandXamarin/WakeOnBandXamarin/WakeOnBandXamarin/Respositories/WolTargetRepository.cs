@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using MvvmCross.Plugins.File;
+using System.Runtime.Serialization;
+using Newtonsoft.Json;
 using WakeOnBandXamarin.Core.Interfaces;
 using WakeOnBandXamarin.Core.Models;
 
@@ -8,21 +9,17 @@ namespace WakeOnBandXamarin.Core.Providers
 {
     internal class WolTargetRepository : IWolTargetRepository
     {
-        #region Members
+        #region Const
+
+        private const string FilePath = "wol_targets";
+
+        #endregion Const
+
+        #region Fields
 
         private ObservableCollection<WolTargetModel> _wolTargets;
-        private IMvxFileStoreAsync _fileStore;
 
-        #endregion Members
-
-        #region Constructor
-
-        internal WolTargetRepository(IMvxFileStoreAsync fileStore)
-        {
-            _fileStore = fileStore;
-        }
-
-        #endregion Constructor
+        #endregion Fields
 
         #region Properties
 
@@ -48,7 +45,12 @@ namespace WakeOnBandXamarin.Core.Providers
 
         async void IWolTargetRepository.SaveWolTargetModels()
         {
-            throw new NotImplementedException();
+            JsonSerializer serial = new JsonSerializer();
+            var jsonCollection = JsonConvert.SerializeObject(_wolTargets);
+
+            var output = JsonConvert.DeserializeObject<ObservableCollection<WolTargetModel>>(jsonCollection);
+
+            DataContractSerializer ser = new DataContractSerializer(typeof(ObservableCollection<WolTargetModel>));
         }
 
         #endregion Methods
