@@ -34,10 +34,10 @@
     <Compile Include="App.cs" />
     <Compile Include="Interfaces\IBand.cs" />
     <Compile Include="Interfaces\IWol.cs" />
-    <Compile Include="Interfaces\IWolTargetProvider.cs" />
+    <Compile Include="Interfaces\IWolTargetRepository.cs" />
     <Compile Include="Models\WolTargetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Providers\WolTargetProvider.cs" />
+    <Compile Include="Respositories\WolTargetRepository.cs" />
     <Compile Include="Services\BandService.cs" />
     <Compile Include="Services\WolService.cs" />
     <Compile Include="ViewModels\WolTargetsViewModel.cs" />
@@ -55,6 +55,10 @@
     </Reference>
     <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmCross.Platform.4.1.4\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.File, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MvvmCross.Plugin.File.4.1.4\lib\portable-net45+win+wpa81+wp80\MvvmCross.Plugins.File.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sockets.Plugin, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
