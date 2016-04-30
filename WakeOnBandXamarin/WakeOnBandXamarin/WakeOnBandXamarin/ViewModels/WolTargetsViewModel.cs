@@ -20,7 +20,7 @@ namespace WakeOnBandXamarin.Core.ViewModels
         public WolTargetsViewModel(IWolTargetRepository targetProvider)
         {
             _provider = targetProvider;
-            //LoadModels();
+            LoadModels();
         }
 
         #endregion Constructor
@@ -31,9 +31,6 @@ namespace WakeOnBandXamarin.Core.ViewModels
         {
             get
             {
-                // return _wolTargets;
-                _wolTargets = new ObservableCollection<WolTargetModel>();
-                _wolTargets.Add(new WolTargetModel("Test Name", "FF:FF:FF:FF:FF:FF"));
                 return _wolTargets;
             }
         }
