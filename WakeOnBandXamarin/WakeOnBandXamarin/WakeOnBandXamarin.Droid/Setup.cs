@@ -1,7 +1,11 @@
+using System.Collections.Generic;
+using System.Reflection;
 using Android.Content;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
-using MvvmCross.Platform.Platform;
+using MvvmCross.Droid.Shared.Presenter;
+using MvvmCross.Droid.Views;
+using MvvmCross.Platform;
 
 namespace WakeOnBandXamarin.Droid
 {
@@ -11,14 +15,21 @@ namespace WakeOnBandXamarin.Droid
         {
         }
 
+        protected override IEnumerable<Assembly> AndroidViewAssemblies => new List<Assembly>(base.AndroidViewAssemblies)
+        {
+            typeof(global::Android.Support.V7.Widget.Toolbar).Assembly,
+        };
+
         protected override IMvxApplication CreateApp()
         {
             return new Core.App();
         }
 
-        protected override IMvxTrace CreateDebugTrace()
+        protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
-            return new DebugTrace();
+            var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
+            return mvxFragmentsPresenter;
         }
     }
 }

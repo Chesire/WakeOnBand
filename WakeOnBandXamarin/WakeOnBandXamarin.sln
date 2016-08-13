@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeOnBandXamarin.Droid", "WakeOnBandXamarin\WakeOnBandXamarin.Droid\WakeOnBandXamarin.Droid.csproj", "{13AF0E14-A635-42C4-88F7-48D17293D4F3}"
 EndProject
@@ -87,14 +87,18 @@ Global
 		{13AF0E14-A635-42C4-88F7-48D17293D4F3}.Release|x86.ActiveCfg = Release|Any CPU
 		{13AF0E14-A635-42C4-88F7-48D17293D4F3}.Release|x86.Build.0 = Release|Any CPU
 		{13AF0E14-A635-42C4-88F7-48D17293D4F3}.Release|x86.Deploy.0 = Release|Any CPU
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|Any CPU.ActiveCfg = AppStore|iPhone
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|ARM.ActiveCfg = AppStore|iPhone
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x64.ActiveCfg = AppStore|iPhoneSimulator
-		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x86.ActiveCfg = AppStore|iPhone
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|Any CPU.Build.0 = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|ARM.ActiveCfg = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|ARM.Build.0 = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhone.ActiveCfg = Release|iPhone
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhone.Build.0 = Release|iPhone
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x64.ActiveCfg = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x64.Build.0 = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x86.ActiveCfg = Release|iPhoneSimulator
+		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.AppStore|x86.Build.0 = Release|iPhoneSimulator
 		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{D3328FE7-C867-40B5-87E8-5F8ABB8270F8}.Debug|iPhone.ActiveCfg = Debug|iPhone

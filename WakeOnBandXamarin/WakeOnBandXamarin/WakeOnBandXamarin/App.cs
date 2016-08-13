@@ -16,16 +16,8 @@ namespace WakeOnBandXamarin.Core
                 .EndingWith("Repository")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            CreatableTypes()
-                .EndingWith("ViewModel")
-                .AsTypes()
-                .RegisterAsLazySingleton();
 
-            /* ViewModels */
-            //Mvx.RegisterType<WolTargetsViewModel, WolTargetsViewModel>();
-            //Mvx.RegisterType<BandTargetsViewModel, BandTargetsViewModel>();
-
-            RegisterAppStart<TargetsViewModel>();
+            RegisterAppStart<MainViewModel>();
         }
     }
 }
