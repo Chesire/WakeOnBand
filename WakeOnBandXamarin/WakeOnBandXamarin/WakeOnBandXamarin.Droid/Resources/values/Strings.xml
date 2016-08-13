@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="ApplicationName">WakeOnBandXamarin.Droid</string>
+  <string name="ApplicationName">Wake On Band</string>
   <string name="FriendlyApplicationName">Wake On Band</string>
   <string name="WakeOnLanTitle">Wake Targets</string>
   <string name="BandTargetsTitle">Band Targets</string>
+  <string name="OpenDrawerString">Open navigation drawer</string>
+  <string name="CloseDrawerString">Close navigation drawer</string>
 </resources>

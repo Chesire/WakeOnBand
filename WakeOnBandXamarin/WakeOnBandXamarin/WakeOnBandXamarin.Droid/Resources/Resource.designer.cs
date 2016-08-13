@@ -47,33 +47,2284 @@ namespace WakeOnBandXamarin.Droid
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_in = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_out = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_grow_fade_in_from_bottom = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_enter = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_exit = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_bottom = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_top = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_bottom = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_top = global::WakeOnBandXamarin.Droid.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_in = global::WakeOnBandXamarin.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_out = global::WakeOnBandXamarin.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_fab_in = global::WakeOnBandXamarin.Droid.Resource.Animation.design_fab_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_fab_out = global::WakeOnBandXamarin.Droid.Resource.Animation.design_fab_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_in = global::WakeOnBandXamarin.Droid.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_out = global::WakeOnBandXamarin.Droid.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxBind = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxDropDownItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxGroupItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxLang = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxSource = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxTemplate = global::WakeOnBandXamarin.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarDivider = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarItemBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarPopupTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSize = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSplitStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabTextStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarWidgetTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionDropDownStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCopyDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCutDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeFindDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePasteDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePopupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSelectAllDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeShareDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSplitBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeWebSearchDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowMenuStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionProviderClass = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionViewClass = global::WakeOnBandXamarin.Droid.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.activityChooserViewStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogButtonGroupStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogCenterButtons = global::WakeOnBandXamarin.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.allowStacking = global::WakeOnBandXamarin.Droid.Resource.Attribute.allowStacking;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowHeadLength = global::WakeOnBandXamarin.Droid.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowShaftLength = global::WakeOnBandXamarin.Droid.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoCompleteTextViewStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.background = global::WakeOnBandXamarin.Droid.Resource.Attribute.background;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundSplit = global::WakeOnBandXamarin.Droid.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundStacked = global::WakeOnBandXamarin.Droid.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTint = global::WakeOnBandXamarin.Droid.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTintMode = global::WakeOnBandXamarin.Droid.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.barLength = global::WakeOnBandXamarin.Droid.Resource.Attribute.barLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_hideable = global::WakeOnBandXamarin.Droid.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_overlapTop = global::WakeOnBandXamarin.Droid.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_peekHeight = global::WakeOnBandXamarin.Droid.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.borderWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderlessButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetDialogTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNegativeButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNeutralButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarPositiveButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonPanelSideLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyleSmall = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTint = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTintMode = global::WakeOnBandXamarin.Droid.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkboxStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedTextViewStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeItemLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseContentDescription = global::WakeOnBandXamarin.Droid.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleGravity = global::WakeOnBandXamarin.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.color = global::WakeOnBandXamarin.Droid.Resource.Attribute.color;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorAccent = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorAccent;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorButtonNormal = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlActivated = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlHighlight = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlNormal = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimary = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimaryDark = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorSwitchThumbNormal = global::WakeOnBandXamarin.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.commitIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.commitIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetLeft = global::WakeOnBandXamarin.Droid.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetRight = global::WakeOnBandXamarin.Droid.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentScrim = global::WakeOnBandXamarin.Droid.Resource.Attribute.contentScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.controlBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterEnabled = global::WakeOnBandXamarin.Droid.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterMaxLength = global::WakeOnBandXamarin.Droid.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterOverflowTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.customNavigationLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.defaultQueryHint = global::WakeOnBandXamarin.Droid.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogPreferredPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.displayOptions = global::WakeOnBandXamarin.Droid.Resource.Attribute.displayOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.divider = global::WakeOnBandXamarin.Droid.Resource.Attribute.divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerHorizontal = global::WakeOnBandXamarin.Droid.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerVertical = global::WakeOnBandXamarin.Droid.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawableSize = global::WakeOnBandXamarin.Droid.Resource.Attribute.drawableSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawerArrowStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropDownListViewStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropdownListPreferredItemHeight = global::WakeOnBandXamarin.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.editTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.elevation = global::WakeOnBandXamarin.Droid.Resource.Attribute.elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorEnabled = global::WakeOnBandXamarin.Droid.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expanded = global::WakeOnBandXamarin.Droid.Resource.Attribute.expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleGravity = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMargin = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginBottom = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginTop = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabSize = global::WakeOnBandXamarin.Droid.Resource.Attribute.fabSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.foregroundInsidePadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.gapBetweenBars = global::WakeOnBandXamarin.Droid.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.goIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.goIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.headerLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.headerLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.height = global::WakeOnBandXamarin.Droid.Resource.Attribute.height;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideOnContentScroll = global::WakeOnBandXamarin.Droid.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintAnimationEnabled = global::WakeOnBandXamarin.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintEnabled = global::WakeOnBandXamarin.Droid.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeAsUpIndicator = global::WakeOnBandXamarin.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.homeLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.icon = global::WakeOnBandXamarin.Droid.Resource.Attribute.icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconifiedByDefault = global::WakeOnBandXamarin.Droid.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.imageButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.indeterminateProgressStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.initialActivityCount = global::WakeOnBandXamarin.Droid.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.insetForeground = global::WakeOnBandXamarin.Droid.Resource.Attribute.insetForeground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.isLightTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconTint = global::WakeOnBandXamarin.Droid.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.itemPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.keylines = global::WakeOnBandXamarin.Droid.Resource.Attribute.keylines;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layoutManager = global::WakeOnBandXamarin.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchor = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchorGravity = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_behavior = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseMode = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseParallaxMultiplier = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_keyline = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollFlags = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollInterpolator = global::WakeOnBandXamarin.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listChoiceBackgroundIndicator = global::WakeOnBandXamarin.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listDividerAlertDialog = global::WakeOnBandXamarin.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listItemLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.listLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPopupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeight = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightLarge = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightSmall = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingLeft = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingRight = global::WakeOnBandXamarin.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logo = global::WakeOnBandXamarin.Droid.Resource.Attribute.logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logoDescription = global::WakeOnBandXamarin.Droid.Resource.Attribute.logoDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxActionInlineWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxButtonHeight = global::WakeOnBandXamarin.Droid.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.measureWithLargestChild = global::WakeOnBandXamarin.Droid.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.menu = global::WakeOnBandXamarin.Droid.Resource.Attribute.menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.multiChoiceItemLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationContentDescription = global::WakeOnBandXamarin.Droid.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationMode = global::WakeOnBandXamarin.Droid.Resource.Attribute.navigationMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.overlapAnchor = global::WakeOnBandXamarin.Droid.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.paddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.panelBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupMenuStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupTheme = global::WakeOnBandXamarin.Droid.Resource.Attribute.popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.preserveIconSpacing = global::WakeOnBandXamarin.Droid.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.pressedTranslationZ = global::WakeOnBandXamarin.Droid.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.queryBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryHint = global::WakeOnBandXamarin.Droid.Resource.Attribute.queryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.radioButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleIndicator = global::WakeOnBandXamarin.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleSmall = global::WakeOnBandXamarin.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.reverseLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.rippleColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchHintIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.searchIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchViewStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.seekBarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackgroundBorderless = global::WakeOnBandXamarin.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showAsAction = global::WakeOnBandXamarin.Droid.Resource.Attribute.showAsAction;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showDividers = global::WakeOnBandXamarin.Droid.Resource.Attribute.showDividers;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showText = global::WakeOnBandXamarin.Droid.Resource.Attribute.showText;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleChoiceItemLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spanCount = global::WakeOnBandXamarin.Droid.Resource.Attribute.spanCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinBars = global::WakeOnBandXamarin.Droid.Resource.Attribute.spinBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerDropDownItemStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.splitTrack = global::WakeOnBandXamarin.Droid.Resource.Attribute.splitTrack;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.srcCompat = global::WakeOnBandXamarin.Droid.Resource.Attribute.srcCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.stackFromEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_above_anchor = global::WakeOnBandXamarin.Droid.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarScrim = global::WakeOnBandXamarin.Droid.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.submitBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.submitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitle = global::WakeOnBandXamarin.Droid.Resource.Attribute.subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.suggestionRowLayout = global::WakeOnBandXamarin.Droid.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchMinWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.switchPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.switchStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabBackground = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabContentStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabGravity = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorHeight = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMaxWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMinWidth = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMode = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingBottom = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingTop = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabSelectedTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAllCaps = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceLargePopupMenu = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItem = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSmall = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultTitle = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSmallPopupMenu = global::WakeOnBandXamarin.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorAlertDialogListItem = global::WakeOnBandXamarin.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorError = global::WakeOnBandXamarin.Droid.Resource.Attribute.textColorError;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorSearchUrl = global::WakeOnBandXamarin.Droid.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.theme = global::WakeOnBandXamarin.Droid.Resource.Attribute.theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thickness = global::WakeOnBandXamarin.Droid.Resource.Attribute.thickness;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTextPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.title = global::WakeOnBandXamarin.Droid.Resource.Attribute.title;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleEnabled = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginBottom = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginEnd = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginStart = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginTop = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMargins = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleMargins;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextColor = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarId = global::WakeOnBandXamarin.Droid.Resource.Attribute.toolbarId;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarNavigationButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarStyle = global::WakeOnBandXamarin.Droid.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.track = global::WakeOnBandXamarin.Droid.Resource.Attribute.track;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.useCompatPadding = global::WakeOnBandXamarin.Droid.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.voiceIcon = global::WakeOnBandXamarin.Droid.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBar = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBarOverlay = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionModeOverlay = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMajor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMinor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMajor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMinor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMajor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMinor = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowNoTitle = global::WakeOnBandXamarin.Droid.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_allow_stacked_button_bar = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::WakeOnBandXamarin.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_color_highlight_material = global::WakeOnBandXamarin.Droid.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_input_method_navigation_guard = global::WakeOnBandXamarin.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text = global::WakeOnBandXamarin.Droid.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_normal = global::WakeOnBandXamarin.Droid.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_pressed = global::WakeOnBandXamarin.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_selected = global::WakeOnBandXamarin.Droid.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.accent_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.accent_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.background_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.background_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.button_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.button_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_end_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_mid_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_start_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_inner_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_outer_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_inner_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_outer_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_snackbar_background_color = global::WakeOnBandXamarin.Droid.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_textinput_error_color_dark = global::WakeOnBandXamarin.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_textinput_error_color_light = global::WakeOnBandXamarin.Droid.Resource.Color.design_textinput_error_color_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.hint_foreground_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.hint_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.hint_foreground_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.hint_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_800 = global::WakeOnBandXamarin.Droid.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_900 = global::WakeOnBandXamarin.Droid.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_950 = global::WakeOnBandXamarin.Droid.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_200 = global::WakeOnBandXamarin.Droid.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_500 = global::WakeOnBandXamarin.Droid.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_100 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_100;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_300 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_300;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_50 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_50;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_600 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_600;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_800 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_800;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_850 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_850;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_900 = global::WakeOnBandXamarin.Droid.Resource.Color.material_grey_900;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.primary_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.primary_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.ripple_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_dark = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_light = global::WakeOnBandXamarin.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_content_inset_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_height_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_progress_bar_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_max_height = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_height_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_horizontal_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_vertical_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_horizontal_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_vertical_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_config_prefDialogWidth = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_corner_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_inset_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_padding_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_major = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_minor = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_major = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_minor = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_major = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_minor = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_top_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_dark = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_light = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_icon_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_top_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_floating_window_z = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_panel_menu_list_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_preferred_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_text_min_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_background_height_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_select_dialog_padding_start_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_switch_padding = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_1_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_2_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_button_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_caption_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_1_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_2_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_3_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_4_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_headline_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_large_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_medium_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_menu_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_small_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subhead_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material_toolbar = global::WakeOnBandXamarin.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_appbar_elevation = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_modal_elevation = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_border_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_elevation = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_image_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_mini = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_normal = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_translation_z_pressed = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_elevation = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_padding = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_max_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_padding_bottom = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_separator_vertical_padding = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_action_inline_max_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_background_corner_radius = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_elevation = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_max_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_min_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_horizontal = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_text_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_max_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_scrollable_min_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size_2line = global::WakeOnBandXamarin.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_dark = global::WakeOnBandXamarin.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_light = global::WakeOnBandXamarin.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_colored = global::WakeOnBandXamarin.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_dark = global::WakeOnBandXamarin.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_light = global::WakeOnBandXamarin.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::WakeOnBandXamarin.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::WakeOnBandXamarin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::WakeOnBandXamarin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_height = global::WakeOnBandXamarin.Droid.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_width = global::WakeOnBandXamarin.Droid.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_subtext_size = global::WakeOnBandXamarin.Droid.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_action_bar_item_background_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_borderless_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_colored_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_default_mtrl_shape = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_internal_bg = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_control_background_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_dialog_material_background_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_dialog_material_background_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_edit_text_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_16dp = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_36dp = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_16dp = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_36dp = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_focused_holo = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_longpressed_holo = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_dark = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_light = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_popup_background_mtrl_mult = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_full_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_indicator_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_small_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_thumb_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_track_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_textfield_background_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_thumb_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_cursor_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_material = global::WakeOnBandXamarin.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_fab_background = global::WakeOnBandXamarin.Droid.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_snackbar_background = global::WakeOnBandXamarin.Droid.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_template_icon_bg = global::WakeOnBandXamarin.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.MvvmCrossTagId = global::WakeOnBandXamarin.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.MvxBindingTagUnique = global::WakeOnBandXamarin.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action0 = global::WakeOnBandXamarin.Droid.Resource.Id.action0;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_activity_content = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_container = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_root = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_root;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_spinner = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_subtitle = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_title = global::WakeOnBandXamarin.Droid.Resource.Id.action_bar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_context_bar = global::WakeOnBandXamarin.Droid.Resource.Id.action_context_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_divider = global::WakeOnBandXamarin.Droid.Resource.Id.action_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_divider = global::WakeOnBandXamarin.Droid.Resource.Id.action_menu_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_presenter = global::WakeOnBandXamarin.Droid.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar = global::WakeOnBandXamarin.Droid.Resource.Id.action_mode_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar_stub = global::WakeOnBandXamarin.Droid.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_close_button = global::WakeOnBandXamarin.Droid.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.activity_chooser_view_content = global::WakeOnBandXamarin.Droid.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.alertTitle = global::WakeOnBandXamarin.Droid.Resource.Id.alertTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.always = global::WakeOnBandXamarin.Droid.Resource.Id.always;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.beginning = global::WakeOnBandXamarin.Droid.Resource.Id.beginning;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.bottom = global::WakeOnBandXamarin.Droid.Resource.Id.bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.buttonPanel = global::WakeOnBandXamarin.Droid.Resource.Id.buttonPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.cancel_action = global::WakeOnBandXamarin.Droid.Resource.Id.cancel_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center = global::WakeOnBandXamarin.Droid.Resource.Id.center;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center_horizontal = global::WakeOnBandXamarin.Droid.Resource.Id.center_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center_vertical = global::WakeOnBandXamarin.Droid.Resource.Id.center_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.checkbox = global::WakeOnBandXamarin.Droid.Resource.Id.checkbox;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.chronometer = global::WakeOnBandXamarin.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_horizontal = global::WakeOnBandXamarin.Droid.Resource.Id.clip_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_vertical = global::WakeOnBandXamarin.Droid.Resource.Id.clip_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.collapseActionView = global::WakeOnBandXamarin.Droid.Resource.Id.collapseActionView;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.contentPanel = global::WakeOnBandXamarin.Droid.Resource.Id.contentPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.custom = global::WakeOnBandXamarin.Droid.Resource.Id.custom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.customPanel = global::WakeOnBandXamarin.Droid.Resource.Id.customPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.decor_content_parent = global::WakeOnBandXamarin.Droid.Resource.Id.decor_content_parent;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.default_activity_button = global::WakeOnBandXamarin.Droid.Resource.Id.default_activity_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_bottom_sheet = global::WakeOnBandXamarin.Droid.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area = global::WakeOnBandXamarin.Droid.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area_stub = global::WakeOnBandXamarin.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_text = global::WakeOnBandXamarin.Droid.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_navigation_view = global::WakeOnBandXamarin.Droid.Resource.Id.design_navigation_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.disableHome = global::WakeOnBandXamarin.Droid.Resource.Id.disableHome;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.edit_query = global::WakeOnBandXamarin.Droid.Resource.Id.edit_query;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.end = global::WakeOnBandXamarin.Droid.Resource.Id.end;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.end_padder = global::WakeOnBandXamarin.Droid.Resource.Id.end_padder;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlways = global::WakeOnBandXamarin.Droid.Resource.Id.enterAlways;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlwaysCollapsed = global::WakeOnBandXamarin.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.exitUntilCollapsed = global::WakeOnBandXamarin.Droid.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.expand_activities_button = global::WakeOnBandXamarin.Droid.Resource.Id.expand_activities_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.expanded_menu = global::WakeOnBandXamarin.Droid.Resource.Id.expanded_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill = global::WakeOnBandXamarin.Droid.Resource.Id.fill;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_horizontal = global::WakeOnBandXamarin.Droid.Resource.Id.fill_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_vertical = global::WakeOnBandXamarin.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.@fixed = global::WakeOnBandXamarin.Droid.Resource.Id.@fixed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.home = global::WakeOnBandXamarin.Droid.Resource.Id.home;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.homeAsUp = global::WakeOnBandXamarin.Droid.Resource.Id.homeAsUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.icon = global::WakeOnBandXamarin.Droid.Resource.Id.icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.ifRoom = global::WakeOnBandXamarin.Droid.Resource.Id.ifRoom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.image = global::WakeOnBandXamarin.Droid.Resource.Id.image;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.info = global::WakeOnBandXamarin.Droid.Resource.Id.info;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.item_touch_helper_previous_elevation = global::WakeOnBandXamarin.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.left = global::WakeOnBandXamarin.Droid.Resource.Id.left;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.line1 = global::WakeOnBandXamarin.Droid.Resource.Id.line1;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.line3 = global::WakeOnBandXamarin.Droid.Resource.Id.line3;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.listMode = global::WakeOnBandXamarin.Droid.Resource.Id.listMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.list_item = global::WakeOnBandXamarin.Droid.Resource.Id.list_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.media_actions = global::WakeOnBandXamarin.Droid.Resource.Id.media_actions;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.middle = global::WakeOnBandXamarin.Droid.Resource.Id.middle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.mini = global::WakeOnBandXamarin.Droid.Resource.Id.mini;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.multiply = global::WakeOnBandXamarin.Droid.Resource.Id.multiply;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.navigation_header_container = global::WakeOnBandXamarin.Droid.Resource.Id.navigation_header_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.never = global::WakeOnBandXamarin.Droid.Resource.Id.never;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.none = global::WakeOnBandXamarin.Droid.Resource.Id.none;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.normal = global::WakeOnBandXamarin.Droid.Resource.Id.normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.parallax = global::WakeOnBandXamarin.Droid.Resource.Id.parallax;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.parentPanel = global::WakeOnBandXamarin.Droid.Resource.Id.parentPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.pin = global::WakeOnBandXamarin.Droid.Resource.Id.pin;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_circular = global::WakeOnBandXamarin.Droid.Resource.Id.progress_circular;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_horizontal = global::WakeOnBandXamarin.Droid.Resource.Id.progress_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.radio = global::WakeOnBandXamarin.Droid.Resource.Id.radio;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.right = global::WakeOnBandXamarin.Droid.Resource.Id.right;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.screen = global::WakeOnBandXamarin.Droid.Resource.Id.screen;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scroll = global::WakeOnBandXamarin.Droid.Resource.Id.scroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorDown = global::WakeOnBandXamarin.Droid.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorUp = global::WakeOnBandXamarin.Droid.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollView = global::WakeOnBandXamarin.Droid.Resource.Id.scrollView;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollable = global::WakeOnBandXamarin.Droid.Resource.Id.scrollable;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_badge = global::WakeOnBandXamarin.Droid.Resource.Id.search_badge;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_bar = global::WakeOnBandXamarin.Droid.Resource.Id.search_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_button = global::WakeOnBandXamarin.Droid.Resource.Id.search_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_close_btn = global::WakeOnBandXamarin.Droid.Resource.Id.search_close_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_edit_frame = global::WakeOnBandXamarin.Droid.Resource.Id.search_edit_frame;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_go_btn = global::WakeOnBandXamarin.Droid.Resource.Id.search_go_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_mag_icon = global::WakeOnBandXamarin.Droid.Resource.Id.search_mag_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_plate = global::WakeOnBandXamarin.Droid.Resource.Id.search_plate;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_src_text = global::WakeOnBandXamarin.Droid.Resource.Id.search_src_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_voice_btn = global::WakeOnBandXamarin.Droid.Resource.Id.search_voice_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.select_dialog_listview = global::WakeOnBandXamarin.Droid.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.shortcut = global::WakeOnBandXamarin.Droid.Resource.Id.shortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showCustom = global::WakeOnBandXamarin.Droid.Resource.Id.showCustom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showHome = global::WakeOnBandXamarin.Droid.Resource.Id.showHome;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showTitle = global::WakeOnBandXamarin.Droid.Resource.Id.showTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_action = global::WakeOnBandXamarin.Droid.Resource.Id.snackbar_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_text = global::WakeOnBandXamarin.Droid.Resource.Id.snackbar_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snap = global::WakeOnBandXamarin.Droid.Resource.Id.snap;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.spacer = global::WakeOnBandXamarin.Droid.Resource.Id.spacer;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.split_action_bar = global::WakeOnBandXamarin.Droid.Resource.Id.split_action_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_atop = global::WakeOnBandXamarin.Droid.Resource.Id.src_atop;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_in = global::WakeOnBandXamarin.Droid.Resource.Id.src_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_over = global::WakeOnBandXamarin.Droid.Resource.Id.src_over;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.start = global::WakeOnBandXamarin.Droid.Resource.Id.start;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.status_bar_latest_event_content = global::WakeOnBandXamarin.Droid.Resource.Id.status_bar_latest_event_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.submit_area = global::WakeOnBandXamarin.Droid.Resource.Id.submit_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.tabMode = global::WakeOnBandXamarin.Droid.Resource.Id.tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.text = global::WakeOnBandXamarin.Droid.Resource.Id.text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.text2 = global::WakeOnBandXamarin.Droid.Resource.Id.text2;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoButtons = global::WakeOnBandXamarin.Droid.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.time = global::WakeOnBandXamarin.Droid.Resource.Id.time;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.title = global::WakeOnBandXamarin.Droid.Resource.Id.title;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.title_template = global::WakeOnBandXamarin.Droid.Resource.Id.title_template;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.top = global::WakeOnBandXamarin.Droid.Resource.Id.top;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.topPanel = global::WakeOnBandXamarin.Droid.Resource.Id.topPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.touch_outside = global::WakeOnBandXamarin.Droid.Resource.Id.touch_outside;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.up = global::WakeOnBandXamarin.Droid.Resource.Id.up;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.useLogo = global::WakeOnBandXamarin.Droid.Resource.Id.useLogo;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.view_offset_helper = global::WakeOnBandXamarin.Droid.Resource.Id.view_offset_helper;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.withText = global::WakeOnBandXamarin.Droid.Resource.Id.withText;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.wrap_content = global::WakeOnBandXamarin.Droid.Resource.Id.wrap_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityDefaultDur = global::WakeOnBandXamarin.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityShortDur = global::WakeOnBandXamarin.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_max_action_buttons = global::WakeOnBandXamarin.Droid.Resource.Integer.abc_max_action_buttons;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.bottom_sheet_slide_duration = global::WakeOnBandXamarin.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.cancel_button_image_alpha = global::WakeOnBandXamarin.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.design_snackbar_text_max_lines = global::WakeOnBandXamarin.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.status_bar_notification_info_maxnum = global::WakeOnBandXamarin.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_title_item = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_up_container = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_view_list_nav_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_item_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_bar = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_close_item_material = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view_list_item = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_button_bar_material = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_material = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_dialog_title_material = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_expanded_menu_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_checkbox = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_icon = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_radio = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_popup_menu_item_layout = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_content_include = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_toolbar = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_view = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_search_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_select_dialog_material = global::WakeOnBandXamarin.Droid.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_sheet_dialog = global::WakeOnBandXamarin.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar = global::WakeOnBandXamarin.Droid.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar_include = global::WakeOnBandXamarin.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_icon = global::WakeOnBandXamarin.Droid.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_text = global::WakeOnBandXamarin.Droid.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_menu_item_action_area = global::WakeOnBandXamarin.Droid.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_header = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_separator = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_subheader = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu_item = global::WakeOnBandXamarin.Droid.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_action = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_media_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_cancel_action = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_media_cancel_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_big_media;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media_narrow = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_lines = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_media = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_media;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_chronometer = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_time = global::WakeOnBandXamarin.Droid.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_item_material = global::WakeOnBandXamarin.Droid.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_multichoice_material = global::WakeOnBandXamarin.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_singlechoice_material = global::WakeOnBandXamarin.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.support_simple_spinner_dropdown_item = global::WakeOnBandXamarin.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_description = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_description_format = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_subtitle_description_format = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_up_description = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_menu_overflow_description = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_mode_done = global::WakeOnBandXamarin.Droid.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activity_chooser_view_see_all = global::WakeOnBandXamarin.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activitychooserview_choose_application = global::WakeOnBandXamarin.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_off = global::WakeOnBandXamarin.Droid.Resource.String.abc_capital_off;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_on = global::WakeOnBandXamarin.Droid.Resource.String.abc_capital_on;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_search_hint = global::WakeOnBandXamarin.Droid.Resource.String.abc_search_hint;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_clear = global::WakeOnBandXamarin.Droid.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_query = global::WakeOnBandXamarin.Droid.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_search = global::WakeOnBandXamarin.Droid.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_submit = global::WakeOnBandXamarin.Droid.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_voice = global::WakeOnBandXamarin.Droid.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with = global::WakeOnBandXamarin.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with_application = global::WakeOnBandXamarin.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_toolbar_collapse_description = global::WakeOnBandXamarin.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.appbar_scrolling_view_behavior = global::WakeOnBandXamarin.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.bottom_sheet_behavior = global::WakeOnBandXamarin.Droid.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.character_counter_pattern = global::WakeOnBandXamarin.Droid.Resource.String.character_counter_pattern;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::WakeOnBandXamarin.Droid.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_translation_autohide_behavior = global::WakeOnBandXamarin.Droid.Resource.String.fab_scroll_translation_autohide_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.status_bar_notification_info_overflow = global::WakeOnBandXamarin.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_DropDownUp = global::WakeOnBandXamarin.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_Design_BottomSheetDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WakeOnBandXamarin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WakeOnBandXamarin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WakeOnBandXamarin.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_EditText = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_Design_TabLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WakeOnBandXamarin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WakeOnBandXamarin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body1 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body2 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Button = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Caption = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display1 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display2 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display3 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display4 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Headline = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Error = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Hint = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Snackbar_Message = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Tab = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WakeOnBandXamarin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_CompactMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_NoActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_BottomSheetDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_NoActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_NoActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat = global::WakeOnBandXamarin.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WakeOnBandXamarin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Light = global::WakeOnBandXamarin.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionMode = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Colored = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_EditText = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ImageButton = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_SearchView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_Menu = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupWindow = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SeekBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_AppBarLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_BottomSheet_Modal = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CollapsingToolbar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CoordinatorLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_FloatingActionButton = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_NavigationView = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_Snackbar = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TabLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TextInputLayout = global::WakeOnBandXamarin.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_background = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundSplit = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundStacked = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetLeft = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetRight = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_customNavigationLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_displayOptions = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_divider = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_elevation = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_height = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_hideOnContentScroll = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_icon = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_itemPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_logo = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_navigationMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_popupTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_title = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_titleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuView = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_background = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_backgroundSplit = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_closeItemLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_height = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_subtitleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_titleTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WakeOnBandXamarin.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_android_layout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listItemLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_background = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_elevation = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_expanded = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_android_src = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_srcCompat = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_textAllCaps = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSize = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorAccent = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimary = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_controlBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerVertical = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_switchStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBar = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WakeOnBandXamarin.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params = global::WakeOnBandXamarin.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::WakeOnBandXamarin.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout_allowStacking = global::WakeOnBandXamarin.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_title = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::WakeOnBandXamarin.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton = global::WakeOnBandXamarin.Droid.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_android_button = global::WakeOnBandXamarin.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTint = global::WakeOnBandXamarin.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTintMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_keylines = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::WakeOnBandXamarin.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.DesignTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_textColorError = global::WakeOnBandXamarin.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_barLength = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_color = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_spinBars = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_thickness = global::WakeOnBandXamarin.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTint = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_borderWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_elevation = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_fabSize = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_rippleColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_useCompatPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::WakeOnBandXamarin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_divider = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_showDividers = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WakeOnBandXamarin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow = global::WakeOnBandXamarin.Droid.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WakeOnBandXamarin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WakeOnBandXamarin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_enabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_id = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_menuCategory = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_orderInCategory = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_visible = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionProviderClass = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionViewClass = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checkable = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checked = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_enabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_icon = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_id = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_menuCategory = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_numericShortcut = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_onClick = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_orderInCategory = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_title = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_titleCondensed = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_visible = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_showAsAction = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_headerBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_horizontalDivider = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_verticalDivider = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_preserveIconSpacing = global::WakeOnBandXamarin.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxBind = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxLang = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl_MvxTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxImageView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxImageView_MvxSource = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxItemTemplate = global::WakeOnBandXamarin.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_background = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_maxWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_elevation = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_headerLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemIconTint = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_menu = global::WakeOnBandXamarin.Droid.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow = global::WakeOnBandXamarin.Droid.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_android_popupBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_overlapAnchor = global::WakeOnBandXamarin.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState = global::WakeOnBandXamarin.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WakeOnBandXamarin.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_android_orientation = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_layoutManager = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_reverseLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_spanCount = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_stackFromEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::WakeOnBandXamarin.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Params = global::WakeOnBandXamarin.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::WakeOnBandXamarin.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_focusable = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_imeOptions = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_inputType = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_maxWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_closeIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_commitIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_defaultQueryHint = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_goIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_iconifiedByDefault = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_layout = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryHint = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchHintIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_submitBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_suggestionRowLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_voiceIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_android_maxWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_elevation = global::WakeOnBandXamarin.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_dropDownWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_entries = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_popupBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_prompt = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_popupTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOff = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOn = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_thumb = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_showText = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_splitTrack = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchMinWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_track = global::WakeOnBandXamarin.Droid.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_icon = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_layout = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_text = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabBackground = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabContentStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabGravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMaxWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMinWidth = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPadding = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingBottom = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingTop = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabSelectedTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDx = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDy = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowRadius = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textSize = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textStyle = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_typeface = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_textAllCaps = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_hint = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_textColorHint = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterEnabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterMaxLength = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorEnabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintEnabled = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_gravity = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_minHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseContentDescription = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetLeft = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetRight = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logo = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logoDescription = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_maxButtonHeight = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationContentDescription = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationIcon = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_popupTheme = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitle = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_title = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginBottom = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginTop = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMargins = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextAppearance = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextColor = global::WakeOnBandXamarin.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View = global::WakeOnBandXamarin.Droid.Resource.Styleable.View;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_focusable = global::WakeOnBandXamarin.Droid.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_theme = global::WakeOnBandXamarin.Droid.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingEnd = global::WakeOnBandXamarin.Droid.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingStart = global::WakeOnBandXamarin.Droid.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_theme = global::WakeOnBandXamarin.Droid.Resource.Styleable.View_theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_android_background = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_id = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_layout = global::WakeOnBandXamarin.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::PCLStorage.Resource.String.ApplicationName = global::WakeOnBandXamarin.Droid.Resource.String.ApplicationName;
 			global::PCLStorage.Resource.String.Hello = global::WakeOnBandXamarin.Droid.Resource.String.Hello;
+		}
+		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int abc_fade_in = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int abc_fade_out = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int abc_grow_fade_in_from_bottom = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int abc_popup_enter = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int abc_popup_exit = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int abc_shrink_fade_out_from_bottom = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int abc_slide_in_bottom = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int abc_slide_in_top = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int abc_slide_out_bottom = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int abc_slide_out_top = 2130968585;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
 		}
 		
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010000
-			public const int MvxBind = 2130771968;
+			// aapt resource value: 0x7f0100d1
+			public const int MvxBind = 2130772177;
 			
-			// aapt resource value: 0x7f010004
-			public const int MvxDropDownItemTemplate = 2130771972;
+			// aapt resource value: 0x7f0100d5
+			public const int MvxDropDownItemTemplate = 2130772181;
+			
+			// aapt resource value: 0x7f0100d6
+			public const int MvxGroupItemTemplate = 2130772182;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int MvxItemTemplate = 2130772180;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int MvxLang = 2130772178;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int MvxSource = 2130772183;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int MvxTemplate = 2130772179;
+			
+			// aapt resource value: 0x7f01003b
+			public const int actionBarDivider = 2130772027;
+			
+			// aapt resource value: 0x7f01003c
+			public const int actionBarItemBackground = 2130772028;
+			
+			// aapt resource value: 0x7f010035
+			public const int actionBarPopupTheme = 2130772021;
+			
+			// aapt resource value: 0x7f01003a
+			public const int actionBarSize = 2130772026;
+			
+			// aapt resource value: 0x7f010037
+			public const int actionBarSplitStyle = 2130772023;
+			
+			// aapt resource value: 0x7f010036
+			public const int actionBarStyle = 2130772022;
+			
+			// aapt resource value: 0x7f010031
+			public const int actionBarTabBarStyle = 2130772017;
+			
+			// aapt resource value: 0x7f010030
+			public const int actionBarTabStyle = 2130772016;
+			
+			// aapt resource value: 0x7f010032
+			public const int actionBarTabTextStyle = 2130772018;
+			
+			// aapt resource value: 0x7f010038
+			public const int actionBarTheme = 2130772024;
+			
+			// aapt resource value: 0x7f010039
+			public const int actionBarWidgetTheme = 2130772025;
+			
+			// aapt resource value: 0x7f010055
+			public const int actionButtonStyle = 2130772053;
+			
+			// aapt resource value: 0x7f010051
+			public const int actionDropDownStyle = 2130772049;
+			
+			// aapt resource value: 0x7f0100a3
+			public const int actionLayout = 2130772131;
+			
+			// aapt resource value: 0x7f01003d
+			public const int actionMenuTextAppearance = 2130772029;
+			
+			// aapt resource value: 0x7f01003e
+			public const int actionMenuTextColor = 2130772030;
+			
+			// aapt resource value: 0x7f010041
+			public const int actionModeBackground = 2130772033;
+			
+			// aapt resource value: 0x7f010040
+			public const int actionModeCloseButtonStyle = 2130772032;
+			
+			// aapt resource value: 0x7f010043
+			public const int actionModeCloseDrawable = 2130772035;
+			
+			// aapt resource value: 0x7f010045
+			public const int actionModeCopyDrawable = 2130772037;
+			
+			// aapt resource value: 0x7f010044
+			public const int actionModeCutDrawable = 2130772036;
+			
+			// aapt resource value: 0x7f010049
+			public const int actionModeFindDrawable = 2130772041;
+			
+			// aapt resource value: 0x7f010046
+			public const int actionModePasteDrawable = 2130772038;
+			
+			// aapt resource value: 0x7f01004b
+			public const int actionModePopupWindowStyle = 2130772043;
+			
+			// aapt resource value: 0x7f010047
+			public const int actionModeSelectAllDrawable = 2130772039;
+			
+			// aapt resource value: 0x7f010048
+			public const int actionModeShareDrawable = 2130772040;
+			
+			// aapt resource value: 0x7f010042
+			public const int actionModeSplitBackground = 2130772034;
+			
+			// aapt resource value: 0x7f01003f
+			public const int actionModeStyle = 2130772031;
+			
+			// aapt resource value: 0x7f01004a
+			public const int actionModeWebSearchDrawable = 2130772042;
+			
+			// aapt resource value: 0x7f010033
+			public const int actionOverflowButtonStyle = 2130772019;
+			
+			// aapt resource value: 0x7f010034
+			public const int actionOverflowMenuStyle = 2130772020;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int actionProviderClass = 2130772133;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int actionViewClass = 2130772132;
+			
+			// aapt resource value: 0x7f01005d
+			public const int activityChooserViewStyle = 2130772061;
+			
+			// aapt resource value: 0x7f010080
+			public const int alertDialogButtonGroupStyle = 2130772096;
+			
+			// aapt resource value: 0x7f010081
+			public const int alertDialogCenterButtons = 2130772097;
+			
+			// aapt resource value: 0x7f01007f
+			public const int alertDialogStyle = 2130772095;
+			
+			// aapt resource value: 0x7f010082
+			public const int alertDialogTheme = 2130772098;
+			
+			// aapt resource value: 0x7f010094
+			public const int allowStacking = 2130772116;
+			
+			// aapt resource value: 0x7f01009b
+			public const int arrowHeadLength = 2130772123;
+			
+			// aapt resource value: 0x7f01009c
+			public const int arrowShaftLength = 2130772124;
+			
+			// aapt resource value: 0x7f010087
+			public const int autoCompleteTextViewStyle = 2130772103;
+			
+			// aapt resource value: 0x7f01000c
+			public const int background = 2130771980;
+			
+			// aapt resource value: 0x7f01000e
+			public const int backgroundSplit = 2130771982;
+			
+			// aapt resource value: 0x7f01000d
+			public const int backgroundStacked = 2130771981;
+			
+			// aapt resource value: 0x7f0100cf
+			public const int backgroundTint = 2130772175;
+			
+			// aapt resource value: 0x7f0100d0
+			public const int backgroundTintMode = 2130772176;
+			
+			// aapt resource value: 0x7f01009d
+			public const int barLength = 2130772125;
+			
+			// aapt resource value: 0x7f01005a
+			public const int borderlessButtonStyle = 2130772058;
+			
+			// aapt resource value: 0x7f010057
+			public const int buttonBarButtonStyle = 2130772055;
+			
+			// aapt resource value: 0x7f010085
+			public const int buttonBarNegativeButtonStyle = 2130772101;
+			
+			// aapt resource value: 0x7f010086
+			public const int buttonBarNeutralButtonStyle = 2130772102;
+			
+			// aapt resource value: 0x7f010084
+			public const int buttonBarPositiveButtonStyle = 2130772100;
+			
+			// aapt resource value: 0x7f010056
+			public const int buttonBarStyle = 2130772054;
+			
+			// aapt resource value: 0x7f01001f
+			public const int buttonPanelSideLayout = 2130771999;
+			
+			// aapt resource value: 0x7f010088
+			public const int buttonStyle = 2130772104;
+			
+			// aapt resource value: 0x7f010089
+			public const int buttonStyleSmall = 2130772105;
+			
+			// aapt resource value: 0x7f010095
+			public const int buttonTint = 2130772117;
+			
+			// aapt resource value: 0x7f010096
+			public const int buttonTintMode = 2130772118;
+			
+			// aapt resource value: 0x7f01008a
+			public const int checkboxStyle = 2130772106;
+			
+			// aapt resource value: 0x7f01008b
+			public const int checkedTextViewStyle = 2130772107;
+			
+			// aapt resource value: 0x7f0100ad
+			public const int closeIcon = 2130772141;
+			
+			// aapt resource value: 0x7f01001c
+			public const int closeItemLayout = 2130771996;
+			
+			// aapt resource value: 0x7f0100c6
+			public const int collapseContentDescription = 2130772166;
+			
+			// aapt resource value: 0x7f0100c5
+			public const int collapseIcon = 2130772165;
+			
+			// aapt resource value: 0x7f010097
+			public const int color = 2130772119;
+			
+			// aapt resource value: 0x7f010078
+			public const int colorAccent = 2130772088;
+			
+			// aapt resource value: 0x7f01007c
+			public const int colorButtonNormal = 2130772092;
+			
+			// aapt resource value: 0x7f01007a
+			public const int colorControlActivated = 2130772090;
+			
+			// aapt resource value: 0x7f01007b
+			public const int colorControlHighlight = 2130772091;
+			
+			// aapt resource value: 0x7f010079
+			public const int colorControlNormal = 2130772089;
+			
+			// aapt resource value: 0x7f010076
+			public const int colorPrimary = 2130772086;
+			
+			// aapt resource value: 0x7f010077
+			public const int colorPrimaryDark = 2130772087;
+			
+			// aapt resource value: 0x7f01007d
+			public const int colorSwitchThumbNormal = 2130772093;
+			
+			// aapt resource value: 0x7f0100b2
+			public const int commitIcon = 2130772146;
+			
+			// aapt resource value: 0x7f010017
+			public const int contentInsetEnd = 2130771991;
+			
+			// aapt resource value: 0x7f010018
+			public const int contentInsetLeft = 2130771992;
+			
+			// aapt resource value: 0x7f010019
+			public const int contentInsetRight = 2130771993;
+			
+			// aapt resource value: 0x7f010016
+			public const int contentInsetStart = 2130771990;
+			
+			// aapt resource value: 0x7f01007e
+			public const int controlBackground = 2130772094;
+			
+			// aapt resource value: 0x7f01000f
+			public const int customNavigationLayout = 2130771983;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int defaultQueryHint = 2130772140;
+			
+			// aapt resource value: 0x7f01004f
+			public const int dialogPreferredPadding = 2130772047;
+			
+			// aapt resource value: 0x7f01004e
+			public const int dialogTheme = 2130772046;
 			
 			// aapt resource value: 0x7f010005
-			public const int MvxGroupItemTemplate = 2130771973;
+			public const int displayOptions = 2130771973;
 			
-			// aapt resource value: 0x7f010003
-			public const int MvxItemTemplate = 2130771971;
+			// aapt resource value: 0x7f01000b
+			public const int divider = 2130771979;
+			
+			// aapt resource value: 0x7f01005c
+			public const int dividerHorizontal = 2130772060;
+			
+			// aapt resource value: 0x7f0100a1
+			public const int dividerPadding = 2130772129;
+			
+			// aapt resource value: 0x7f01005b
+			public const int dividerVertical = 2130772059;
+			
+			// aapt resource value: 0x7f010099
+			public const int drawableSize = 2130772121;
+			
+			// aapt resource value: 0x7f010000
+			public const int drawerArrowStyle = 2130771968;
+			
+			// aapt resource value: 0x7f01006e
+			public const int dropDownListViewStyle = 2130772078;
+			
+			// aapt resource value: 0x7f010052
+			public const int dropdownListPreferredItemHeight = 2130772050;
+			
+			// aapt resource value: 0x7f010063
+			public const int editTextBackground = 2130772067;
+			
+			// aapt resource value: 0x7f010062
+			public const int editTextColor = 2130772066;
+			
+			// aapt resource value: 0x7f01008c
+			public const int editTextStyle = 2130772108;
+			
+			// aapt resource value: 0x7f01001a
+			public const int elevation = 2130771994;
+			
+			// aapt resource value: 0x7f01001e
+			public const int expandActivityOverflowButtonDrawable = 2130771998;
+			
+			// aapt resource value: 0x7f01009a
+			public const int gapBetweenBars = 2130772122;
+			
+			// aapt resource value: 0x7f0100ae
+			public const int goIcon = 2130772142;
 			
 			// aapt resource value: 0x7f010001
-			public const int MvxLang = 2130771969;
+			public const int height = 2130771969;
 			
-			// aapt resource value: 0x7f010006
-			public const int MvxSource = 2130771974;
+			// aapt resource value: 0x7f010015
+			public const int hideOnContentScroll = 2130771989;
+			
+			// aapt resource value: 0x7f010054
+			public const int homeAsUpIndicator = 2130772052;
+			
+			// aapt resource value: 0x7f010010
+			public const int homeLayout = 2130771984;
+			
+			// aapt resource value: 0x7f010009
+			public const int icon = 2130771977;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int iconifiedByDefault = 2130772138;
+			
+			// aapt resource value: 0x7f010064
+			public const int imageButtonStyle = 2130772068;
+			
+			// aapt resource value: 0x7f010012
+			public const int indeterminateProgressStyle = 2130771986;
+			
+			// aapt resource value: 0x7f01001d
+			public const int initialActivityCount = 2130771997;
 			
 			// aapt resource value: 0x7f010002
-			public const int MvxTemplate = 2130771970;
+			public const int isLightTheme = 2130771970;
+			
+			// aapt resource value: 0x7f010014
+			public const int itemPadding = 2130771988;
+			
+			// aapt resource value: 0x7f0100a9
+			public const int layout = 2130772137;
+			
+			// aapt resource value: 0x7f010075
+			public const int listChoiceBackgroundIndicator = 2130772085;
+			
+			// aapt resource value: 0x7f010050
+			public const int listDividerAlertDialog = 2130772048;
+			
+			// aapt resource value: 0x7f010023
+			public const int listItemLayout = 2130772003;
+			
+			// aapt resource value: 0x7f010020
+			public const int listLayout = 2130772000;
+			
+			// aapt resource value: 0x7f01006f
+			public const int listPopupWindowStyle = 2130772079;
+			
+			// aapt resource value: 0x7f010069
+			public const int listPreferredItemHeight = 2130772073;
+			
+			// aapt resource value: 0x7f01006b
+			public const int listPreferredItemHeightLarge = 2130772075;
+			
+			// aapt resource value: 0x7f01006a
+			public const int listPreferredItemHeightSmall = 2130772074;
+			
+			// aapt resource value: 0x7f01006c
+			public const int listPreferredItemPaddingLeft = 2130772076;
+			
+			// aapt resource value: 0x7f01006d
+			public const int listPreferredItemPaddingRight = 2130772077;
+			
+			// aapt resource value: 0x7f01000a
+			public const int logo = 2130771978;
+			
+			// aapt resource value: 0x7f0100c9
+			public const int logoDescription = 2130772169;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int maxButtonHeight = 2130772164;
+			
+			// aapt resource value: 0x7f01009f
+			public const int measureWithLargestChild = 2130772127;
+			
+			// aapt resource value: 0x7f010021
+			public const int multiChoiceItemLayout = 2130772001;
+			
+			// aapt resource value: 0x7f0100c8
+			public const int navigationContentDescription = 2130772168;
+			
+			// aapt resource value: 0x7f0100c7
+			public const int navigationIcon = 2130772167;
+			
+			// aapt resource value: 0x7f010004
+			public const int navigationMode = 2130771972;
+			
+			// aapt resource value: 0x7f0100a7
+			public const int overlapAnchor = 2130772135;
+			
+			// aapt resource value: 0x7f0100cd
+			public const int paddingEnd = 2130772173;
+			
+			// aapt resource value: 0x7f0100cc
+			public const int paddingStart = 2130772172;
+			
+			// aapt resource value: 0x7f010072
+			public const int panelBackground = 2130772082;
+			
+			// aapt resource value: 0x7f010074
+			public const int panelMenuListTheme = 2130772084;
+			
+			// aapt resource value: 0x7f010073
+			public const int panelMenuListWidth = 2130772083;
+			
+			// aapt resource value: 0x7f010060
+			public const int popupMenuStyle = 2130772064;
+			
+			// aapt resource value: 0x7f01001b
+			public const int popupTheme = 2130771995;
+			
+			// aapt resource value: 0x7f010061
+			public const int popupWindowStyle = 2130772065;
+			
+			// aapt resource value: 0x7f0100a6
+			public const int preserveIconSpacing = 2130772134;
+			
+			// aapt resource value: 0x7f010013
+			public const int progressBarPadding = 2130771987;
+			
+			// aapt resource value: 0x7f010011
+			public const int progressBarStyle = 2130771985;
+			
+			// aapt resource value: 0x7f0100b4
+			public const int queryBackground = 2130772148;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int queryHint = 2130772139;
+			
+			// aapt resource value: 0x7f01008d
+			public const int radioButtonStyle = 2130772109;
+			
+			// aapt resource value: 0x7f01008e
+			public const int ratingBarStyle = 2130772110;
+			
+			// aapt resource value: 0x7f01008f
+			public const int ratingBarStyleIndicator = 2130772111;
+			
+			// aapt resource value: 0x7f010090
+			public const int ratingBarStyleSmall = 2130772112;
+			
+			// aapt resource value: 0x7f0100b0
+			public const int searchHintIcon = 2130772144;
+			
+			// aapt resource value: 0x7f0100af
+			public const int searchIcon = 2130772143;
+			
+			// aapt resource value: 0x7f010068
+			public const int searchViewStyle = 2130772072;
+			
+			// aapt resource value: 0x7f010091
+			public const int seekBarStyle = 2130772113;
+			
+			// aapt resource value: 0x7f010058
+			public const int selectableItemBackground = 2130772056;
+			
+			// aapt resource value: 0x7f010059
+			public const int selectableItemBackgroundBorderless = 2130772057;
+			
+			// aapt resource value: 0x7f0100a2
+			public const int showAsAction = 2130772130;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int showDividers = 2130772128;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int showText = 2130772156;
+			
+			// aapt resource value: 0x7f010022
+			public const int singleChoiceItemLayout = 2130772002;
+			
+			// aapt resource value: 0x7f010098
+			public const int spinBars = 2130772120;
+			
+			// aapt resource value: 0x7f010053
+			public const int spinnerDropDownItemStyle = 2130772051;
+			
+			// aapt resource value: 0x7f010092
+			public const int spinnerStyle = 2130772114;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int splitTrack = 2130772155;
+			
+			// aapt resource value: 0x7f010024
+			public const int srcCompat = 2130772004;
+			
+			// aapt resource value: 0x7f0100a8
+			public const int state_above_anchor = 2130772136;
+			
+			// aapt resource value: 0x7f0100b5
+			public const int submitBackground = 2130772149;
+			
+			// aapt resource value: 0x7f010006
+			public const int subtitle = 2130771974;
+			
+			// aapt resource value: 0x7f0100be
+			public const int subtitleTextAppearance = 2130772158;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int subtitleTextColor = 2130772171;
+			
+			// aapt resource value: 0x7f010008
+			public const int subtitleTextStyle = 2130771976;
+			
+			// aapt resource value: 0x7f0100b3
+			public const int suggestionRowLayout = 2130772147;
+			
+			// aapt resource value: 0x7f0100b9
+			public const int switchMinWidth = 2130772153;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int switchPadding = 2130772154;
+			
+			// aapt resource value: 0x7f010093
+			public const int switchStyle = 2130772115;
+			
+			// aapt resource value: 0x7f0100b8
+			public const int switchTextAppearance = 2130772152;
+			
+			// aapt resource value: 0x7f010025
+			public const int textAllCaps = 2130772005;
+			
+			// aapt resource value: 0x7f01004c
+			public const int textAppearanceLargePopupMenu = 2130772044;
+			
+			// aapt resource value: 0x7f010070
+			public const int textAppearanceListItem = 2130772080;
+			
+			// aapt resource value: 0x7f010071
+			public const int textAppearanceListItemSmall = 2130772081;
+			
+			// aapt resource value: 0x7f010066
+			public const int textAppearanceSearchResultSubtitle = 2130772070;
+			
+			// aapt resource value: 0x7f010065
+			public const int textAppearanceSearchResultTitle = 2130772069;
+			
+			// aapt resource value: 0x7f01004d
+			public const int textAppearanceSmallPopupMenu = 2130772045;
+			
+			// aapt resource value: 0x7f010083
+			public const int textColorAlertDialogListItem = 2130772099;
+			
+			// aapt resource value: 0x7f010067
+			public const int textColorSearchUrl = 2130772071;
+			
+			// aapt resource value: 0x7f0100ce
+			public const int theme = 2130772174;
+			
+			// aapt resource value: 0x7f01009e
+			public const int thickness = 2130772126;
+			
+			// aapt resource value: 0x7f0100b7
+			public const int thumbTextPadding = 2130772151;
+			
+			// aapt resource value: 0x7f010003
+			public const int title = 2130771971;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int titleMarginBottom = 2130772163;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int titleMarginEnd = 2130772161;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int titleMarginStart = 2130772160;
+			
+			// aapt resource value: 0x7f0100c2
+			public const int titleMarginTop = 2130772162;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int titleMargins = 2130772159;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int titleTextAppearance = 2130772157;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int titleTextColor = 2130772170;
+			
+			// aapt resource value: 0x7f010007
+			public const int titleTextStyle = 2130771975;
+			
+			// aapt resource value: 0x7f01005f
+			public const int toolbarNavigationButtonStyle = 2130772063;
+			
+			// aapt resource value: 0x7f01005e
+			public const int toolbarStyle = 2130772062;
+			
+			// aapt resource value: 0x7f0100b6
+			public const int track = 2130772150;
+			
+			// aapt resource value: 0x7f0100b1
+			public const int voiceIcon = 2130772145;
+			
+			// aapt resource value: 0x7f010026
+			public const int windowActionBar = 2130772006;
+			
+			// aapt resource value: 0x7f010028
+			public const int windowActionBarOverlay = 2130772008;
+			
+			// aapt resource value: 0x7f010029
+			public const int windowActionModeOverlay = 2130772009;
+			
+			// aapt resource value: 0x7f01002d
+			public const int windowFixedHeightMajor = 2130772013;
+			
+			// aapt resource value: 0x7f01002b
+			public const int windowFixedHeightMinor = 2130772011;
+			
+			// aapt resource value: 0x7f01002a
+			public const int windowFixedWidthMajor = 2130772010;
+			
+			// aapt resource value: 0x7f01002c
+			public const int windowFixedWidthMinor = 2130772012;
+			
+			// aapt resource value: 0x7f01002e
+			public const int windowMinWidthMajor = 2130772014;
+			
+			// aapt resource value: 0x7f01002f
+			public const int windowMinWidthMinor = 2130772015;
+			
+			// aapt resource value: 0x7f010027
+			public const int windowNoTitle = 2130772007;
 			
 			static Attribute()
 			{
@@ -85,14 +2336,782 @@ namespace WakeOnBandXamarin.Droid
 			}
 		}
 		
+		public partial class Boolean
+		{
+			
+			// aapt resource value: 0x7f060003
+			public const int abc_action_bar_embed_tabs = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int abc_action_bar_embed_tabs_pre_jb = 2131099649;
+			
+			// aapt resource value: 0x7f060004
+			public const int abc_action_bar_expanded_action_views_exclusive = 2131099652;
+			
+			// aapt resource value: 0x7f060000
+			public const int abc_allow_stacked_button_bar = 2131099648;
+			
+			// aapt resource value: 0x7f060005
+			public const int abc_config_actionMenuItemAllCaps = 2131099653;
+			
+			// aapt resource value: 0x7f060002
+			public const int abc_config_allowActionMenuItemTextWithIcon = 2131099650;
+			
+			// aapt resource value: 0x7f060006
+			public const int abc_config_closeDialogWhenTouchOutside = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131099655;
+			
+			static Boolean()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Boolean()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f0a0041
+			public const int abc_background_cache_hint_selector_material_dark = 2131361857;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int abc_background_cache_hint_selector_material_light = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int abc_color_highlight_material = 2131361859;
+			
+			// aapt resource value: 0x7f0a0000
+			public const int abc_input_method_navigation_guard = 2131361792;
+			
+			// aapt resource value: 0x7f0a0044
+			public const int abc_primary_text_disable_only_material_dark = 2131361860;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int abc_primary_text_disable_only_material_light = 2131361861;
+			
+			// aapt resource value: 0x7f0a0046
+			public const int abc_primary_text_material_dark = 2131361862;
+			
+			// aapt resource value: 0x7f0a0047
+			public const int abc_primary_text_material_light = 2131361863;
+			
+			// aapt resource value: 0x7f0a0048
+			public const int abc_search_url_text = 2131361864;
+			
+			// aapt resource value: 0x7f0a0001
+			public const int abc_search_url_text_normal = 2131361793;
+			
+			// aapt resource value: 0x7f0a0002
+			public const int abc_search_url_text_pressed = 2131361794;
+			
+			// aapt resource value: 0x7f0a0003
+			public const int abc_search_url_text_selected = 2131361795;
+			
+			// aapt resource value: 0x7f0a0049
+			public const int abc_secondary_text_material_dark = 2131361865;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int abc_secondary_text_material_light = 2131361866;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int accent = 2131361852;
+			
+			// aapt resource value: 0x7f0a0004
+			public const int accent_material_dark = 2131361796;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int accent_material_light = 2131361797;
+			
+			// aapt resource value: 0x7f0a0006
+			public const int background_floating_material_dark = 2131361798;
+			
+			// aapt resource value: 0x7f0a0007
+			public const int background_floating_material_light = 2131361799;
+			
+			// aapt resource value: 0x7f0a0008
+			public const int background_material_dark = 2131361800;
+			
+			// aapt resource value: 0x7f0a0009
+			public const int background_material_light = 2131361801;
+			
+			// aapt resource value: 0x7f0a000a
+			public const int bright_foreground_disabled_material_dark = 2131361802;
+			
+			// aapt resource value: 0x7f0a000b
+			public const int bright_foreground_disabled_material_light = 2131361803;
+			
+			// aapt resource value: 0x7f0a000c
+			public const int bright_foreground_inverse_material_dark = 2131361804;
+			
+			// aapt resource value: 0x7f0a000d
+			public const int bright_foreground_inverse_material_light = 2131361805;
+			
+			// aapt resource value: 0x7f0a000e
+			public const int bright_foreground_material_dark = 2131361806;
+			
+			// aapt resource value: 0x7f0a000f
+			public const int bright_foreground_material_light = 2131361807;
+			
+			// aapt resource value: 0x7f0a0010
+			public const int button_material_dark = 2131361808;
+			
+			// aapt resource value: 0x7f0a0011
+			public const int button_material_light = 2131361809;
+			
+			// aapt resource value: 0x7f0a0012
+			public const int dim_foreground_disabled_material_dark = 2131361810;
+			
+			// aapt resource value: 0x7f0a0013
+			public const int dim_foreground_disabled_material_light = 2131361811;
+			
+			// aapt resource value: 0x7f0a0014
+			public const int dim_foreground_material_dark = 2131361812;
+			
+			// aapt resource value: 0x7f0a0015
+			public const int dim_foreground_material_light = 2131361813;
+			
+			// aapt resource value: 0x7f0a0016
+			public const int foreground_material_dark = 2131361814;
+			
+			// aapt resource value: 0x7f0a0017
+			public const int foreground_material_light = 2131361815;
+			
+			// aapt resource value: 0x7f0a0018
+			public const int highlighted_text_material_dark = 2131361816;
+			
+			// aapt resource value: 0x7f0a0019
+			public const int highlighted_text_material_light = 2131361817;
+			
+			// aapt resource value: 0x7f0a001a
+			public const int hint_foreground_material_dark = 2131361818;
+			
+			// aapt resource value: 0x7f0a001b
+			public const int hint_foreground_material_light = 2131361819;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int material_blue_500 = 2131361854;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int material_blue_700 = 2131361855;
+			
+			// aapt resource value: 0x7f0a001c
+			public const int material_blue_grey_800 = 2131361820;
+			
+			// aapt resource value: 0x7f0a001d
+			public const int material_blue_grey_900 = 2131361821;
+			
+			// aapt resource value: 0x7f0a001e
+			public const int material_blue_grey_950 = 2131361822;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int material_deep_teal_200 = 2131361823;
+			
+			// aapt resource value: 0x7f0a0020
+			public const int material_deep_teal_500 = 2131361824;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int material_green_A200 = 2131361856;
+			
+			// aapt resource value: 0x7f0a0021
+			public const int material_grey_100 = 2131361825;
+			
+			// aapt resource value: 0x7f0a0022
+			public const int material_grey_300 = 2131361826;
+			
+			// aapt resource value: 0x7f0a0023
+			public const int material_grey_50 = 2131361827;
+			
+			// aapt resource value: 0x7f0a0024
+			public const int material_grey_600 = 2131361828;
+			
+			// aapt resource value: 0x7f0a0025
+			public const int material_grey_800 = 2131361829;
+			
+			// aapt resource value: 0x7f0a0026
+			public const int material_grey_850 = 2131361830;
+			
+			// aapt resource value: 0x7f0a0027
+			public const int material_grey_900 = 2131361831;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int primary = 2131361850;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int primary_dark = 2131361851;
+			
+			// aapt resource value: 0x7f0a0028
+			public const int primary_dark_material_dark = 2131361832;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int primary_dark_material_light = 2131361833;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int primary_material_dark = 2131361834;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int primary_material_light = 2131361835;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int primary_text_default_material_dark = 2131361836;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int primary_text_default_material_light = 2131361837;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int primary_text_disabled_material_dark = 2131361838;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int primary_text_disabled_material_light = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int ripple_material_dark = 2131361840;
+			
+			// aapt resource value: 0x7f0a0031
+			public const int ripple_material_light = 2131361841;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int secondary_text_default_material_dark = 2131361842;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int secondary_text_default_material_light = 2131361843;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int secondary_text_disabled_material_dark = 2131361844;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int secondary_text_disabled_material_light = 2131361845;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int switch_thumb_disabled_material_dark = 2131361846;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int switch_thumb_disabled_material_light = 2131361847;
+			
+			// aapt resource value: 0x7f0a004b
+			public const int switch_thumb_material_dark = 2131361867;
+			
+			// aapt resource value: 0x7f0a004c
+			public const int switch_thumb_material_light = 2131361868;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int switch_thumb_normal_material_dark = 2131361848;
+			
+			// aapt resource value: 0x7f0a0039
+			public const int switch_thumb_normal_material_light = 2131361849;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int white = 2131361853;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f07000d
+			public const int abc_action_bar_content_inset_material = 2131165197;
+			
+			// aapt resource value: 0x7f070001
+			public const int abc_action_bar_default_height_material = 2131165185;
+			
+			// aapt resource value: 0x7f07000e
+			public const int abc_action_bar_default_padding_end_material = 2131165198;
+			
+			// aapt resource value: 0x7f07000f
+			public const int abc_action_bar_default_padding_start_material = 2131165199;
+			
+			// aapt resource value: 0x7f070011
+			public const int abc_action_bar_icon_vertical_padding_material = 2131165201;
+			
+			// aapt resource value: 0x7f070012
+			public const int abc_action_bar_overflow_padding_end_material = 2131165202;
+			
+			// aapt resource value: 0x7f070013
+			public const int abc_action_bar_overflow_padding_start_material = 2131165203;
+			
+			// aapt resource value: 0x7f070002
+			public const int abc_action_bar_progress_bar_size = 2131165186;
+			
+			// aapt resource value: 0x7f070014
+			public const int abc_action_bar_stacked_max_height = 2131165204;
+			
+			// aapt resource value: 0x7f070015
+			public const int abc_action_bar_stacked_tab_max_width = 2131165205;
+			
+			// aapt resource value: 0x7f070016
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131165206;
+			
+			// aapt resource value: 0x7f070017
+			public const int abc_action_bar_subtitle_top_margin_material = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public const int abc_action_button_min_height_material = 2131165208;
+			
+			// aapt resource value: 0x7f070019
+			public const int abc_action_button_min_width_material = 2131165209;
+			
+			// aapt resource value: 0x7f07001a
+			public const int abc_action_button_min_width_overflow_material = 2131165210;
+			
+			// aapt resource value: 0x7f070000
+			public const int abc_alert_dialog_button_bar_height = 2131165184;
+			
+			// aapt resource value: 0x7f07001b
+			public const int abc_button_inset_horizontal_material = 2131165211;
+			
+			// aapt resource value: 0x7f07001c
+			public const int abc_button_inset_vertical_material = 2131165212;
+			
+			// aapt resource value: 0x7f07001d
+			public const int abc_button_padding_horizontal_material = 2131165213;
+			
+			// aapt resource value: 0x7f07001e
+			public const int abc_button_padding_vertical_material = 2131165214;
+			
+			// aapt resource value: 0x7f070005
+			public const int abc_config_prefDialogWidth = 2131165189;
+			
+			// aapt resource value: 0x7f07001f
+			public const int abc_control_corner_material = 2131165215;
+			
+			// aapt resource value: 0x7f070020
+			public const int abc_control_inset_material = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int abc_control_padding_material = 2131165217;
+			
+			// aapt resource value: 0x7f070006
+			public const int abc_dialog_fixed_height_major = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int abc_dialog_fixed_height_minor = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int abc_dialog_fixed_width_major = 2131165192;
+			
+			// aapt resource value: 0x7f070009
+			public const int abc_dialog_fixed_width_minor = 2131165193;
+			
+			// aapt resource value: 0x7f070022
+			public const int abc_dialog_list_padding_vertical_material = 2131165218;
+			
+			// aapt resource value: 0x7f07000a
+			public const int abc_dialog_min_width_major = 2131165194;
+			
+			// aapt resource value: 0x7f07000b
+			public const int abc_dialog_min_width_minor = 2131165195;
+			
+			// aapt resource value: 0x7f070023
+			public const int abc_dialog_padding_material = 2131165219;
+			
+			// aapt resource value: 0x7f070024
+			public const int abc_dialog_padding_top_material = 2131165220;
+			
+			// aapt resource value: 0x7f070025
+			public const int abc_disabled_alpha_material_dark = 2131165221;
+			
+			// aapt resource value: 0x7f070026
+			public const int abc_disabled_alpha_material_light = 2131165222;
+			
+			// aapt resource value: 0x7f070027
+			public const int abc_dropdownitem_icon_width = 2131165223;
+			
+			// aapt resource value: 0x7f070028
+			public const int abc_dropdownitem_text_padding_left = 2131165224;
+			
+			// aapt resource value: 0x7f070029
+			public const int abc_dropdownitem_text_padding_right = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int abc_edit_text_inset_bottom_material = 2131165226;
+			
+			// aapt resource value: 0x7f07002b
+			public const int abc_edit_text_inset_horizontal_material = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int abc_edit_text_inset_top_material = 2131165228;
+			
+			// aapt resource value: 0x7f07002d
+			public const int abc_floating_window_z = 2131165229;
+			
+			// aapt resource value: 0x7f07002e
+			public const int abc_list_item_padding_horizontal_material = 2131165230;
+			
+			// aapt resource value: 0x7f07002f
+			public const int abc_panel_menu_list_width = 2131165231;
+			
+			// aapt resource value: 0x7f070030
+			public const int abc_search_view_preferred_width = 2131165232;
+			
+			// aapt resource value: 0x7f07000c
+			public const int abc_search_view_text_min_width = 2131165196;
+			
+			// aapt resource value: 0x7f070031
+			public const int abc_seekbar_track_background_height_material = 2131165233;
+			
+			// aapt resource value: 0x7f070032
+			public const int abc_seekbar_track_progress_height_material = 2131165234;
+			
+			// aapt resource value: 0x7f070033
+			public const int abc_select_dialog_padding_start_material = 2131165235;
+			
+			// aapt resource value: 0x7f070010
+			public const int abc_switch_padding = 2131165200;
+			
+			// aapt resource value: 0x7f070034
+			public const int abc_text_size_body_1_material = 2131165236;
+			
+			// aapt resource value: 0x7f070035
+			public const int abc_text_size_body_2_material = 2131165237;
+			
+			// aapt resource value: 0x7f070036
+			public const int abc_text_size_button_material = 2131165238;
+			
+			// aapt resource value: 0x7f070037
+			public const int abc_text_size_caption_material = 2131165239;
+			
+			// aapt resource value: 0x7f070038
+			public const int abc_text_size_display_1_material = 2131165240;
+			
+			// aapt resource value: 0x7f070039
+			public const int abc_text_size_display_2_material = 2131165241;
+			
+			// aapt resource value: 0x7f07003a
+			public const int abc_text_size_display_3_material = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int abc_text_size_display_4_material = 2131165243;
+			
+			// aapt resource value: 0x7f07003c
+			public const int abc_text_size_headline_material = 2131165244;
+			
+			// aapt resource value: 0x7f07003d
+			public const int abc_text_size_large_material = 2131165245;
+			
+			// aapt resource value: 0x7f07003e
+			public const int abc_text_size_medium_material = 2131165246;
+			
+			// aapt resource value: 0x7f07003f
+			public const int abc_text_size_menu_material = 2131165247;
+			
+			// aapt resource value: 0x7f070040
+			public const int abc_text_size_small_material = 2131165248;
+			
+			// aapt resource value: 0x7f070041
+			public const int abc_text_size_subhead_material = 2131165249;
+			
+			// aapt resource value: 0x7f070003
+			public const int abc_text_size_subtitle_material_toolbar = 2131165187;
+			
+			// aapt resource value: 0x7f070042
+			public const int abc_text_size_title_material = 2131165250;
+			
+			// aapt resource value: 0x7f070004
+			public const int abc_text_size_title_material_toolbar = 2131165188;
+			
+			// aapt resource value: 0x7f070043
+			public const int disabled_alpha_material_dark = 2131165251;
+			
+			// aapt resource value: 0x7f070044
+			public const int disabled_alpha_material_light = 2131165252;
+			
+			// aapt resource value: 0x7f07004b
+			public const int drawer_width = 2131165259;
+			
+			// aapt resource value: 0x7f070045
+			public const int highlight_alpha_material_colored = 2131165253;
+			
+			// aapt resource value: 0x7f070046
+			public const int highlight_alpha_material_dark = 2131165254;
+			
+			// aapt resource value: 0x7f070047
+			public const int highlight_alpha_material_light = 2131165255;
+			
+			// aapt resource value: 0x7f070048
+			public const int notification_large_icon_height = 2131165256;
+			
+			// aapt resource value: 0x7f070049
+			public const int notification_large_icon_width = 2131165257;
+			
+			// aapt resource value: 0x7f07004a
+			public const int notification_subtext_size = 2131165258;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int abc_ab_share_pack_mtrl_alpha = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int splash = 2130837505;
+			public const int abc_action_bar_item_background_material = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int abc_btn_borderless_material = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int abc_btn_check_material = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int abc_btn_check_to_on_mtrl_000 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int abc_btn_check_to_on_mtrl_015 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int abc_btn_colored_material = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int abc_btn_default_mtrl_shape = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int abc_btn_radio_material = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int abc_btn_radio_to_on_mtrl_000 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int abc_btn_radio_to_on_mtrl_015 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int abc_btn_rating_star_off_mtrl_alpha = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int abc_btn_rating_star_on_mtrl_alpha = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int abc_cab_background_internal_bg = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int abc_cab_background_top_material = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int abc_cab_background_top_mtrl_alpha = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int abc_control_background_material = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int abc_dialog_material_background_dark = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int abc_dialog_material_background_light = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int abc_edit_text_material = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int abc_ic_ab_back_mtrl_am_alpha = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int abc_ic_clear_mtrl_alpha = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int abc_ic_go_search_api_mtrl_alpha = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int abc_ic_menu_cut_mtrl_alpha = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int abc_ic_menu_moreoverflow_mtrl_alpha = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int abc_ic_menu_share_mtrl_alpha = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int abc_ic_search_api_mtrl_alpha = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int abc_ic_star_black_16dp = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int abc_ic_star_black_36dp = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int abc_ic_star_half_black_16dp = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int abc_ic_star_half_black_36dp = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int abc_ic_voice_search_api_mtrl_alpha = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int abc_item_background_holo_dark = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int abc_item_background_holo_light = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int abc_list_divider_mtrl_alpha = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int abc_list_focused_holo = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int abc_list_longpressed_holo = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int abc_list_pressed_holo_dark = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int abc_list_pressed_holo_light = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int abc_list_selector_background_transition_holo_dark = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int abc_list_selector_background_transition_holo_light = 2130837550;
+			
+			// aapt resource value: 0x7f02002f
+			public const int abc_list_selector_disabled_holo_dark = 2130837551;
+			
+			// aapt resource value: 0x7f020030
+			public const int abc_list_selector_disabled_holo_light = 2130837552;
+			
+			// aapt resource value: 0x7f020031
+			public const int abc_list_selector_holo_dark = 2130837553;
+			
+			// aapt resource value: 0x7f020032
+			public const int abc_list_selector_holo_light = 2130837554;
+			
+			// aapt resource value: 0x7f020033
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2130837555;
+			
+			// aapt resource value: 0x7f020034
+			public const int abc_popup_background_mtrl_mult = 2130837556;
+			
+			// aapt resource value: 0x7f020035
+			public const int abc_ratingbar_full_material = 2130837557;
+			
+			// aapt resource value: 0x7f020036
+			public const int abc_ratingbar_indicator_material = 2130837558;
+			
+			// aapt resource value: 0x7f020037
+			public const int abc_ratingbar_small_material = 2130837559;
+			
+			// aapt resource value: 0x7f020038
+			public const int abc_scrubber_control_off_mtrl_alpha = 2130837560;
+			
+			// aapt resource value: 0x7f020039
+			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2130837561;
+			
+			// aapt resource value: 0x7f02003a
+			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2130837562;
+			
+			// aapt resource value: 0x7f02003b
+			public const int abc_scrubber_primary_mtrl_alpha = 2130837563;
+			
+			// aapt resource value: 0x7f02003c
+			public const int abc_scrubber_track_mtrl_alpha = 2130837564;
+			
+			// aapt resource value: 0x7f02003d
+			public const int abc_seekbar_thumb_material = 2130837565;
+			
+			// aapt resource value: 0x7f02003e
+			public const int abc_seekbar_track_material = 2130837566;
+			
+			// aapt resource value: 0x7f02003f
+			public const int abc_spinner_mtrl_am_alpha = 2130837567;
+			
+			// aapt resource value: 0x7f020040
+			public const int abc_spinner_textfield_background_material = 2130837568;
+			
+			// aapt resource value: 0x7f020041
+			public const int abc_switch_thumb_material = 2130837569;
+			
+			// aapt resource value: 0x7f020042
+			public const int abc_switch_track_mtrl_alpha = 2130837570;
+			
+			// aapt resource value: 0x7f020043
+			public const int abc_tab_indicator_material = 2130837571;
+			
+			// aapt resource value: 0x7f020044
+			public const int abc_tab_indicator_mtrl_alpha = 2130837572;
+			
+			// aapt resource value: 0x7f020045
+			public const int abc_text_cursor_material = 2130837573;
+			
+			// aapt resource value: 0x7f020046
+			public const int abc_textfield_activated_mtrl_alpha = 2130837574;
+			
+			// aapt resource value: 0x7f020047
+			public const int abc_textfield_default_mtrl_alpha = 2130837575;
+			
+			// aapt resource value: 0x7f020048
+			public const int abc_textfield_search_activated_mtrl_alpha = 2130837576;
+			
+			// aapt resource value: 0x7f020049
+			public const int abc_textfield_search_default_mtrl_alpha = 2130837577;
+			
+			// aapt resource value: 0x7f02004a
+			public const int abc_textfield_search_material = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int ic_devices_black_24dp = 2130837579;
+			
+			// aapt resource value: 0x7f02004c
+			public const int ic_devices_other_black_24dp = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int ic_input_black_24dp = 2130837581;
+			
+			// aapt resource value: 0x7f02004e
+			public const int ic_personal_video_black_24dp = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int ic_watch_black_24dp = 2130837583;
+			
+			// aapt resource value: 0x7f020050
+			public const int ic_wifi_black_24dp = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int Icon = 2130837585;
+			
+			// aapt resource value: 0x7f020053
+			public const int notification_template_icon_bg = 2130837587;
+			
+			// aapt resource value: 0x7f020052
+			public const int splash = 2130837586;
 			
 			static Drawable()
 			{
@@ -107,14 +3126,302 @@ namespace WakeOnBandXamarin.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MvvmCrossTagId = 2131034112;
+			// aapt resource value: 0x7f0b0009
+			public const int MvvmCrossTagId = 2131427337;
 			
-			// aapt resource value: 0x7f050001
-			public const int MvxBindingTagUnique = 2131034113;
+			// aapt resource value: 0x7f0b000a
+			public const int MvxBindingTagUnique = 2131427338;
 			
-			// aapt resource value: 0x7f050002
-			public const int innerText = 2131034114;
+			// aapt resource value: 0x7f0b0056
+			public const int action0 = 2131427414;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int action_bar = 2131427395;
+			
+			// aapt resource value: 0x7f0b0000
+			public const int action_bar_activity_content = 2131427328;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int action_bar_container = 2131427394;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int action_bar_root = 2131427390;
+			
+			// aapt resource value: 0x7f0b0001
+			public const int action_bar_spinner = 2131427329;
+			
+			// aapt resource value: 0x7f0b0024
+			public const int action_bar_subtitle = 2131427364;
+			
+			// aapt resource value: 0x7f0b0023
+			public const int action_bar_title = 2131427363;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int action_context_bar = 2131427396;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int action_divider = 2131427418;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int action_menu_divider = 2131427330;
+			
+			// aapt resource value: 0x7f0b0003
+			public const int action_menu_presenter = 2131427331;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int action_mode_bar = 2131427392;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int action_mode_bar_stub = 2131427391;
+			
+			// aapt resource value: 0x7f0b0025
+			public const int action_mode_close_button = 2131427365;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int activity_chooser_view_content = 2131427366;
+			
+			// aapt resource value: 0x7f0b0032
+			public const int alertTitle = 2131427378;
+			
+			// aapt resource value: 0x7f0b001e
+			public const int always = 2131427358;
+			
+			// aapt resource value: 0x7f0b001b
+			public const int beginning = 2131427355;
+			
+			// aapt resource value: 0x7f0b002d
+			public const int buttonPanel = 2131427373;
+			
+			// aapt resource value: 0x7f0b0057
+			public const int cancel_action = 2131427415;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int checkbox = 2131427387;
+			
+			// aapt resource value: 0x7f0b005d
+			public const int chronometer = 2131427421;
+			
+			// aapt resource value: 0x7f0b001f
+			public const int collapseActionView = 2131427359;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int contentPanel = 2131427379;
+			
+			// aapt resource value: 0x7f0b0039
+			public const int custom = 2131427385;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int customPanel = 2131427384;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int decor_content_parent = 2131427393;
+			
+			// aapt resource value: 0x7f0b0029
+			public const int default_activity_button = 2131427369;
+			
+			// aapt resource value: 0x7f0b000e
+			public const int disableHome = 2131427342;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int drawerLayout = 2131427410;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int edit_query = 2131427397;
+			
+			// aapt resource value: 0x7f0b001c
+			public const int end = 2131427356;
+			
+			// aapt resource value: 0x7f0b0062
+			public const int end_padder = 2131427426;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int expand_activities_button = 2131427367;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int expanded_menu = 2131427386;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int frameLayout = 2131427412;
+			
+			// aapt resource value: 0x7f0b0004
+			public const int home = 2131427332;
+			
+			// aapt resource value: 0x7f0b000f
+			public const int homeAsUp = 2131427343;
+			
+			// aapt resource value: 0x7f0b002b
+			public const int icon = 2131427371;
+			
+			// aapt resource value: 0x7f0b0020
+			public const int ifRoom = 2131427360;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int image = 2131427368;
+			
+			// aapt resource value: 0x7f0b0061
+			public const int info = 2131427425;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int left_drawer = 2131427413;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int line1 = 2131427419;
+			
+			// aapt resource value: 0x7f0b005f
+			public const int line3 = 2131427423;
+			
+			// aapt resource value: 0x7f0b000b
+			public const int listMode = 2131427339;
+			
+			// aapt resource value: 0x7f0b002a
+			public const int list_item = 2131427370;
+			
+			// aapt resource value: 0x7f0b0059
+			public const int media_actions = 2131427417;
+			
+			// aapt resource value: 0x7f0b001d
+			public const int middle = 2131427357;
+			
+			// aapt resource value: 0x7f0b0016
+			public const int multiply = 2131427350;
+			
+			// aapt resource value: 0x7f0b0021
+			public const int never = 2131427361;
+			
+			// aapt resource value: 0x7f0b0010
+			public const int none = 2131427344;
+			
+			// aapt resource value: 0x7f0b000c
+			public const int normal = 2131427340;
+			
+			// aapt resource value: 0x7f0b002f
+			public const int parentPanel = 2131427375;
+			
+			// aapt resource value: 0x7f0b0005
+			public const int progress_circular = 2131427333;
+			
+			// aapt resource value: 0x7f0b0006
+			public const int progress_horizontal = 2131427334;
+			
+			// aapt resource value: 0x7f0b003d
+			public const int radio = 2131427389;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int screen = 2131427351;
+			
+			// aapt resource value: 0x7f0b0037
+			public const int scrollIndicatorDown = 2131427383;
+			
+			// aapt resource value: 0x7f0b0034
+			public const int scrollIndicatorUp = 2131427380;
+			
+			// aapt resource value: 0x7f0b0035
+			public const int scrollView = 2131427381;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int search_badge = 2131427399;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int search_bar = 2131427398;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int search_button = 2131427400;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int search_close_btn = 2131427405;
+			
+			// aapt resource value: 0x7f0b0049
+			public const int search_edit_frame = 2131427401;
+			
+			// aapt resource value: 0x7f0b004f
+			public const int search_go_btn = 2131427407;
+			
+			// aapt resource value: 0x7f0b004a
+			public const int search_mag_icon = 2131427402;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int search_plate = 2131427403;
+			
+			// aapt resource value: 0x7f0b004c
+			public const int search_src_text = 2131427404;
+			
+			// aapt resource value: 0x7f0b0050
+			public const int search_voice_btn = 2131427408;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int select_dialog_listview = 2131427409;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int shortcut = 2131427388;
+			
+			// aapt resource value: 0x7f0b0011
+			public const int showCustom = 2131427345;
+			
+			// aapt resource value: 0x7f0b0012
+			public const int showHome = 2131427346;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int showTitle = 2131427347;
+			
+			// aapt resource value: 0x7f0b002e
+			public const int spacer = 2131427374;
+			
+			// aapt resource value: 0x7f0b0007
+			public const int split_action_bar = 2131427335;
+			
+			// aapt resource value: 0x7f0b0018
+			public const int src_atop = 2131427352;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int src_in = 2131427353;
+			
+			// aapt resource value: 0x7f0b001a
+			public const int src_over = 2131427354;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int status_bar_latest_event_content = 2131427416;
+			
+			// aapt resource value: 0x7f0b004e
+			public const int submit_area = 2131427406;
+			
+			// aapt resource value: 0x7f0b000d
+			public const int tabMode = 2131427341;
+			
+			// aapt resource value: 0x7f0b0060
+			public const int text = 2131427424;
+			
+			// aapt resource value: 0x7f0b005e
+			public const int text2 = 2131427422;
+			
+			// aapt resource value: 0x7f0b0036
+			public const int textSpacerNoButtons = 2131427382;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int time = 2131427420;
+			
+			// aapt resource value: 0x7f0b002c
+			public const int title = 2131427372;
+			
+			// aapt resource value: 0x7f0b0031
+			public const int title_template = 2131427377;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int toolbar = 2131427411;
+			
+			// aapt resource value: 0x7f0b0030
+			public const int topPanel = 2131427376;
+			
+			// aapt resource value: 0x7f0b0008
+			public const int up = 2131427336;
+			
+			// aapt resource value: 0x7f0b0014
+			public const int useLogo = 2131427348;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int withText = 2131427362;
+			
+			// aapt resource value: 0x7f0b0015
+			public const int wrap_content = 2131427349;
 			
 			static Id()
 			{
@@ -126,23 +3433,168 @@ namespace WakeOnBandXamarin.Droid
 			}
 		}
 		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f090001
+			public const int abc_config_activityDefaultDur = 2131296257;
+			
+			// aapt resource value: 0x7f090002
+			public const int abc_config_activityShortDur = 2131296258;
+			
+			// aapt resource value: 0x7f090000
+			public const int abc_max_action_buttons = 2131296256;
+			
+			// aapt resource value: 0x7f090003
+			public const int cancel_button_image_alpha = 2131296259;
+			
+			// aapt resource value: 0x7f090004
+			public const int status_bar_notification_info_maxnum = 2131296260;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int BandTargetsView = 2130903040;
+			public const int abc_action_bar_title_item = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int SplashScreen = 2130903041;
+			public const int abc_action_bar_up_container = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int TargetsView = 2130903042;
+			public const int abc_action_bar_view_list_nav_layout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int WolTarget_ListItem = 2130903043;
+			public const int abc_action_menu_item_layout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int WolTargetsView = 2130903044;
+			public const int abc_action_menu_layout = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int abc_action_mode_bar = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int abc_action_mode_close_item_material = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int abc_activity_chooser_view = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int abc_activity_chooser_view_list_item = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int abc_alert_dialog_button_bar_material = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int abc_alert_dialog_material = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int abc_dialog_title_material = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int abc_expanded_menu_layout = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int abc_list_menu_item_checkbox = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int abc_list_menu_item_icon = 2130903054;
+			
+			// aapt resource value: 0x7f03000f
+			public const int abc_list_menu_item_layout = 2130903055;
+			
+			// aapt resource value: 0x7f030010
+			public const int abc_list_menu_item_radio = 2130903056;
+			
+			// aapt resource value: 0x7f030011
+			public const int abc_popup_menu_item_layout = 2130903057;
+			
+			// aapt resource value: 0x7f030012
+			public const int abc_screen_content_include = 2130903058;
+			
+			// aapt resource value: 0x7f030013
+			public const int abc_screen_simple = 2130903059;
+			
+			// aapt resource value: 0x7f030014
+			public const int abc_screen_simple_overlay_action_mode = 2130903060;
+			
+			// aapt resource value: 0x7f030015
+			public const int abc_screen_toolbar = 2130903061;
+			
+			// aapt resource value: 0x7f030016
+			public const int abc_search_dropdown_item_icons_2line = 2130903062;
+			
+			// aapt resource value: 0x7f030017
+			public const int abc_search_view = 2130903063;
+			
+			// aapt resource value: 0x7f030018
+			public const int abc_select_dialog_material = 2130903064;
+			
+			// aapt resource value: 0x7f030019
+			public const int item_menu = 2130903065;
+			
+			// aapt resource value: 0x7f03001a
+			public const int MainView = 2130903066;
+			
+			// aapt resource value: 0x7f03001b
+			public const int MyListView = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int MySettingsView = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int navdrawerheader = 2130903069;
+			
+			// aapt resource value: 0x7f03001e
+			public const int notification_media_action = 2130903070;
+			
+			// aapt resource value: 0x7f03001f
+			public const int notification_media_cancel_action = 2130903071;
+			
+			// aapt resource value: 0x7f030020
+			public const int notification_template_big_media = 2130903072;
+			
+			// aapt resource value: 0x7f030021
+			public const int notification_template_big_media_narrow = 2130903073;
+			
+			// aapt resource value: 0x7f030022
+			public const int notification_template_lines = 2130903074;
+			
+			// aapt resource value: 0x7f030023
+			public const int notification_template_media = 2130903075;
+			
+			// aapt resource value: 0x7f030024
+			public const int notification_template_part_chronometer = 2130903076;
+			
+			// aapt resource value: 0x7f030025
+			public const int notification_template_part_time = 2130903077;
+			
+			// aapt resource value: 0x7f030026
+			public const int select_dialog_item_material = 2130903078;
+			
+			// aapt resource value: 0x7f030027
+			public const int select_dialog_multichoice_material = 2130903079;
+			
+			// aapt resource value: 0x7f030028
+			public const int select_dialog_singlechoice_material = 2130903080;
+			
+			// aapt resource value: 0x7f030029
+			public const int SplashScreen = 2130903081;
+			
+			// aapt resource value: 0x7f03002a
+			public const int support_simple_spinner_dropdown_item = 2130903082;
+			
+			// aapt resource value: 0x7f03002b
+			public const int Toolbar = 2130903083;
 			
 			static Layout()
 			{
@@ -157,20 +3609,92 @@ namespace WakeOnBandXamarin.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050015
+			public const int ApplicationName = 2131034133;
 			
-			// aapt resource value: 0x7f040004
-			public const int BandTargetsTitle = 2130968580;
+			// aapt resource value: 0x7f05001a
+			public const int BandTargetsTitle = 2131034138;
 			
-			// aapt resource value: 0x7f040002
-			public const int FriendlyApplicationName = 2130968578;
+			// aapt resource value: 0x7f05001c
+			public const int CloseDrawerString = 2131034140;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050018
+			public const int FriendlyApplicationName = 2131034136;
 			
-			// aapt resource value: 0x7f040003
-			public const int WakeOnLanTitle = 2130968579;
+			// aapt resource value: 0x7f050014
+			public const int Hello = 2131034132;
+			
+			// aapt resource value: 0x7f05001b
+			public const int OpenDrawerString = 2131034139;
+			
+			// aapt resource value: 0x7f050019
+			public const int WakeOnLanTitle = 2131034137;
+			
+			// aapt resource value: 0x7f050000
+			public const int abc_action_bar_home_description = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int abc_action_bar_home_description_format = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int abc_action_bar_home_subtitle_description_format = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int abc_action_bar_up_description = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int abc_action_menu_overflow_description = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int abc_action_mode_done = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int abc_activity_chooser_view_see_all = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int abc_activitychooserview_choose_application = 2131034119;
+			
+			// aapt resource value: 0x7f050008
+			public const int abc_capital_off = 2131034120;
+			
+			// aapt resource value: 0x7f050009
+			public const int abc_capital_on = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int abc_search_hint = 2131034122;
+			
+			// aapt resource value: 0x7f05000b
+			public const int abc_searchview_description_clear = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int abc_searchview_description_query = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int abc_searchview_description_search = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int abc_searchview_description_submit = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int abc_searchview_description_voice = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int abc_shareactionprovider_share_with = 2131034128;
+			
+			// aapt resource value: 0x7f050011
+			public const int abc_shareactionprovider_share_with_application = 2131034129;
+			
+			// aapt resource value: 0x7f050012
+			public const int abc_toolbar_collapse_description = 2131034130;
+			
+			// aapt resource value: 0x7f050016
+			public const int fab_scroll_shrink_grow_autohide_behavior = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int fab_scroll_translation_autohide_behavior = 2131034135;
+			
+			// aapt resource value: 0x7f050013
+			public const int status_bar_notification_info_overflow = 2131034131;
 			
 			static String()
 			{
@@ -185,8 +3709,968 @@ namespace WakeOnBandXamarin.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int Theme_Splash = 2131099648;
+			// aapt resource value: 0x7f080086
+			public const int AlertDialog_AppCompat = 2131230854;
+			
+			// aapt resource value: 0x7f080087
+			public const int AlertDialog_AppCompat_Light = 2131230855;
+			
+			// aapt resource value: 0x7f080088
+			public const int Animation_AppCompat_Dialog = 2131230856;
+			
+			// aapt resource value: 0x7f080089
+			public const int Animation_AppCompat_DropDownUp = 2131230857;
+			
+			// aapt resource value: 0x7f08008a
+			public const int Base_AlertDialog_AppCompat = 2131230858;
+			
+			// aapt resource value: 0x7f08008b
+			public const int Base_AlertDialog_AppCompat_Light = 2131230859;
+			
+			// aapt resource value: 0x7f08008c
+			public const int Base_Animation_AppCompat_Dialog = 2131230860;
+			
+			// aapt resource value: 0x7f08008d
+			public const int Base_Animation_AppCompat_DropDownUp = 2131230861;
+			
+			// aapt resource value: 0x7f08008e
+			public const int Base_DialogWindowTitle_AppCompat = 2131230862;
+			
+			// aapt resource value: 0x7f08008f
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230863;
+			
+			// aapt resource value: 0x7f080036
+			public const int Base_TextAppearance_AppCompat = 2131230774;
+			
+			// aapt resource value: 0x7f080037
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131230775;
+			
+			// aapt resource value: 0x7f080038
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131230776;
+			
+			// aapt resource value: 0x7f080020
+			public const int Base_TextAppearance_AppCompat_Button = 2131230752;
+			
+			// aapt resource value: 0x7f080039
+			public const int Base_TextAppearance_AppCompat_Caption = 2131230777;
+			
+			// aapt resource value: 0x7f08003a
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131230778;
+			
+			// aapt resource value: 0x7f08003b
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131230779;
+			
+			// aapt resource value: 0x7f08003c
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131230780;
+			
+			// aapt resource value: 0x7f08003d
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131230781;
+			
+			// aapt resource value: 0x7f08003e
+			public const int Base_TextAppearance_AppCompat_Headline = 2131230782;
+			
+			// aapt resource value: 0x7f08000b
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131230731;
+			
+			// aapt resource value: 0x7f08003f
+			public const int Base_TextAppearance_AppCompat_Large = 2131230783;
+			
+			// aapt resource value: 0x7f08000c
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230732;
+			
+			// aapt resource value: 0x7f080040
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230784;
+			
+			// aapt resource value: 0x7f080041
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230785;
+			
+			// aapt resource value: 0x7f080042
+			public const int Base_TextAppearance_AppCompat_Medium = 2131230786;
+			
+			// aapt resource value: 0x7f08000d
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230733;
+			
+			// aapt resource value: 0x7f080043
+			public const int Base_TextAppearance_AppCompat_Menu = 2131230787;
+			
+			// aapt resource value: 0x7f080090
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230864;
+			
+			// aapt resource value: 0x7f080044
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230788;
+			
+			// aapt resource value: 0x7f080045
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230789;
+			
+			// aapt resource value: 0x7f080046
+			public const int Base_TextAppearance_AppCompat_Small = 2131230790;
+			
+			// aapt resource value: 0x7f08000e
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230734;
+			
+			// aapt resource value: 0x7f080047
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131230791;
+			
+			// aapt resource value: 0x7f08000f
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230735;
+			
+			// aapt resource value: 0x7f080048
+			public const int Base_TextAppearance_AppCompat_Title = 2131230792;
+			
+			// aapt resource value: 0x7f080010
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230736;
+			
+			// aapt resource value: 0x7f08007f
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230847;
+			
+			// aapt resource value: 0x7f080049
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230793;
+			
+			// aapt resource value: 0x7f08004a
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230795;
+			
+			// aapt resource value: 0x7f08004c
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230796;
+			
+			// aapt resource value: 0x7f08004d
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230797;
+			
+			// aapt resource value: 0x7f08004e
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230798;
+			
+			// aapt resource value: 0x7f08004f
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131230799;
+			
+			// aapt resource value: 0x7f080080
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131230848;
+			
+			// aapt resource value: 0x7f080091
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230865;
+			
+			// aapt resource value: 0x7f080050
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230801;
+			
+			// aapt resource value: 0x7f080052
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230803;
+			
+			// aapt resource value: 0x7f080092
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230866;
+			
+			// aapt resource value: 0x7f080054
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230804;
+			
+			// aapt resource value: 0x7f080055
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230805;
+			
+			// aapt resource value: 0x7f080056
+			public const int Base_Theme_AppCompat = 2131230806;
+			
+			// aapt resource value: 0x7f080093
+			public const int Base_Theme_AppCompat_CompactMenu = 2131230867;
+			
+			// aapt resource value: 0x7f080011
+			public const int Base_Theme_AppCompat_Dialog = 2131230737;
+			
+			// aapt resource value: 0x7f080094
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230868;
+			
+			// aapt resource value: 0x7f080095
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230869;
+			
+			// aapt resource value: 0x7f080096
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230870;
+			
+			// aapt resource value: 0x7f080001
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230721;
+			
+			// aapt resource value: 0x7f080057
+			public const int Base_Theme_AppCompat_Light = 2131230807;
+			
+			// aapt resource value: 0x7f080097
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230871;
+			
+			// aapt resource value: 0x7f080012
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131230738;
+			
+			// aapt resource value: 0x7f080098
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230872;
+			
+			// aapt resource value: 0x7f080099
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230873;
+			
+			// aapt resource value: 0x7f08009a
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230874;
+			
+			// aapt resource value: 0x7f080002
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230722;
+			
+			// aapt resource value: 0x7f08009b
+			public const int Base_ThemeOverlay_AppCompat = 2131230875;
+			
+			// aapt resource value: 0x7f08009c
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230876;
+			
+			// aapt resource value: 0x7f08009d
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230877;
+			
+			// aapt resource value: 0x7f08009e
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230878;
+			
+			// aapt resource value: 0x7f08009f
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131230879;
+			
+			// aapt resource value: 0x7f080013
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131230739;
+			
+			// aapt resource value: 0x7f080014
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131230740;
+			
+			// aapt resource value: 0x7f08001c
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131230748;
+			
+			// aapt resource value: 0x7f08001d
+			public const int Base_V12_Widget_AppCompat_EditText = 2131230749;
+			
+			// aapt resource value: 0x7f080058
+			public const int Base_V21_Theme_AppCompat = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131230809;
+			
+			// aapt resource value: 0x7f08005a
+			public const int Base_V21_Theme_AppCompat_Light = 2131230810;
+			
+			// aapt resource value: 0x7f08005b
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230811;
+			
+			// aapt resource value: 0x7f08007d
+			public const int Base_V22_Theme_AppCompat = 2131230845;
+			
+			// aapt resource value: 0x7f08007e
+			public const int Base_V22_Theme_AppCompat_Light = 2131230846;
+			
+			// aapt resource value: 0x7f080081
+			public const int Base_V23_Theme_AppCompat = 2131230849;
+			
+			// aapt resource value: 0x7f080082
+			public const int Base_V23_Theme_AppCompat_Light = 2131230850;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int Base_V7_Theme_AppCompat = 2131230880;
+			
+			// aapt resource value: 0x7f0800a1
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131230881;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int Base_V7_Theme_AppCompat_Light = 2131230882;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230883;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230884;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int Base_V7_Widget_AppCompat_EditText = 2131230885;
+			
+			// aapt resource value: 0x7f0800a6
+			public const int Base_Widget_AppCompat_ActionBar = 2131230886;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230887;
+			
+			// aapt resource value: 0x7f0800a8
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230888;
+			
+			// aapt resource value: 0x7f08005c
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230812;
+			
+			// aapt resource value: 0x7f08005d
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230813;
+			
+			// aapt resource value: 0x7f08005e
+			public const int Base_Widget_AppCompat_ActionButton = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230816;
+			
+			// aapt resource value: 0x7f0800a9
+			public const int Base_Widget_AppCompat_ActionMode = 2131230889;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230890;
+			
+			// aapt resource value: 0x7f08001e
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230750;
+			
+			// aapt resource value: 0x7f080061
+			public const int Base_Widget_AppCompat_Button = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230819;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230891;
+			
+			// aapt resource value: 0x7f080083
+			public const int Base_Widget_AppCompat_Button_Colored = 2131230851;
+			
+			// aapt resource value: 0x7f080064
+			public const int Base_Widget_AppCompat_Button_Small = 2131230820;
+			
+			// aapt resource value: 0x7f080065
+			public const int Base_Widget_AppCompat_ButtonBar = 2131230821;
+			
+			// aapt resource value: 0x7f0800ac
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230892;
+			
+			// aapt resource value: 0x7f080066
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230822;
+			
+			// aapt resource value: 0x7f080067
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230823;
+			
+			// aapt resource value: 0x7f0800ad
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230893;
+			
+			// aapt resource value: 0x7f080000
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230720;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230894;
+			
+			// aapt resource value: 0x7f080068
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230824;
+			
+			// aapt resource value: 0x7f08001f
+			public const int Base_Widget_AppCompat_EditText = 2131230751;
+			
+			// aapt resource value: 0x7f080069
+			public const int Base_Widget_AppCompat_ImageButton = 2131230825;
+			
+			// aapt resource value: 0x7f0800af
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230895;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230896;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230897;
+			
+			// aapt resource value: 0x7f08006a
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230826;
+			
+			// aapt resource value: 0x7f08006b
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230827;
+			
+			// aapt resource value: 0x7f08006c
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230828;
+			
+			// aapt resource value: 0x7f08006d
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230829;
+			
+			// aapt resource value: 0x7f08006e
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230830;
+			
+			// aapt resource value: 0x7f08006f
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230831;
+			
+			// aapt resource value: 0x7f080070
+			public const int Base_Widget_AppCompat_ListView = 2131230832;
+			
+			// aapt resource value: 0x7f080071
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230833;
+			
+			// aapt resource value: 0x7f080072
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131230834;
+			
+			// aapt resource value: 0x7f080073
+			public const int Base_Widget_AppCompat_PopupMenu = 2131230835;
+			
+			// aapt resource value: 0x7f080074
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230836;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int Base_Widget_AppCompat_PopupWindow = 2131230898;
+			
+			// aapt resource value: 0x7f080015
+			public const int Base_Widget_AppCompat_ProgressBar = 2131230741;
+			
+			// aapt resource value: 0x7f080016
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230742;
+			
+			// aapt resource value: 0x7f080075
+			public const int Base_Widget_AppCompat_RatingBar = 2131230837;
+			
+			// aapt resource value: 0x7f080084
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131230852;
+			
+			// aapt resource value: 0x7f080085
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131230853;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int Base_Widget_AppCompat_SearchView = 2131230899;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230900;
+			
+			// aapt resource value: 0x7f080076
+			public const int Base_Widget_AppCompat_SeekBar = 2131230838;
+			
+			// aapt resource value: 0x7f080077
+			public const int Base_Widget_AppCompat_Spinner = 2131230839;
+			
+			// aapt resource value: 0x7f080003
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230723;
+			
+			// aapt resource value: 0x7f080078
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230840;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int Base_Widget_AppCompat_Toolbar = 2131230901;
+			
+			// aapt resource value: 0x7f080079
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230841;
+			
+			// aapt resource value: 0x7f08013f
+			public const int MyTheme = 2131231039;
+			
+			// aapt resource value: 0x7f080140
+			public const int MyTheme_Base = 2131231040;
+			
+			// aapt resource value: 0x7f080017
+			public const int Platform_AppCompat = 2131230743;
+			
+			// aapt resource value: 0x7f080018
+			public const int Platform_AppCompat_Light = 2131230744;
+			
+			// aapt resource value: 0x7f08007a
+			public const int Platform_ThemeOverlay_AppCompat = 2131230842;
+			
+			// aapt resource value: 0x7f08007b
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230843;
+			
+			// aapt resource value: 0x7f08007c
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230844;
+			
+			// aapt resource value: 0x7f080019
+			public const int Platform_V11_AppCompat = 2131230745;
+			
+			// aapt resource value: 0x7f08001a
+			public const int Platform_V11_AppCompat_Light = 2131230746;
+			
+			// aapt resource value: 0x7f080021
+			public const int Platform_V14_AppCompat = 2131230753;
+			
+			// aapt resource value: 0x7f080022
+			public const int Platform_V14_AppCompat_Light = 2131230754;
+			
+			// aapt resource value: 0x7f08001b
+			public const int Platform_Widget_AppCompat_Spinner = 2131230747;
+			
+			// aapt resource value: 0x7f080028
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230760;
+			
+			// aapt resource value: 0x7f080029
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230761;
+			
+			// aapt resource value: 0x7f08002a
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230762;
+			
+			// aapt resource value: 0x7f08002b
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230764;
+			
+			// aapt resource value: 0x7f08002d
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230766;
+			
+			// aapt resource value: 0x7f08002f
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230769;
+			
+			// aapt resource value: 0x7f080032
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230770;
+			
+			// aapt resource value: 0x7f080033
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230771;
+			
+			// aapt resource value: 0x7f080034
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131230772;
+			
+			// aapt resource value: 0x7f080035
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131230773;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int TextAppearance_AppCompat = 2131230902;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int TextAppearance_AppCompat_Body1 = 2131230903;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int TextAppearance_AppCompat_Body2 = 2131230904;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int TextAppearance_AppCompat_Button = 2131230905;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int TextAppearance_AppCompat_Caption = 2131230906;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int TextAppearance_AppCompat_Display1 = 2131230907;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int TextAppearance_AppCompat_Display2 = 2131230908;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int TextAppearance_AppCompat_Display3 = 2131230909;
+			
+			// aapt resource value: 0x7f0800be
+			public const int TextAppearance_AppCompat_Display4 = 2131230910;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int TextAppearance_AppCompat_Headline = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int TextAppearance_AppCompat_Inverse = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int TextAppearance_AppCompat_Large = 2131230913;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131230914;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230915;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230916;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230917;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230918;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int TextAppearance_AppCompat_Medium = 2131230919;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230920;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int TextAppearance_AppCompat_Menu = 2131230921;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230922;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230923;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int TextAppearance_AppCompat_Small = 2131230924;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131230925;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int TextAppearance_AppCompat_Subhead = 2131230926;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230927;
+			
+			// aapt resource value: 0x7f0800d0
+			public const int TextAppearance_AppCompat_Title = 2131230928;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131230929;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230930;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230931;
+			
+			// aapt resource value: 0x7f0800d4
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230932;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230933;
+			
+			// aapt resource value: 0x7f0800d6
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230934;
+			
+			// aapt resource value: 0x7f0800d7
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230935;
+			
+			// aapt resource value: 0x7f0800d8
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230936;
+			
+			// aapt resource value: 0x7f0800d9
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230937;
+			
+			// aapt resource value: 0x7f0800da
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230938;
+			
+			// aapt resource value: 0x7f0800db
+			public const int TextAppearance_AppCompat_Widget_Button = 2131230939;
+			
+			// aapt resource value: 0x7f0800dc
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131230940;
+			
+			// aapt resource value: 0x7f0800dd
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230941;
+			
+			// aapt resource value: 0x7f0800de
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230942;
+			
+			// aapt resource value: 0x7f0800df
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230943;
+			
+			// aapt resource value: 0x7f0800e0
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131230944;
+			
+			// aapt resource value: 0x7f0800e1
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230945;
+			
+			// aapt resource value: 0x7f080023
+			public const int TextAppearance_StatusBar_EventContent = 2131230755;
+			
+			// aapt resource value: 0x7f080024
+			public const int TextAppearance_StatusBar_EventContent_Info = 2131230756;
+			
+			// aapt resource value: 0x7f080025
+			public const int TextAppearance_StatusBar_EventContent_Line2 = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public const int TextAppearance_StatusBar_EventContent_Time = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int TextAppearance_StatusBar_EventContent_Title = 2131230759;
+			
+			// aapt resource value: 0x7f0800e2
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230946;
+			
+			// aapt resource value: 0x7f0800e3
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230947;
+			
+			// aapt resource value: 0x7f0800e4
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230948;
+			
+			// aapt resource value: 0x7f0800e5
+			public const int Theme_AppCompat = 2131230949;
+			
+			// aapt resource value: 0x7f0800e6
+			public const int Theme_AppCompat_CompactMenu = 2131230950;
+			
+			// aapt resource value: 0x7f080004
+			public const int Theme_AppCompat_DayNight = 2131230724;
+			
+			// aapt resource value: 0x7f080005
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131230725;
+			
+			// aapt resource value: 0x7f080006
+			public const int Theme_AppCompat_DayNight_Dialog = 2131230726;
+			
+			// aapt resource value: 0x7f080007
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131230727;
+			
+			// aapt resource value: 0x7f080008
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131230728;
+			
+			// aapt resource value: 0x7f080009
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131230729;
+			
+			// aapt resource value: 0x7f08000a
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131230730;
+			
+			// aapt resource value: 0x7f0800e7
+			public const int Theme_AppCompat_Dialog = 2131230951;
+			
+			// aapt resource value: 0x7f0800e8
+			public const int Theme_AppCompat_Dialog_Alert = 2131230952;
+			
+			// aapt resource value: 0x7f0800e9
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131230953;
+			
+			// aapt resource value: 0x7f0800ea
+			public const int Theme_AppCompat_DialogWhenLarge = 2131230954;
+			
+			// aapt resource value: 0x7f0800eb
+			public const int Theme_AppCompat_Light = 2131230955;
+			
+			// aapt resource value: 0x7f0800ec
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131230956;
+			
+			// aapt resource value: 0x7f0800ed
+			public const int Theme_AppCompat_Light_Dialog = 2131230957;
+			
+			// aapt resource value: 0x7f0800ee
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230958;
+			
+			// aapt resource value: 0x7f0800ef
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230959;
+			
+			// aapt resource value: 0x7f0800f0
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230960;
+			
+			// aapt resource value: 0x7f0800f1
+			public const int Theme_AppCompat_Light_NoActionBar = 2131230961;
+			
+			// aapt resource value: 0x7f0800f2
+			public const int Theme_AppCompat_NoActionBar = 2131230962;
+			
+			// aapt resource value: 0x7f08013e
+			public const int Theme_Splash = 2131231038;
+			
+			// aapt resource value: 0x7f0800f3
+			public const int ThemeOverlay_AppCompat = 2131230963;
+			
+			// aapt resource value: 0x7f0800f4
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131230964;
+			
+			// aapt resource value: 0x7f0800f5
+			public const int ThemeOverlay_AppCompat_Dark = 2131230965;
+			
+			// aapt resource value: 0x7f0800f6
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131230966;
+			
+			// aapt resource value: 0x7f0800f7
+			public const int ThemeOverlay_AppCompat_Light = 2131230967;
+			
+			// aapt resource value: 0x7f0800f8
+			public const int Widget_AppCompat_ActionBar = 2131230968;
+			
+			// aapt resource value: 0x7f0800f9
+			public const int Widget_AppCompat_ActionBar_Solid = 2131230969;
+			
+			// aapt resource value: 0x7f0800fa
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131230970;
+			
+			// aapt resource value: 0x7f0800fb
+			public const int Widget_AppCompat_ActionBar_TabText = 2131230971;
+			
+			// aapt resource value: 0x7f0800fc
+			public const int Widget_AppCompat_ActionBar_TabView = 2131230972;
+			
+			// aapt resource value: 0x7f0800fd
+			public const int Widget_AppCompat_ActionButton = 2131230973;
+			
+			// aapt resource value: 0x7f0800fe
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131230974;
+			
+			// aapt resource value: 0x7f0800ff
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131230975;
+			
+			// aapt resource value: 0x7f080100
+			public const int Widget_AppCompat_ActionMode = 2131230976;
+			
+			// aapt resource value: 0x7f080101
+			public const int Widget_AppCompat_ActivityChooserView = 2131230977;
+			
+			// aapt resource value: 0x7f080102
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131230978;
+			
+			// aapt resource value: 0x7f080103
+			public const int Widget_AppCompat_Button = 2131230979;
+			
+			// aapt resource value: 0x7f080104
+			public const int Widget_AppCompat_Button_Borderless = 2131230980;
+			
+			// aapt resource value: 0x7f080105
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131230981;
+			
+			// aapt resource value: 0x7f080106
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230982;
+			
+			// aapt resource value: 0x7f080107
+			public const int Widget_AppCompat_Button_Colored = 2131230983;
+			
+			// aapt resource value: 0x7f080108
+			public const int Widget_AppCompat_Button_Small = 2131230984;
+			
+			// aapt resource value: 0x7f080109
+			public const int Widget_AppCompat_ButtonBar = 2131230985;
+			
+			// aapt resource value: 0x7f08010a
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131230986;
+			
+			// aapt resource value: 0x7f08010b
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131230987;
+			
+			// aapt resource value: 0x7f08010c
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131230988;
+			
+			// aapt resource value: 0x7f08010d
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131230989;
+			
+			// aapt resource value: 0x7f08010e
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131230990;
+			
+			// aapt resource value: 0x7f08010f
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131230991;
+			
+			// aapt resource value: 0x7f080110
+			public const int Widget_AppCompat_EditText = 2131230992;
+			
+			// aapt resource value: 0x7f080111
+			public const int Widget_AppCompat_ImageButton = 2131230993;
+			
+			// aapt resource value: 0x7f080112
+			public const int Widget_AppCompat_Light_ActionBar = 2131230994;
+			
+			// aapt resource value: 0x7f080113
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131230995;
+			
+			// aapt resource value: 0x7f080114
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131230996;
+			
+			// aapt resource value: 0x7f080115
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131230997;
+			
+			// aapt resource value: 0x7f080116
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131230998;
+			
+			// aapt resource value: 0x7f080117
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131230999;
+			
+			// aapt resource value: 0x7f080118
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131231000;
+			
+			// aapt resource value: 0x7f080119
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131231001;
+			
+			// aapt resource value: 0x7f08011a
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131231002;
+			
+			// aapt resource value: 0x7f08011b
+			public const int Widget_AppCompat_Light_ActionButton = 2131231003;
+			
+			// aapt resource value: 0x7f08011c
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131231004;
+			
+			// aapt resource value: 0x7f08011d
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131231005;
+			
+			// aapt resource value: 0x7f08011e
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131231006;
+			
+			// aapt resource value: 0x7f08011f
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131231007;
+			
+			// aapt resource value: 0x7f080120
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131231008;
+			
+			// aapt resource value: 0x7f080121
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131231009;
+			
+			// aapt resource value: 0x7f080122
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131231010;
+			
+			// aapt resource value: 0x7f080123
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131231011;
+			
+			// aapt resource value: 0x7f080124
+			public const int Widget_AppCompat_Light_PopupMenu = 2131231012;
+			
+			// aapt resource value: 0x7f080125
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131231013;
+			
+			// aapt resource value: 0x7f080126
+			public const int Widget_AppCompat_Light_SearchView = 2131231014;
+			
+			// aapt resource value: 0x7f080127
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131231015;
+			
+			// aapt resource value: 0x7f080128
+			public const int Widget_AppCompat_ListPopupWindow = 2131231016;
+			
+			// aapt resource value: 0x7f080129
+			public const int Widget_AppCompat_ListView = 2131231017;
+			
+			// aapt resource value: 0x7f08012a
+			public const int Widget_AppCompat_ListView_DropDown = 2131231018;
+			
+			// aapt resource value: 0x7f08012b
+			public const int Widget_AppCompat_ListView_Menu = 2131231019;
+			
+			// aapt resource value: 0x7f08012c
+			public const int Widget_AppCompat_PopupMenu = 2131231020;
+			
+			// aapt resource value: 0x7f08012d
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131231021;
+			
+			// aapt resource value: 0x7f08012e
+			public const int Widget_AppCompat_PopupWindow = 2131231022;
+			
+			// aapt resource value: 0x7f08012f
+			public const int Widget_AppCompat_ProgressBar = 2131231023;
+			
+			// aapt resource value: 0x7f080130
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231024;
+			
+			// aapt resource value: 0x7f080131
+			public const int Widget_AppCompat_RatingBar = 2131231025;
+			
+			// aapt resource value: 0x7f080132
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131231026;
+			
+			// aapt resource value: 0x7f080133
+			public const int Widget_AppCompat_RatingBar_Small = 2131231027;
+			
+			// aapt resource value: 0x7f080134
+			public const int Widget_AppCompat_SearchView = 2131231028;
+			
+			// aapt resource value: 0x7f080135
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131231029;
+			
+			// aapt resource value: 0x7f080136
+			public const int Widget_AppCompat_SeekBar = 2131231030;
+			
+			// aapt resource value: 0x7f080137
+			public const int Widget_AppCompat_Spinner = 2131231031;
+			
+			// aapt resource value: 0x7f080138
+			public const int Widget_AppCompat_Spinner_DropDown = 2131231032;
+			
+			// aapt resource value: 0x7f080139
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231033;
+			
+			// aapt resource value: 0x7f08013a
+			public const int Widget_AppCompat_Spinner_Underlined = 2131231034;
+			
+			// aapt resource value: 0x7f08013b
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231035;
+			
+			// aapt resource value: 0x7f08013c
+			public const int Widget_AppCompat_Toolbar = 2131231036;
+			
+			// aapt resource value: 0x7f08013d
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231037;
 			
 			static Style()
 			{
@@ -201,9 +4685,915 @@ namespace WakeOnBandXamarin.Droid
 		public partial class Styleable
 		{
 			
+			public static int[] ActionBar = new int[] {
+					2130771969,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771994,
+					2130771995,
+					2130772052};
+			
+			// aapt resource value: 10
+			public const int ActionBar_background = 10;
+			
+			// aapt resource value: 12
+			public const int ActionBar_backgroundSplit = 12;
+			
+			// aapt resource value: 11
+			public const int ActionBar_backgroundStacked = 11;
+			
+			// aapt resource value: 21
+			public const int ActionBar_contentInsetEnd = 21;
+			
+			// aapt resource value: 22
+			public const int ActionBar_contentInsetLeft = 22;
+			
+			// aapt resource value: 23
+			public const int ActionBar_contentInsetRight = 23;
+			
+			// aapt resource value: 20
+			public const int ActionBar_contentInsetStart = 20;
+			
+			// aapt resource value: 13
+			public const int ActionBar_customNavigationLayout = 13;
+			
+			// aapt resource value: 3
+			public const int ActionBar_displayOptions = 3;
+			
+			// aapt resource value: 9
+			public const int ActionBar_divider = 9;
+			
+			// aapt resource value: 24
+			public const int ActionBar_elevation = 24;
+			
+			// aapt resource value: 0
+			public const int ActionBar_height = 0;
+			
+			// aapt resource value: 19
+			public const int ActionBar_hideOnContentScroll = 19;
+			
+			// aapt resource value: 26
+			public const int ActionBar_homeAsUpIndicator = 26;
+			
+			// aapt resource value: 14
+			public const int ActionBar_homeLayout = 14;
+			
+			// aapt resource value: 7
+			public const int ActionBar_icon = 7;
+			
+			// aapt resource value: 16
+			public const int ActionBar_indeterminateProgressStyle = 16;
+			
+			// aapt resource value: 18
+			public const int ActionBar_itemPadding = 18;
+			
+			// aapt resource value: 8
+			public const int ActionBar_logo = 8;
+			
+			// aapt resource value: 2
+			public const int ActionBar_navigationMode = 2;
+			
+			// aapt resource value: 25
+			public const int ActionBar_popupTheme = 25;
+			
+			// aapt resource value: 17
+			public const int ActionBar_progressBarPadding = 17;
+			
+			// aapt resource value: 15
+			public const int ActionBar_progressBarStyle = 15;
+			
+			// aapt resource value: 4
+			public const int ActionBar_subtitle = 4;
+			
+			// aapt resource value: 6
+			public const int ActionBar_subtitleTextStyle = 6;
+			
+			// aapt resource value: 1
+			public const int ActionBar_title = 1;
+			
+			// aapt resource value: 5
+			public const int ActionBar_titleTextStyle = 5;
+			
+			public static int[] ActionBarLayout = new int[] {
+					16842931};
+			
+			// aapt resource value: 0
+			public const int ActionBarLayout_android_layout_gravity = 0;
+			
+			public static int[] ActionMenuItemView = new int[] {
+					16843071};
+			
+			// aapt resource value: 0
+			public const int ActionMenuItemView_android_minWidth = 0;
+			
+			public static int[] ActionMenuView;
+			
+			public static int[] ActionMode = new int[] {
+					2130771969,
+					2130771975,
+					2130771976,
+					2130771980,
+					2130771982,
+					2130771996};
+			
+			// aapt resource value: 3
+			public const int ActionMode_background = 3;
+			
+			// aapt resource value: 4
+			public const int ActionMode_backgroundSplit = 4;
+			
+			// aapt resource value: 5
+			public const int ActionMode_closeItemLayout = 5;
+			
+			// aapt resource value: 0
+			public const int ActionMode_height = 0;
+			
+			// aapt resource value: 2
+			public const int ActionMode_subtitleTextStyle = 2;
+			
+			// aapt resource value: 1
+			public const int ActionMode_titleTextStyle = 1;
+			
+			public static int[] ActivityChooserView = new int[] {
+					2130771997,
+					2130771998};
+			
+			// aapt resource value: 1
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
+			
+			// aapt resource value: 0
+			public const int ActivityChooserView_initialActivityCount = 0;
+			
+			public static int[] AlertDialog = new int[] {
+					16842994,
+					2130771999,
+					2130772000,
+					2130772001,
+					2130772002,
+					2130772003};
+			
+			// aapt resource value: 0
+			public const int AlertDialog_android_layout = 0;
+			
+			// aapt resource value: 1
+			public const int AlertDialog_buttonPanelSideLayout = 1;
+			
+			// aapt resource value: 5
+			public const int AlertDialog_listItemLayout = 5;
+			
+			// aapt resource value: 2
+			public const int AlertDialog_listLayout = 2;
+			
+			// aapt resource value: 3
+			public const int AlertDialog_multiChoiceItemLayout = 3;
+			
+			// aapt resource value: 4
+			public const int AlertDialog_singleChoiceItemLayout = 4;
+			
+			public static int[] AppCompatImageView = new int[] {
+					16843033,
+					2130772004};
+			
+			// aapt resource value: 0
+			public const int AppCompatImageView_android_src = 0;
+			
+			// aapt resource value: 1
+			public const int AppCompatImageView_srcCompat = 1;
+			
+			public static int[] AppCompatTextView = new int[] {
+					16842804,
+					2130772005};
+			
+			// aapt resource value: 0
+			public const int AppCompatTextView_android_textAppearance = 0;
+			
+			// aapt resource value: 1
+			public const int AppCompatTextView_textAllCaps = 1;
+			
+			public static int[] AppCompatTheme = new int[] {
+					16842839,
+					16842926,
+					2130772006,
+					2130772007,
+					2130772008,
+					2130772009,
+					2130772010,
+					2130772011,
+					2130772012,
+					2130772013,
+					2130772014,
+					2130772015,
+					2130772016,
+					2130772017,
+					2130772018,
+					2130772019,
+					2130772020,
+					2130772021,
+					2130772022,
+					2130772023,
+					2130772024,
+					2130772025,
+					2130772026,
+					2130772027,
+					2130772028,
+					2130772029,
+					2130772030,
+					2130772031,
+					2130772032,
+					2130772033,
+					2130772034,
+					2130772035,
+					2130772036,
+					2130772037,
+					2130772038,
+					2130772039,
+					2130772040,
+					2130772041,
+					2130772042,
+					2130772043,
+					2130772044,
+					2130772045,
+					2130772046,
+					2130772047,
+					2130772048,
+					2130772049,
+					2130772050,
+					2130772051,
+					2130772052,
+					2130772053,
+					2130772054,
+					2130772055,
+					2130772056,
+					2130772057,
+					2130772058,
+					2130772059,
+					2130772060,
+					2130772061,
+					2130772062,
+					2130772063,
+					2130772064,
+					2130772065,
+					2130772066,
+					2130772067,
+					2130772068,
+					2130772069,
+					2130772070,
+					2130772071,
+					2130772072,
+					2130772073,
+					2130772074,
+					2130772075,
+					2130772076,
+					2130772077,
+					2130772078,
+					2130772079,
+					2130772080,
+					2130772081,
+					2130772082,
+					2130772083,
+					2130772084,
+					2130772085,
+					2130772086,
+					2130772087,
+					2130772088,
+					2130772089,
+					2130772090,
+					2130772091,
+					2130772092,
+					2130772093,
+					2130772094,
+					2130772095,
+					2130772096,
+					2130772097,
+					2130772098,
+					2130772099,
+					2130772100,
+					2130772101,
+					2130772102,
+					2130772103,
+					2130772104,
+					2130772105,
+					2130772106,
+					2130772107,
+					2130772108,
+					2130772109,
+					2130772110,
+					2130772111,
+					2130772112,
+					2130772113,
+					2130772114,
+					2130772115};
+			
+			// aapt resource value: 23
+			public const int AppCompatTheme_actionBarDivider = 23;
+			
+			// aapt resource value: 24
+			public const int AppCompatTheme_actionBarItemBackground = 24;
+			
+			// aapt resource value: 17
+			public const int AppCompatTheme_actionBarPopupTheme = 17;
+			
+			// aapt resource value: 22
+			public const int AppCompatTheme_actionBarSize = 22;
+			
+			// aapt resource value: 19
+			public const int AppCompatTheme_actionBarSplitStyle = 19;
+			
+			// aapt resource value: 18
+			public const int AppCompatTheme_actionBarStyle = 18;
+			
+			// aapt resource value: 13
+			public const int AppCompatTheme_actionBarTabBarStyle = 13;
+			
+			// aapt resource value: 12
+			public const int AppCompatTheme_actionBarTabStyle = 12;
+			
+			// aapt resource value: 14
+			public const int AppCompatTheme_actionBarTabTextStyle = 14;
+			
+			// aapt resource value: 20
+			public const int AppCompatTheme_actionBarTheme = 20;
+			
+			// aapt resource value: 21
+			public const int AppCompatTheme_actionBarWidgetTheme = 21;
+			
+			// aapt resource value: 49
+			public const int AppCompatTheme_actionButtonStyle = 49;
+			
+			// aapt resource value: 45
+			public const int AppCompatTheme_actionDropDownStyle = 45;
+			
+			// aapt resource value: 25
+			public const int AppCompatTheme_actionMenuTextAppearance = 25;
+			
+			// aapt resource value: 26
+			public const int AppCompatTheme_actionMenuTextColor = 26;
+			
+			// aapt resource value: 29
+			public const int AppCompatTheme_actionModeBackground = 29;
+			
+			// aapt resource value: 28
+			public const int AppCompatTheme_actionModeCloseButtonStyle = 28;
+			
+			// aapt resource value: 31
+			public const int AppCompatTheme_actionModeCloseDrawable = 31;
+			
+			// aapt resource value: 33
+			public const int AppCompatTheme_actionModeCopyDrawable = 33;
+			
+			// aapt resource value: 32
+			public const int AppCompatTheme_actionModeCutDrawable = 32;
+			
+			// aapt resource value: 37
+			public const int AppCompatTheme_actionModeFindDrawable = 37;
+			
+			// aapt resource value: 34
+			public const int AppCompatTheme_actionModePasteDrawable = 34;
+			
+			// aapt resource value: 39
+			public const int AppCompatTheme_actionModePopupWindowStyle = 39;
+			
+			// aapt resource value: 35
+			public const int AppCompatTheme_actionModeSelectAllDrawable = 35;
+			
+			// aapt resource value: 36
+			public const int AppCompatTheme_actionModeShareDrawable = 36;
+			
+			// aapt resource value: 30
+			public const int AppCompatTheme_actionModeSplitBackground = 30;
+			
+			// aapt resource value: 27
+			public const int AppCompatTheme_actionModeStyle = 27;
+			
+			// aapt resource value: 38
+			public const int AppCompatTheme_actionModeWebSearchDrawable = 38;
+			
+			// aapt resource value: 15
+			public const int AppCompatTheme_actionOverflowButtonStyle = 15;
+			
+			// aapt resource value: 16
+			public const int AppCompatTheme_actionOverflowMenuStyle = 16;
+			
+			// aapt resource value: 57
+			public const int AppCompatTheme_activityChooserViewStyle = 57;
+			
+			// aapt resource value: 92
+			public const int AppCompatTheme_alertDialogButtonGroupStyle = 92;
+			
+			// aapt resource value: 93
+			public const int AppCompatTheme_alertDialogCenterButtons = 93;
+			
+			// aapt resource value: 91
+			public const int AppCompatTheme_alertDialogStyle = 91;
+			
+			// aapt resource value: 94
+			public const int AppCompatTheme_alertDialogTheme = 94;
+			
+			// aapt resource value: 1
+			public const int AppCompatTheme_android_windowAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int AppCompatTheme_android_windowIsFloating = 0;
+			
+			// aapt resource value: 99
+			public const int AppCompatTheme_autoCompleteTextViewStyle = 99;
+			
+			// aapt resource value: 54
+			public const int AppCompatTheme_borderlessButtonStyle = 54;
+			
+			// aapt resource value: 51
+			public const int AppCompatTheme_buttonBarButtonStyle = 51;
+			
+			// aapt resource value: 97
+			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
+			
+			// aapt resource value: 98
+			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
+			
+			// aapt resource value: 96
+			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
+			
+			// aapt resource value: 50
+			public const int AppCompatTheme_buttonBarStyle = 50;
+			
+			// aapt resource value: 100
+			public const int AppCompatTheme_buttonStyle = 100;
+			
+			// aapt resource value: 101
+			public const int AppCompatTheme_buttonStyleSmall = 101;
+			
+			// aapt resource value: 102
+			public const int AppCompatTheme_checkboxStyle = 102;
+			
+			// aapt resource value: 103
+			public const int AppCompatTheme_checkedTextViewStyle = 103;
+			
+			// aapt resource value: 84
+			public const int AppCompatTheme_colorAccent = 84;
+			
+			// aapt resource value: 88
+			public const int AppCompatTheme_colorButtonNormal = 88;
+			
+			// aapt resource value: 86
+			public const int AppCompatTheme_colorControlActivated = 86;
+			
+			// aapt resource value: 87
+			public const int AppCompatTheme_colorControlHighlight = 87;
+			
+			// aapt resource value: 85
+			public const int AppCompatTheme_colorControlNormal = 85;
+			
+			// aapt resource value: 82
+			public const int AppCompatTheme_colorPrimary = 82;
+			
+			// aapt resource value: 83
+			public const int AppCompatTheme_colorPrimaryDark = 83;
+			
+			// aapt resource value: 89
+			public const int AppCompatTheme_colorSwitchThumbNormal = 89;
+			
+			// aapt resource value: 90
+			public const int AppCompatTheme_controlBackground = 90;
+			
+			// aapt resource value: 43
+			public const int AppCompatTheme_dialogPreferredPadding = 43;
+			
+			// aapt resource value: 42
+			public const int AppCompatTheme_dialogTheme = 42;
+			
+			// aapt resource value: 56
+			public const int AppCompatTheme_dividerHorizontal = 56;
+			
+			// aapt resource value: 55
+			public const int AppCompatTheme_dividerVertical = 55;
+			
+			// aapt resource value: 74
+			public const int AppCompatTheme_dropDownListViewStyle = 74;
+			
+			// aapt resource value: 46
+			public const int AppCompatTheme_dropdownListPreferredItemHeight = 46;
+			
+			// aapt resource value: 63
+			public const int AppCompatTheme_editTextBackground = 63;
+			
+			// aapt resource value: 62
+			public const int AppCompatTheme_editTextColor = 62;
+			
+			// aapt resource value: 104
+			public const int AppCompatTheme_editTextStyle = 104;
+			
+			// aapt resource value: 48
+			public const int AppCompatTheme_homeAsUpIndicator = 48;
+			
+			// aapt resource value: 64
+			public const int AppCompatTheme_imageButtonStyle = 64;
+			
+			// aapt resource value: 81
+			public const int AppCompatTheme_listChoiceBackgroundIndicator = 81;
+			
+			// aapt resource value: 44
+			public const int AppCompatTheme_listDividerAlertDialog = 44;
+			
+			// aapt resource value: 75
+			public const int AppCompatTheme_listPopupWindowStyle = 75;
+			
+			// aapt resource value: 69
+			public const int AppCompatTheme_listPreferredItemHeight = 69;
+			
+			// aapt resource value: 71
+			public const int AppCompatTheme_listPreferredItemHeightLarge = 71;
+			
+			// aapt resource value: 70
+			public const int AppCompatTheme_listPreferredItemHeightSmall = 70;
+			
+			// aapt resource value: 72
+			public const int AppCompatTheme_listPreferredItemPaddingLeft = 72;
+			
+			// aapt resource value: 73
+			public const int AppCompatTheme_listPreferredItemPaddingRight = 73;
+			
+			// aapt resource value: 78
+			public const int AppCompatTheme_panelBackground = 78;
+			
+			// aapt resource value: 80
+			public const int AppCompatTheme_panelMenuListTheme = 80;
+			
+			// aapt resource value: 79
+			public const int AppCompatTheme_panelMenuListWidth = 79;
+			
+			// aapt resource value: 60
+			public const int AppCompatTheme_popupMenuStyle = 60;
+			
+			// aapt resource value: 61
+			public const int AppCompatTheme_popupWindowStyle = 61;
+			
+			// aapt resource value: 105
+			public const int AppCompatTheme_radioButtonStyle = 105;
+			
+			// aapt resource value: 106
+			public const int AppCompatTheme_ratingBarStyle = 106;
+			
+			// aapt resource value: 107
+			public const int AppCompatTheme_ratingBarStyleIndicator = 107;
+			
+			// aapt resource value: 108
+			public const int AppCompatTheme_ratingBarStyleSmall = 108;
+			
+			// aapt resource value: 68
+			public const int AppCompatTheme_searchViewStyle = 68;
+			
+			// aapt resource value: 109
+			public const int AppCompatTheme_seekBarStyle = 109;
+			
+			// aapt resource value: 52
+			public const int AppCompatTheme_selectableItemBackground = 52;
+			
+			// aapt resource value: 53
+			public const int AppCompatTheme_selectableItemBackgroundBorderless = 53;
+			
+			// aapt resource value: 47
+			public const int AppCompatTheme_spinnerDropDownItemStyle = 47;
+			
+			// aapt resource value: 110
+			public const int AppCompatTheme_spinnerStyle = 110;
+			
+			// aapt resource value: 111
+			public const int AppCompatTheme_switchStyle = 111;
+			
+			// aapt resource value: 40
+			public const int AppCompatTheme_textAppearanceLargePopupMenu = 40;
+			
+			// aapt resource value: 76
+			public const int AppCompatTheme_textAppearanceListItem = 76;
+			
+			// aapt resource value: 77
+			public const int AppCompatTheme_textAppearanceListItemSmall = 77;
+			
+			// aapt resource value: 66
+			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
+			
+			// aapt resource value: 65
+			public const int AppCompatTheme_textAppearanceSearchResultTitle = 65;
+			
+			// aapt resource value: 41
+			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
+			
+			// aapt resource value: 95
+			public const int AppCompatTheme_textColorAlertDialogListItem = 95;
+			
+			// aapt resource value: 67
+			public const int AppCompatTheme_textColorSearchUrl = 67;
+			
+			// aapt resource value: 59
+			public const int AppCompatTheme_toolbarNavigationButtonStyle = 59;
+			
+			// aapt resource value: 58
+			public const int AppCompatTheme_toolbarStyle = 58;
+			
+			// aapt resource value: 2
+			public const int AppCompatTheme_windowActionBar = 2;
+			
+			// aapt resource value: 4
+			public const int AppCompatTheme_windowActionBarOverlay = 4;
+			
+			// aapt resource value: 5
+			public const int AppCompatTheme_windowActionModeOverlay = 5;
+			
+			// aapt resource value: 9
+			public const int AppCompatTheme_windowFixedHeightMajor = 9;
+			
+			// aapt resource value: 7
+			public const int AppCompatTheme_windowFixedHeightMinor = 7;
+			
+			// aapt resource value: 6
+			public const int AppCompatTheme_windowFixedWidthMajor = 6;
+			
+			// aapt resource value: 8
+			public const int AppCompatTheme_windowFixedWidthMinor = 8;
+			
+			// aapt resource value: 10
+			public const int AppCompatTheme_windowMinWidthMajor = 10;
+			
+			// aapt resource value: 11
+			public const int AppCompatTheme_windowMinWidthMinor = 11;
+			
+			// aapt resource value: 3
+			public const int AppCompatTheme_windowNoTitle = 3;
+			
+			public static int[] ButtonBarLayout = new int[] {
+					2130772116};
+			
+			// aapt resource value: 0
+			public const int ButtonBarLayout_allowStacking = 0;
+			
+			public static int[] CompoundButton = new int[] {
+					16843015,
+					2130772117,
+					2130772118};
+			
+			// aapt resource value: 0
+			public const int CompoundButton_android_button = 0;
+			
+			// aapt resource value: 1
+			public const int CompoundButton_buttonTint = 1;
+			
+			// aapt resource value: 2
+			public const int CompoundButton_buttonTintMode = 2;
+			
+			public static int[] DrawerArrowToggle = new int[] {
+					2130772119,
+					2130772120,
+					2130772121,
+					2130772122,
+					2130772123,
+					2130772124,
+					2130772125,
+					2130772126};
+			
+			// aapt resource value: 4
+			public const int DrawerArrowToggle_arrowHeadLength = 4;
+			
+			// aapt resource value: 5
+			public const int DrawerArrowToggle_arrowShaftLength = 5;
+			
+			// aapt resource value: 6
+			public const int DrawerArrowToggle_barLength = 6;
+			
+			// aapt resource value: 0
+			public const int DrawerArrowToggle_color = 0;
+			
+			// aapt resource value: 2
+			public const int DrawerArrowToggle_drawableSize = 2;
+			
+			// aapt resource value: 3
+			public const int DrawerArrowToggle_gapBetweenBars = 3;
+			
+			// aapt resource value: 1
+			public const int DrawerArrowToggle_spinBars = 1;
+			
+			// aapt resource value: 7
+			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] LinearLayoutCompat = new int[] {
+					16842927,
+					16842948,
+					16843046,
+					16843047,
+					16843048,
+					2130771979,
+					2130772127,
+					2130772128,
+					2130772129};
+			
+			// aapt resource value: 2
+			public const int LinearLayoutCompat_android_baselineAligned = 2;
+			
+			// aapt resource value: 3
+			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
+			
+			// aapt resource value: 0
+			public const int LinearLayoutCompat_android_gravity = 0;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_android_orientation = 1;
+			
+			// aapt resource value: 4
+			public const int LinearLayoutCompat_android_weightSum = 4;
+			
+			// aapt resource value: 5
+			public const int LinearLayoutCompat_divider = 5;
+			
+			// aapt resource value: 8
+			public const int LinearLayoutCompat_dividerPadding = 8;
+			
+			// aapt resource value: 6
+			public const int LinearLayoutCompat_measureWithLargestChild = 6;
+			
+			// aapt resource value: 7
+			public const int LinearLayoutCompat_showDividers = 7;
+			
+			public static int[] LinearLayoutCompat_Layout = new int[] {
+					16842931,
+					16842996,
+					16842997,
+					16843137};
+			
+			// aapt resource value: 0
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
+			
+			// aapt resource value: 2
+			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
+			
+			// aapt resource value: 3
+			public const int LinearLayoutCompat_Layout_android_layout_weight = 3;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
+			
+			public static int[] ListPopupWindow = new int[] {
+					16843436,
+					16843437};
+			
+			// aapt resource value: 0
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
+			
+			// aapt resource value: 1
+			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] MenuGroup = new int[] {
+					16842766,
+					16842960,
+					16843156,
+					16843230,
+					16843231,
+					16843232};
+			
+			// aapt resource value: 5
+			public const int MenuGroup_android_checkableBehavior = 5;
+			
+			// aapt resource value: 0
+			public const int MenuGroup_android_enabled = 0;
+			
+			// aapt resource value: 1
+			public const int MenuGroup_android_id = 1;
+			
+			// aapt resource value: 3
+			public const int MenuGroup_android_menuCategory = 3;
+			
+			// aapt resource value: 4
+			public const int MenuGroup_android_orderInCategory = 4;
+			
+			// aapt resource value: 2
+			public const int MenuGroup_android_visible = 2;
+			
+			public static int[] MenuItem = new int[] {
+					16842754,
+					16842766,
+					16842960,
+					16843014,
+					16843156,
+					16843230,
+					16843231,
+					16843233,
+					16843234,
+					16843235,
+					16843236,
+					16843237,
+					16843375,
+					2130772130,
+					2130772131,
+					2130772132,
+					2130772133};
+			
+			// aapt resource value: 14
+			public const int MenuItem_actionLayout = 14;
+			
+			// aapt resource value: 16
+			public const int MenuItem_actionProviderClass = 16;
+			
+			// aapt resource value: 15
+			public const int MenuItem_actionViewClass = 15;
+			
+			// aapt resource value: 9
+			public const int MenuItem_android_alphabeticShortcut = 9;
+			
+			// aapt resource value: 11
+			public const int MenuItem_android_checkable = 11;
+			
+			// aapt resource value: 3
+			public const int MenuItem_android_checked = 3;
+			
+			// aapt resource value: 1
+			public const int MenuItem_android_enabled = 1;
+			
+			// aapt resource value: 0
+			public const int MenuItem_android_icon = 0;
+			
+			// aapt resource value: 2
+			public const int MenuItem_android_id = 2;
+			
+			// aapt resource value: 5
+			public const int MenuItem_android_menuCategory = 5;
+			
+			// aapt resource value: 10
+			public const int MenuItem_android_numericShortcut = 10;
+			
+			// aapt resource value: 12
+			public const int MenuItem_android_onClick = 12;
+			
+			// aapt resource value: 6
+			public const int MenuItem_android_orderInCategory = 6;
+			
+			// aapt resource value: 7
+			public const int MenuItem_android_title = 7;
+			
+			// aapt resource value: 8
+			public const int MenuItem_android_titleCondensed = 8;
+			
+			// aapt resource value: 4
+			public const int MenuItem_android_visible = 4;
+			
+			// aapt resource value: 13
+			public const int MenuItem_showAsAction = 13;
+			
+			public static int[] MenuView = new int[] {
+					16842926,
+					16843052,
+					16843053,
+					16843054,
+					16843055,
+					16843056,
+					16843057,
+					2130772134};
+			
+			// aapt resource value: 4
+			public const int MenuView_android_headerBackground = 4;
+			
+			// aapt resource value: 2
+			public const int MenuView_android_horizontalDivider = 2;
+			
+			// aapt resource value: 5
+			public const int MenuView_android_itemBackground = 5;
+			
+			// aapt resource value: 6
+			public const int MenuView_android_itemIconDisabledAlpha = 6;
+			
+			// aapt resource value: 1
+			public const int MenuView_android_itemTextAppearance = 1;
+			
+			// aapt resource value: 3
+			public const int MenuView_android_verticalDivider = 3;
+			
+			// aapt resource value: 0
+			public const int MenuView_android_windowAnimationStyle = 0;
+			
+			// aapt resource value: 7
+			public const int MenuView_preserveIconSpacing = 7;
+			
 			public static int[] MvxBinding = new int[] {
-					2130771968,
-					2130771969};
+					2130772177,
+					2130772178};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -212,32 +5602,372 @@ namespace WakeOnBandXamarin.Droid
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130771970};
+					2130772179};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130771973};
+					2130772182};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130771974};
+					2130772183};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130771971,
-					2130771972};
+					2130772180,
+					2130772181};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] PopupWindow = new int[] {
+					16843126,
+					2130772135};
+			
+			// aapt resource value: 0
+			public const int PopupWindow_android_popupBackground = 0;
+			
+			// aapt resource value: 1
+			public const int PopupWindow_overlapAnchor = 1;
+			
+			public static int[] PopupWindowBackgroundState = new int[] {
+					2130772136};
+			
+			// aapt resource value: 0
+			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] SearchView = new int[] {
+					16842970,
+					16843039,
+					16843296,
+					16843364,
+					2130772137,
+					2130772138,
+					2130772139,
+					2130772140,
+					2130772141,
+					2130772142,
+					2130772143,
+					2130772144,
+					2130772145,
+					2130772146,
+					2130772147,
+					2130772148,
+					2130772149};
+			
+			// aapt resource value: 0
+			public const int SearchView_android_focusable = 0;
+			
+			// aapt resource value: 3
+			public const int SearchView_android_imeOptions = 3;
+			
+			// aapt resource value: 2
+			public const int SearchView_android_inputType = 2;
+			
+			// aapt resource value: 1
+			public const int SearchView_android_maxWidth = 1;
+			
+			// aapt resource value: 8
+			public const int SearchView_closeIcon = 8;
+			
+			// aapt resource value: 13
+			public const int SearchView_commitIcon = 13;
+			
+			// aapt resource value: 7
+			public const int SearchView_defaultQueryHint = 7;
+			
+			// aapt resource value: 9
+			public const int SearchView_goIcon = 9;
+			
+			// aapt resource value: 5
+			public const int SearchView_iconifiedByDefault = 5;
+			
+			// aapt resource value: 4
+			public const int SearchView_layout = 4;
+			
+			// aapt resource value: 15
+			public const int SearchView_queryBackground = 15;
+			
+			// aapt resource value: 6
+			public const int SearchView_queryHint = 6;
+			
+			// aapt resource value: 11
+			public const int SearchView_searchHintIcon = 11;
+			
+			// aapt resource value: 10
+			public const int SearchView_searchIcon = 10;
+			
+			// aapt resource value: 16
+			public const int SearchView_submitBackground = 16;
+			
+			// aapt resource value: 14
+			public const int SearchView_suggestionRowLayout = 14;
+			
+			// aapt resource value: 12
+			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] Spinner = new int[] {
+					16842930,
+					16843126,
+					16843131,
+					16843362,
+					2130771995};
+			
+			// aapt resource value: 3
+			public const int Spinner_android_dropDownWidth = 3;
+			
+			// aapt resource value: 0
+			public const int Spinner_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int Spinner_android_popupBackground = 1;
+			
+			// aapt resource value: 2
+			public const int Spinner_android_prompt = 2;
+			
+			// aapt resource value: 4
+			public const int Spinner_popupTheme = 4;
+			
+			public static int[] SwitchCompat = new int[] {
+					16843044,
+					16843045,
+					16843074,
+					2130772150,
+					2130772151,
+					2130772152,
+					2130772153,
+					2130772154,
+					2130772155,
+					2130772156};
+			
+			// aapt resource value: 1
+			public const int SwitchCompat_android_textOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchCompat_android_textOn = 0;
+			
+			// aapt resource value: 2
+			public const int SwitchCompat_android_thumb = 2;
+			
+			// aapt resource value: 9
+			public const int SwitchCompat_showText = 9;
+			
+			// aapt resource value: 8
+			public const int SwitchCompat_splitTrack = 8;
+			
+			// aapt resource value: 6
+			public const int SwitchCompat_switchMinWidth = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchCompat_switchPadding = 7;
+			
+			// aapt resource value: 5
+			public const int SwitchCompat_switchTextAppearance = 5;
+			
+			// aapt resource value: 4
+			public const int SwitchCompat_thumbTextPadding = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchCompat_track = 3;
+			
+			public static int[] TextAppearance = new int[] {
+					16842901,
+					16842902,
+					16842903,
+					16842904,
+					16843105,
+					16843106,
+					16843107,
+					16843108,
+					2130772005};
+			
+			// aapt resource value: 4
+			public const int TextAppearance_android_shadowColor = 4;
+			
+			// aapt resource value: 5
+			public const int TextAppearance_android_shadowDx = 5;
+			
+			// aapt resource value: 6
+			public const int TextAppearance_android_shadowDy = 6;
+			
+			// aapt resource value: 7
+			public const int TextAppearance_android_shadowRadius = 7;
+			
+			// aapt resource value: 3
+			public const int TextAppearance_android_textColor = 3;
+			
+			// aapt resource value: 0
+			public const int TextAppearance_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int TextAppearance_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int TextAppearance_android_typeface = 1;
+			
+			// aapt resource value: 8
+			public const int TextAppearance_textAllCaps = 8;
+			
+			public static int[] Toolbar = new int[] {
+					16842927,
+					16843072,
+					2130771971,
+					2130771974,
+					2130771978,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771995,
+					2130772157,
+					2130772158,
+					2130772159,
+					2130772160,
+					2130772161,
+					2130772162,
+					2130772163,
+					2130772164,
+					2130772165,
+					2130772166,
+					2130772167,
+					2130772168,
+					2130772169,
+					2130772170,
+					2130772171};
+			
+			// aapt resource value: 0
+			public const int Toolbar_android_gravity = 0;
+			
+			// aapt resource value: 1
+			public const int Toolbar_android_minHeight = 1;
+			
+			// aapt resource value: 19
+			public const int Toolbar_collapseContentDescription = 19;
+			
+			// aapt resource value: 18
+			public const int Toolbar_collapseIcon = 18;
+			
+			// aapt resource value: 6
+			public const int Toolbar_contentInsetEnd = 6;
+			
+			// aapt resource value: 7
+			public const int Toolbar_contentInsetLeft = 7;
+			
+			// aapt resource value: 8
+			public const int Toolbar_contentInsetRight = 8;
+			
+			// aapt resource value: 5
+			public const int Toolbar_contentInsetStart = 5;
+			
+			// aapt resource value: 4
+			public const int Toolbar_logo = 4;
+			
+			// aapt resource value: 22
+			public const int Toolbar_logoDescription = 22;
+			
+			// aapt resource value: 17
+			public const int Toolbar_maxButtonHeight = 17;
+			
+			// aapt resource value: 21
+			public const int Toolbar_navigationContentDescription = 21;
+			
+			// aapt resource value: 20
+			public const int Toolbar_navigationIcon = 20;
+			
+			// aapt resource value: 9
+			public const int Toolbar_popupTheme = 9;
+			
+			// aapt resource value: 3
+			public const int Toolbar_subtitle = 3;
+			
+			// aapt resource value: 11
+			public const int Toolbar_subtitleTextAppearance = 11;
+			
+			// aapt resource value: 24
+			public const int Toolbar_subtitleTextColor = 24;
+			
+			// aapt resource value: 2
+			public const int Toolbar_title = 2;
+			
+			// aapt resource value: 16
+			public const int Toolbar_titleMarginBottom = 16;
+			
+			// aapt resource value: 14
+			public const int Toolbar_titleMarginEnd = 14;
+			
+			// aapt resource value: 13
+			public const int Toolbar_titleMarginStart = 13;
+			
+			// aapt resource value: 15
+			public const int Toolbar_titleMarginTop = 15;
+			
+			// aapt resource value: 12
+			public const int Toolbar_titleMargins = 12;
+			
+			// aapt resource value: 10
+			public const int Toolbar_titleTextAppearance = 10;
+			
+			// aapt resource value: 23
+			public const int Toolbar_titleTextColor = 23;
+			
+			public static int[] View = new int[] {
+					16842752,
+					16842970,
+					2130772172,
+					2130772173,
+					2130772174};
+			
+			// aapt resource value: 1
+			public const int View_android_focusable = 1;
+			
+			// aapt resource value: 0
+			public const int View_android_theme = 0;
+			
+			// aapt resource value: 3
+			public const int View_paddingEnd = 3;
+			
+			// aapt resource value: 2
+			public const int View_paddingStart = 2;
+			
+			// aapt resource value: 4
+			public const int View_theme = 4;
+			
+			public static int[] ViewBackgroundHelper = new int[] {
+					16842964,
+					2130772175,
+					2130772176};
+			
+			// aapt resource value: 0
+			public const int ViewBackgroundHelper_android_background = 0;
+			
+			// aapt resource value: 1
+			public const int ViewBackgroundHelper_backgroundTint = 1;
+			
+			// aapt resource value: 2
+			public const int ViewBackgroundHelper_backgroundTintMode = 2;
+			
+			public static int[] ViewStubCompat = new int[] {
+					16842960,
+					16842994,
+					16842995};
+			
+			// aapt resource value: 0
+			public const int ViewStubCompat_android_id = 0;
+			
+			// aapt resource value: 2
+			public const int ViewStubCompat_android_inflatedId = 2;
+			
+			// aapt resource value: 1
+			public const int ViewStubCompat_android_layout = 1;
 			
 			static Styleable()
 			{
