@@ -5,7 +5,9 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Droid.Views;
+using MvvmCross.Localization;
 using MvvmCross.Platform;
+using MvvmCross.Platform.Converters;
 
 namespace WakeOnBandXamarin.Droid
 {
@@ -30,6 +32,12 @@ namespace WakeOnBandXamarin.Droid
             var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
             return mvxFragmentsPresenter;
+        }
+
+        protected override void FillValueConverters(IMvxValueConverterRegistry registry)
+        {
+            base.FillValueConverters(registry);
+            registry.AddOrOverwrite("Language", new MvxLanguageConverter());
         }
     }
 }

@@ -1,6 +1,10 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Localization;
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
+using MvvmCross.Plugins.ResxLocalization;
 using WakeOnBandXamarin.Core.ViewModels;
+using WakeOnBandXamarin.Localization;
 
 namespace WakeOnBandXamarin.Core
 {
@@ -16,6 +20,8 @@ namespace WakeOnBandXamarin.Core
                 .EndingWith("Repository")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
+
+            Mvx.RegisterSingleton<IMvxTextProvider>(new MvxResxTextProvider(Strings.ResourceManager));
 
             RegisterAppStart<MainViewModel>();
         }

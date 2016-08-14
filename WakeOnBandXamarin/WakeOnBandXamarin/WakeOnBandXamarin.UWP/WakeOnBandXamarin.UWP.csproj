@@ -127,6 +127,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WakeOnBandXamarin.Localization\WakeOnBandXamarin.Localization.csproj">
+      <Project>{ab5000d8-303c-49a0-a11a-42bf46279b51}</Project>
+      <Name>WakeOnBandXamarin.Localization</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WakeOnBandXamarin\WakeOnBandXamarin.Core.csproj">
       <Project>{a24b818c-2601-4e72-b199-af3943d21b06}</Project>
       <Name>WakeOnBandXamarin.Core</Name>

@@ -1,6 +1,7 @@
-﻿using MvvmCross.Core.ViewModels;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Localization;
 using WakeOnBandXamarin.Core.Models;
 
 namespace WakeOnBandXamarin.Core.ViewModels
@@ -22,8 +23,18 @@ namespace WakeOnBandXamarin.Core.ViewModels
         {
             MenuItems = new ObservableCollection<MenuItem>();
 
-            MenuItems.Add(new MenuItem() { Title = "WoL Devices", ViewModelType = typeof(Test1ViewModel), ImageName = "ic_wifi_black_24dp" });
-            MenuItems.Add(new MenuItem() { Title = "Band Devices", ViewModelType = typeof(Test2ViewModel), ImageName = "ic_watch_black_24dp" });
+            MenuItems.Add(new MenuItem()
+            {
+                Title = TextSource.GetText("NAV_001"),
+                ViewModelType = typeof(Test1ViewModel),
+                ImageName = "ic_wifi_black_24dp"
+            });
+            MenuItems.Add(new MenuItem()
+            {
+                Title = TextSource.GetText("NAV_002"),
+                ViewModelType = typeof(Test2ViewModel),
+                ImageName = "ic_watch_black_24dp"
+            });
         }
 
         #endregion Constructor
@@ -39,6 +50,11 @@ namespace WakeOnBandXamarin.Core.ViewModels
                 _itemSelectedCommand = _itemSelectedCommand ?? new MvxCommand<MenuItem>(MenuAction);
                 return _itemSelectedCommand;
             }
+        }
+
+        public IMvxLanguageBinder TextSource
+        {
+            get { return new MvxLanguageBinder("", ""); }
         }
 
         #endregion Properties
